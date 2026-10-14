@@ -8,3 +8,4 @@ node_modules/
 # licensed stock footage: keep raw clips out of the repository (Adobe Stock licence does not allow redistributing the source files)
 active-control-videos/media/
 *.mov
+active-control-videos/output/preview_720p/

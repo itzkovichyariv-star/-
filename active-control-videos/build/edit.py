@@ -39,6 +39,9 @@ def zoom_expr(motion, L, dive_len=1.0):
     T = f"(t/{L:.3f})"
     if motion == "pull": return f"1.16-0.14*{T}"
     if motion in ("pan-left", "pan-right", "still"): return "1.12" if motion != "still" else "1.04"
+    if motion in ("rise", "sink"): return f"1.22+0.06*{T}"
+    if motion in ("follow-left", "follow-right"): return f"1.18+0.06*{T}"
+    if motion == "drift": return f"1.16+0.08*{T}"
     if motion == "dive":   # gentle push, then hard push over the last dive_len seconds
         a = L - dive_len
         return f"if(lt(t,{a:.3f}),1.0+0.08*t/{a:.3f},1.08+5.0*pow((t-{a:.3f})/{dive_len:.3f},2.2))"
@@ -49,8 +52,8 @@ def zoom_expr(motion, L, dive_len=1.0):
 def render_shot(sh, src, L, out):
     sdur = probe_dur(src)
     need = L
-    speed = 1.0
-    if sdur < need: speed = max(sdur / need, 0.6)      # slow down short clips (down to 0.6x), then hold the last frame
+    speed = float(sh.get("speed", 1.0))                 # >1 plays faster (time-lapse growth), <1 slower
+    if sdur < need * speed: speed = max(sdur / need, 0.6)  # slow down short clips (down to 0.6x), then hold the last frame
     span = need * speed
     tin = sh.get("in")
     if tin is None: tin = max(0.0, (sdur - span) / 2)
@@ -58,18 +61,27 @@ def render_shot(sh, src, L, out):
     z = zoom_expr(sh.get("motion", "push"), L)
     fx, fy = sh.get("fx", 0.5), sh.get("fy", 0.5)
     m = sh.get("motion", "push")
+    u = f"(t/{L:.3f})"; ue = f"(3*pow({u},2)-2*pow({u},3))"      # eased progress
     if m == "pan-left": xexpr = f"(iw-{W})*(1-t/{L:.3f})"
     elif m == "pan-right": xexpr = f"(iw-{W})*(t/{L:.3f})"
+    elif m == "follow-right": xexpr = f"(iw-{W})*(0.15+0.7*{ue})"
+    elif m == "follow-left": xexpr = f"(iw-{W})*(0.85-0.7*{ue})"
+    elif m == "drift": xexpr = f"(iw-{W})*(0.35+0.3*{ue})"
     else: xexpr = f"max(0,min(iw-{W},iw*{fx}-{W}*{fx}))"
-    yexpr = f"max(0,min(ih-{H},ih*{fy}-{H}*{fy}))"
+    if m == "rise": yexpr = f"(ih-{H})*(1-{ue})"                    # tilt up, following growth
+    elif m == "sink": yexpr = f"(ih-{H})*{ue}"
+    elif m == "drift": yexpr = f"(ih-{H})*(0.6-0.25*{ue})"
+    else: yexpr = f"max(0,min(ih-{H},ih*{fy}-{H}*{fy}))"
     vf = [
         f"setpts=(PTS-STARTPTS)/{speed:.4f}", f"fps={FPS}",
         f"scale=w=-2:h={H}:flags=bicubic", f"crop={W}:{H}",                     # cover 16:9
         f"scale=w='trunc({W}*({z})/2)*2':h='trunc({H}*({z})/2)*2':eval=frame:flags=bicubic",
-        f"crop={W}:{H}:x='{xexpr}':y='{yexpr}'",
+        (f"rotate='0.035*(t/{L:.3f}-0.5)':fillcolor=black," if m == "drift" else "") + f"crop={W}:{H}:x='{xexpr}':y='{yexpr}'",
         "eq=contrast=1.06:saturation=1.06:gamma=0.98", "vignette=angle=PI/5",
         f"tpad=stop_mode=clone:stop_duration={L:.3f}", f"trim=duration={L:.3f}", "setsar=1", "format=yuv420p",
     ]
+    if sh.get("title"):   # darken under title cards for legibility
+        vf.insert(-3, "eq=brightness=-0.16:saturation=0.85")
     if m == "dive":   # brighten into the point
         a = L - 1.0
         vf.insert(-3, f"eq=brightness='if(lt(t,{a:.3f}),0,0.25*pow((t-{a:.3f}),2))':eval=frame")
@@ -97,6 +109,9 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Caption,Inter,40,&H00FBF7F4,&H000000FF,&H96000000,&HA0000000,0,0,0,0,100,100,0,0,3,14,0,2,220,220,46,1
 Style: Tag,Inter,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,0,0,7,80,80,80,1
 Style: TagSub,Inter,28,&H00BFE9E2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,1,0,1,0,0,7,80,80,80,1
+Style: TSeries,Inter,30,&H00BFD4F2,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,6,0,1,2,1.5,7,0,0,0,1
+Style: TTitle,Inter,96,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,-1,0,1,3,3,7,140,700,300,1
+Style: TSub,Inter,40,&H00C9D4E5,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,2,7,0,0,0,1
 Style: Corner,Inter,22,&H009FB0C9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,1.5,1,9,60,60,40,1
 
 [Events]
@@ -109,6 +124,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     add(0, t0, t1, "Corner", "{\\fad(600,600)}EPISODE " + str(ep["episode"]) + "  ·  " + esc(ep["title"]))
     for i, sh in enumerate(shots):
         a = sh["t"]; b = shots[i + 1]["t"] if i + 1 < len(shots) else t1
+        if sh.get("title"):
+            add(4, a + 0.3, b - 0.2, "TSeries", "{\\an7\\pos(140,236)\\fad(500,400)}" + esc(sh.get("series", ep["series"]).upper()))
+            add(4, a + 0.7, b - 0.2, "TTitle", "{\\fad(500,400)\\q0\\fscx94\\fscy94\\t(0,700,\\fscx100\\fscy100)}" + esc(sh["title"]))
+            if sh.get("subtitle"): add(4, a + 1.4, b - 0.2, "TSub", "{\\an7\\pos(140,610)\\fad(500,400)}" + esc(sh["subtitle"]))
         if sh.get("label"):
             # accent bar + key term, slides in from the left, fades before the cut
             bar = "{\\an7\\pos(64,92)\\p1\\c&H00BFD42D&\\fad(250,300)\\move(40,92,64,92,0,300)}m 0 0 l 6 0 6 56 0 56{\\p0}"

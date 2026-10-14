@@ -2,6 +2,29 @@
  "episode": "01-how-cannabis-research-began",
  "shots": [
   {
+   "t": 0.0,
+   "src": "stock:184469819",
+   "motion": "push",
+   "title": "How Cannabis Research Began",
+   "subtitle": "From plant chemistry to a biological system"
+  },
+  {
+   "t": 4.7,
+   "src": "stock:175644063",
+   "motion": "dive",
+   "fx": 0.42,
+   "fy": 0.5,
+   "label": "Chemists and pharmacologists",
+   "sub": "what is cannabis made of?"
+  },
+  {
+   "t": 11.6,
+   "src": "stock:1386134090",
+   "motion": "emerge",
+   "label": "A signalling system",
+   "sub": "present in every one of us"
+  },
+  {
    "t": 18.3,
    "src": "stock:297883093",
    "motion": "push",
@@ -11,7 +34,7 @@
   {
    "t": 23.7,
    "src": "stock:356052750",
-   "motion": "pull",
+   "motion": "drift",
    "label": "Traditional medicine",
    "sub": "Asia and the Middle East"
   },
@@ -32,10 +55,12 @@
    "t": 35.8,
    "src": "stock:534565341",
    "motion": "dive",
-   "fx": 0.52,
-   "fy": 0.66,
+   "fx": 0.82,
+   "fy": 0.28,
    "label": "The plant could be studied",
-   "sub": "but not its chemistry"
+   "sub": "but not its chemistry",
+   "in": 2.5,
+   "speed": 2.6
   },
   {
    "t": 40.2,
@@ -49,8 +74,10 @@
   {
    "t": 45.2,
    "src": "stock:525880349",
-   "motion": "push",
-   "label": "About 100 years to answer"
+   "motion": "rise",
+   "label": "About 100 years to answer",
+   "speed": 1.8,
+   "in": 0.0
   },
   {
    "t": 49.4,
@@ -167,7 +194,197 @@
    "motion": "push",
    "label": "Pure, well-defined compounds",
    "sub": "ready for pharmacology"
+  },
+  {
+   "t": 125.3,
+   "src": "stock:311841436",
+   "motion": "push",
+   "fx": 0.55,
+   "fy": 0.3,
+   "label": "Pure THC",
+   "sub": "a single, well-defined molecule"
+  },
+  {
+   "t": 128.4,
+   "src": "stock:492845855",
+   "motion": "push",
+   "fx": 0.6,
+   "fy": 0.35,
+   "label": "A known dose",
+   "sub": "of one molecule, effects measured"
+  },
+  {
+   "t": 135.4,
+   "src": "stock:615671363",
+   "motion": "pull",
+   "label": "Chemical variants",
+   "sub": "one change at a time"
+  },
+  {
+   "t": 140.6,
+   "src": "stock:206777295",
+   "motion": "push",
+   "label": "Which changes matter?",
+   "sub": "structure–activity relationships"
+  },
+  {
+   "t": 142.6,
+   "src": "stock:482463104",
+   "motion": "push",
+   "label": "1970s–80s",
+   "sub": "Mechoulam · Pertwee · Howlett"
+  },
+  {
+   "t": 149.3,
+   "src": "stock:459470760",
+   "motion": "pull",
+   "label": "A new question"
+  },
+  {
+   "t": 152.8,
+   "src": "stock:754960973",
+   "motion": "dive",
+   "fx": 0.45,
+   "fy": 0.55,
+   "label": "How does THC act on cells?",
+   "sub": "a fat-loving molecule at the cell membrane"
+  },
+  {
+   "t": 156.7,
+   "src": "stock:597443097",
+   "motion": "emerge",
+   "label": "The next discoveries"
+  },
+  {
+   "t": 160.8,
+   "src": "stock:509771586",
+   "motion": "push",
+   "label": "1988–2001",
+   "sub": "from plant chemistry to biology"
+  },
+  {
+   "t": 166.7,
+   "src": "file:3d/ep03_binding.mp4",
+   "in": 0.0,
+   "motion": "still",
+   "label": "1988 · A binding site in the brain",
+   "sub": "Howlett laboratory · radiolabelled probe"
+  },
+  {
+   "t": 174.5,
+   "src": "stock:425159029",
+   "motion": "pan-right",
+   "label": "1990 · CB1 receptor cloned",
+   "sub": "the gene is identified"
+  },
+  {
+   "t": 178.3,
+   "src": "stock:206382352",
+   "motion": "push",
+   "fx": 0.6,
+   "fy": 0.4,
+   "label": "1992 · Anandamide",
+   "sub": "Devane, Hanuš & Mechoulam"
+  },
+  {
+   "t": 187.2,
+   "src": "file:3d/ep04_aea.mp4",
+   "in": 0.6,
+   "motion": "still",
+   "label": "Made by the body itself",
+   "sub": "the first endocannabinoid"
+  },
+  {
+   "t": 189.9,
+   "src": "stock:474981862",
+   "motion": "push",
+   "label": "1993 · CB2 receptor cloned",
+   "sub": "found on immune cells"
+  },
+  {
+   "t": 193.5,
+   "src": "file:3d/ep04_2ag.mp4",
+   "in": 0.0,
+   "motion": "still",
+   "label": "1995 · 2-AG",
+   "sub": "a second endocannabinoid"
+  },
+  {
+   "t": 197.7,
+   "src": "stock:451831901",
+   "motion": "push",
+   "label": "2001 · Signals between neurons"
+  },
+  {
+   "t": 204.8,
+   "src": "stock:524977819",
+   "motion": "push",
+   "label": "The endocannabinoid system"
+  },
+  {
+   "t": 209.1,
+   "src": "stock:720936462",
+   "motion": "drift",
+   "label": "A specific system",
+   "sub": "not a vague, general action"
+  },
+  {
+   "t": 212.4,
+   "src": "file:3d/ep01_s7.mp4",
+   "in": 0.6,
+   "motion": "still",
+   "label": "Receptors",
+   "sub": "CB1 in the cell membrane"
+  },
+  {
+   "t": 218.3,
+   "src": "file:3d/ep01_s7.mp4",
+   "in": 6.5,
+   "motion": "still",
+   "label": "Signalling molecules · Enzymes",
+   "sub": "made on demand, broken down quickly"
+  },
+  {
+   "t": 224.0,
+   "src": "stock:463905343",
+   "motion": "follow-right",
+   "label": "All vertebrates",
+   "sub": "part of normal physiology"
+  },
+  {
+   "t": 226.2,
+   "src": "stock:194796023",
+   "motion": "rise",
+   "in": 0.5
+  },
+  {
+   "t": 228.5,
+   "src": "file:3d/ep01_s7.mp4",
+   "in": 16.7,
+   "motion": "still",
+   "label": "Plant molecules fit into it",
+   "sub": "THC docks on CB1"
+  },
+  {
+   "t": 231.1,
+   "src": "stock:515887356",
+   "motion": "pull",
+   "label": "Each part, in turn"
+  },
+  {
+   "t": 236.1,
+   "src": "stock:615671363",
+   "in": 0.0,
+   "motion": "push",
+   "title": "Next: What Are Cannabinoids?",
+   "subtitle": "The molecules of the plant"
+  },
+  {
+   "t": 240.7,
+   "src": "stock:413951573",
+   "motion": "drift",
+   "label": "How the plant produces them"
   }
  ],
- "end": 125.3
+ "end": 244.2
 }
