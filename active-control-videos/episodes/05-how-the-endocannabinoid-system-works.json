@@ -1,0 +1,521 @@
+{
+  "id": "05",
+  "episode": 5,
+  "series": "The Science Behind Cannabis",
+  "title": "How the Endocannabinoid System Works",
+  "subtitle": "Synthesis, degradation and retrograde signalling",
+  "objectives": [
+    "Name the main enzymes that synthesise and degrade anandamide and 2-AG.",
+    "Describe retrograde signalling at the synapse step by step.",
+    "Explain, in mechanistic terms, how plant cannabinoids interact with this system."
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "kind": "title",
+      "heading": "How the Endocannabinoid System Works",
+      "narration": "The Science Behind Cannabis. Episode five: How the endocannabinoid system works. We now have all the components: two receptors, two ligands, and the enzymes around them. In this episode we see how they operate together at the synapse."
+    },
+    {
+      "id": "s2",
+      "kind": "content",
+      "heading": "Three components, one system",
+      "narration": "The endocannabinoid system has three parts. The receptors, CB1 and CB2, sit in cell membranes and detect the signal. The ligands, anandamide and 2-AG, are the signal itself. And a set of enzymes controls the signal in time: some enzymes build the ligands when they are needed, and others destroy them a moment later. Because the ligands are made on demand and removed quickly, the whole system is designed for brief, local messages rather than long-lasting broadcasts. Understanding the enzymes is therefore essential to understanding the system.",
+      "bullets": [
+        {
+          "text": "Receptors: CB1 and CB2 detect the signal",
+          "at": 0.08
+        },
+        {
+          "text": "Ligands: anandamide and 2-AG are the signal",
+          "at": 0.25
+        },
+        {
+          "text": "Enzymes: synthesis on demand, rapid degradation",
+          "at": 0.45
+        },
+        {
+          "text": "Designed for brief, local messages",
+          "at": 0.7
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Receptors",
+            "sub": "CB1 · CB2",
+            "at": 0.08
+          },
+          {
+            "title": "Ligands",
+            "sub": "Anandamide · 2-AG",
+            "at": 0.25
+          },
+          {
+            "title": "Synthesis",
+            "sub": "NAPE-PLD · DAGL",
+            "at": 0.45
+          },
+          {
+            "title": "Degradation",
+            "sub": "FAAH · MAGL",
+            "at": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "content",
+      "heading": "Making the ligands",
+      "narration": "Both endocannabinoids are cut out of membrane lipids. Anandamide is produced from a phospholipid precursor called N-acyl-phosphatidylethanolamine (NAPE), mainly by the enzyme NAPE-PLD, although several alternative routes exist. Two A G is produced in two steps: first, the enzyme phospholipase C-beta (PLCβ) generates diacylglycerol (DAG), and then diacylglycerol lipase (DAGL), releases 2-AG. These enzymes are switched on by a rise in calcium inside the cell, or by activation of certain other receptors. That is what makes the system responsive: the ligand appears only when the cell is active.",
+      "bullets": [
+        {
+          "text": "Anandamide: NAPE → NAPE-PLD → anandamide (plus alternative routes)",
+          "at": 0.1
+        },
+        {
+          "text": "2-AG: PLCβ makes DAG → DAGL releases 2-AG",
+          "at": 0.4
+        },
+        {
+          "text": "Triggered by a rise in intracellular calcium or receptor activation",
+          "at": 0.65
+        },
+        {
+          "text": "Ligand appears only when the cell is active",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "pathway",
+        "nodes": [
+          {
+            "id": "nape",
+            "label": "NAPE",
+            "x": 0.2,
+            "y": 0.18,
+            "at": 0.1
+          },
+          {
+            "id": "aea",
+            "label": "Anandamide",
+            "x": 0.2,
+            "y": 0.58,
+            "at": 0.2
+          },
+          {
+            "id": "pl",
+            "label": "Membrane phospholipid",
+            "x": 0.72,
+            "y": 0.1,
+            "at": 0.4
+          },
+          {
+            "id": "dag",
+            "label": "DAG",
+            "x": 0.72,
+            "y": 0.42,
+            "at": 0.45
+          },
+          {
+            "id": "ag",
+            "label": "2-AG",
+            "x": 0.72,
+            "y": 0.74,
+            "at": 0.55
+          },
+          {
+            "id": "ca",
+            "label": "Ca²⁺ ↑",
+            "x": 0.46,
+            "y": 0.92,
+            "at": 0.65
+          }
+        ],
+        "edges": [
+          {
+            "from": "nape",
+            "to": "aea",
+            "label": "NAPE-PLD",
+            "at": 0.2
+          },
+          {
+            "from": "pl",
+            "to": "dag",
+            "label": "PLCβ",
+            "at": 0.45
+          },
+          {
+            "from": "dag",
+            "to": "ag",
+            "label": "DAGLα / β",
+            "at": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "content",
+      "heading": "Removing the ligands",
+      "narration": "Signals must also end. Anandamide is destroyed mainly by fatty acid amide hydrolase (FAAH), an enzyme identified by Benjamin Cravatt's group in 1996; it splits anandamide into arachidonic acid and ethanolamine. Two A G is destroyed mainly by monoacylglycerol lipase (MAGL), characterised in 2002, which splits it into arachidonic acid and glycerol. Other enzymes, including ABHD6, ABHD12 and cyclooxygenase-2 (COX-2), contribute as well. Because degradation is fast, an endocannabinoid signal normally lasts only seconds, and stays close to the place where it was made.",
+      "bullets": [
+        {
+          "text": "Anandamide → FAAH (Cravatt, 1996) → arachidonic acid + ethanolamine",
+          "at": 0.1
+        },
+        {
+          "text": "2-AG → MAGL (2002) → arachidonic acid + glycerol",
+          "at": 0.4
+        },
+        {
+          "text": "Also ABHD6, ABHD12, COX-2",
+          "at": 0.65
+        },
+        {
+          "text": "Fast degradation: signals last seconds and stay local",
+          "at": 0.82
+        }
+      ],
+      "visual": {
+        "type": "pathway",
+        "nodes": [
+          {
+            "id": "aea",
+            "label": "Anandamide",
+            "x": 0.2,
+            "y": 0.2,
+            "at": 0.1
+          },
+          {
+            "id": "aa1",
+            "label": "Arachidonic acid + ethanolamine",
+            "x": 0.2,
+            "y": 0.62,
+            "at": 0.2
+          },
+          {
+            "id": "ag",
+            "label": "2-AG",
+            "x": 0.75,
+            "y": 0.2,
+            "at": 0.4
+          },
+          {
+            "id": "aa2",
+            "label": "Arachidonic acid + glycerol",
+            "x": 0.75,
+            "y": 0.62,
+            "at": 0.5
+          }
+        ],
+        "edges": [
+          {
+            "from": "aea",
+            "to": "aa1",
+            "label": "FAAH",
+            "at": 0.2
+          },
+          {
+            "from": "ag",
+            "to": "aa2",
+            "label": "MAGL",
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "content",
+      "heading": "Signalling backwards: the discovery",
+      "narration": "Where in the synapse does all this happen? The answer came in 2001 from three laboratories working independently: Rachel Wilson and Roger Nicoll in San Francisco, Takako Ohno-Shosaku and Masanobu Kano in Japan, and Anatol Kreitzer and Wade Regehr in Boston. Each found that when a postsynaptic neuron is strongly activated, it briefly suppresses the inputs it receives. The messenger responsible was an endocannabinoid, and the direction was the reverse of the usual one: the signal travelled from the receiving neuron back to the sending neuron. This is called retrograde signalling.",
+      "bullets": [
+        {
+          "text": "2001: three independent groups (Wilson & Nicoll; Ohno-Shosaku, Maejima & Kano; Kreitzer & Regehr)",
+          "at": 0.1
+        },
+        {
+          "text": "An activated postsynaptic neuron briefly suppresses its own inputs",
+          "at": 0.45
+        },
+        {
+          "text": "Messenger: an endocannabinoid",
+          "at": 0.65
+        },
+        {
+          "text": "Direction: from receiving neuron back to sending neuron → retrograde",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "synapse",
+        "stages": [
+          {
+            "at": 0.0,
+            "state": "base"
+          },
+          {
+            "at": 0.45,
+            "state": "depol"
+          },
+          {
+            "at": 0.65,
+            "state": "release"
+          },
+          {
+            "at": 0.8,
+            "state": "bind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "content",
+      "heading": "Retrograde signalling, step by step",
+      "narration": "Here is the sequence. First, the postsynaptic neuron is activated and calcium enters it. Second, the calcium switches on the synthesising enzymes, and 2-AG is produced from the membrane. Third, 2-AG moves backwards across the synaptic gap. Fourth, it binds CB1 receptors on the presynaptic terminal. Fifth, CB1, through its G protein, closes calcium channels and opens potassium channels in the terminal. Sixth, with less calcium entering, the terminal releases less neurotransmitter. If the terminal releases GABA, the effect is called DSI; if it releases glutamate, DSE. In both cases, the receiving cell has tuned down its own input.",
+      "bullets": [
+        {
+          "text": "1. Postsynaptic activation → Ca²⁺ enters",
+          "at": 0.05
+        },
+        {
+          "text": "2–3. Enzymes make 2-AG → it travels backwards across the synapse",
+          "at": 0.25
+        },
+        {
+          "text": "4–5. 2-AG binds presynaptic CB1 → Ca²⁺ channels close, K⁺ channels open",
+          "at": 0.5
+        },
+        {
+          "text": "6. Less transmitter released (GABA → DSI; glutamate → DSE)",
+          "at": 0.78
+        }
+      ],
+      "visual": {
+        "type": "synapse",
+        "stages": [
+          {
+            "at": 0.0,
+            "state": "depol"
+          },
+          {
+            "at": 0.25,
+            "state": "release"
+          },
+          {
+            "at": 0.5,
+            "state": "bind"
+          },
+          {
+            "at": 0.78,
+            "state": "inhibit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "content",
+      "heading": "A feedback system for synapses",
+      "narration": "Retrograde signalling makes the endocannabinoid system a feedback mechanism: it lets a neuron adjust the strength of the connections it receives, according to its own activity. The adjustment can be brief, lasting seconds, or it can trigger longer-lasting changes in synaptic strength, a form of plasticity called long-term depression. Because CB1 receptors sit on both inhibitory and excitatory terminals throughout the cortex, hippocampus, basal ganglia and cerebellum, this feedback operates across many brain circuits. Outside the brain, CB2 on immune cells responds to endocannabinoids as part of immune signalling.",
+      "bullets": [
+        {
+          "text": "A neuron tunes its own inputs according to its activity",
+          "at": 0.08
+        },
+        {
+          "text": "Short-term (seconds) or long-term changes (long-term depression)",
+          "at": 0.3
+        },
+        {
+          "text": "CB1 on inhibitory and excitatory terminals across many circuits",
+          "at": 0.55
+        },
+        {
+          "text": "CB2 on immune cells: part of immune signalling",
+          "at": 0.82
+        }
+      ],
+      "visual": {
+        "type": "brain",
+        "regions": [
+          {
+            "label": "Cortex",
+            "x": 0.45,
+            "y": 0.28,
+            "level": "high",
+            "at": 0.55
+          },
+          {
+            "label": "Basal ganglia",
+            "x": 0.4,
+            "y": 0.5,
+            "level": "high",
+            "at": 0.6
+          },
+          {
+            "label": "Hippocampus",
+            "x": 0.66,
+            "y": 0.6,
+            "level": "high",
+            "at": 0.65
+          },
+          {
+            "label": "Cerebellum",
+            "x": 0.84,
+            "y": 0.72,
+            "level": "high",
+            "at": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "content",
+      "heading": "Where plant cannabinoids fit in",
+      "narration": "Mechanistically, the plant molecules enter this picture in different ways. THC is a partial agonist at CB1 and CB2: it occupies the same receptors as 2-AG and anandamide and activates them, though not to the same degree as 2-AG. The main difference is timing and location. An endocannabinoid is made at one synapse, acts there, and is gone within seconds. THC arrives through the bloodstream, is not produced or removed by the synapse's own enzymes, and therefore reaches CB1 receptors across many circuits at the same time. CBD, in contrast, binds CB1 only weakly, and its reported actions involve other targets, among them the TRPV1 ion channel and the enzyme FAAH.",
+      "bullets": [
+        {
+          "text": "THC: partial agonist at CB1 and CB2; occupies the same receptors as 2-AG",
+          "at": 0.05
+        },
+        {
+          "text": "Endocannabinoid: made at one synapse, acts there, gone in seconds",
+          "at": 0.35
+        },
+        {
+          "text": "THC: arrives via bloodstream, not cleared by synaptic enzymes, reaches many circuits at once",
+          "at": 0.55
+        },
+        {
+          "text": "CBD: weak at CB1; reported targets include TRPV1 and FAAH",
+          "at": 0.82
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "2-AG (endogenous)",
+          "rows": [
+            "Full agonist",
+            "Made on demand at one synapse",
+            "Degraded within seconds by MAGL",
+            "Spatially precise"
+          ]
+        },
+        "right": {
+          "title": "THC (plant)",
+          "rows": [
+            "Partial agonist",
+            "Delivered via the bloodstream",
+            "Not a substrate for MAGL or FAAH",
+            "Reaches many circuits at once"
+          ]
+        },
+        "at": 0.05
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "content",
+      "heading": "Beyond CB1 and CB2",
+      "narration": "The picture continues to grow. Anandamide also activates TRPV1, the ion channel that responds to heat and to capsaicin from chilli peppers. Other proteins, such as the orphan receptor GPR55 and the nuclear receptors called PPARs, respond to some cannabinoids as well. In 1998, Ben-Shabat and Mechoulam showed that related lipids released together with 2-AG, which do not bind the receptor themselves, can increase the activity of 2-AG, and coined the term entourage effect. The endocannabinoid system, first revealed by the chemistry of a plant, is now understood as a widespread lipid signalling system of the vertebrate body, and research on it continues.",
+      "bullets": [
+        {
+          "text": "Anandamide also activates TRPV1 (heat and capsaicin channel)",
+          "at": 0.08
+        },
+        {
+          "text": "GPR55 and PPARs respond to some cannabinoids",
+          "at": 0.3
+        },
+        {
+          "text": "1998: 'entourage effect' — co-released lipids enhance 2-AG activity",
+          "at": 0.5
+        },
+        {
+          "text": "A widespread lipid signalling system; research continues",
+          "at": 0.82
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "TRPV1",
+            "sub": "Ion channel; activated by anandamide",
+            "at": 0.08
+          },
+          {
+            "title": "GPR55",
+            "sub": "Orphan GPCR; responds to some cannabinoids",
+            "at": 0.3
+          },
+          {
+            "title": "PPARs",
+            "sub": "Nuclear receptors",
+            "at": 0.38
+          },
+          {
+            "title": "Entourage effect",
+            "sub": "2-palmitoylglycerol, 2-linoleoylglycerol with 2-AG (1998)",
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s10",
+      "kind": "outro",
+      "heading": "End of the series",
+      "narration": "This concludes The Science Behind Cannabis: from the isolation of THC in 1964, to the receptors, the body's own ligands, and the enzymes and synapses that make up the endocannabinoid system. Thank you for watching."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which enzyme degrades anandamide?",
+      "options": [
+        "MAGL",
+        "FAAH",
+        "DAGL",
+        "PLCβ"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "In retrograde signalling, 2-AG travels:",
+      "options": [
+        "From the presynaptic terminal to the postsynaptic neuron",
+        "From the postsynaptic neuron back to the presynaptic terminal",
+        "Through the bloodstream to the brain",
+        "Inside synaptic vesicles"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What happens when 2-AG binds presynaptic CB1 receptors?",
+      "options": [
+        "More neurotransmitter is released",
+        "Calcium channels close and less transmitter is released",
+        "The receptor is destroyed",
+        "Anandamide is synthesised"
+      ],
+      "answer": 1
+    }
+  ],
+  "excluded": "The THC/2-AG comparison is purely mechanistic (timing, location, efficacy). No statement about what this means for a user, no mention of effects, tolerance, dependence, therapeutic use or risk.",
+  "sources": [
+    "Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811",
+    "Cravatt BF, et al. Molecular characterization of an enzyme that degrades neuromodulatory fatty-acid amides. Nature. 1996;384:83–87.",
+    "Dinh TP, et al. Brain monoglyceride lipase participating in endocannabinoid inactivation. Proc Natl Acad Sci USA. 2002;99:10819–10824.",
+    "Wilson RI, Nicoll RA. Endogenous cannabinoids mediate retrograde signalling at hippocampal synapses. Nature. 2001;410:588–592.",
+    "Ohno-Shosaku T, Maejima T, Kano M. Endogenous cannabinoids mediate retrograde signals from depolarized postsynaptic neurons to presynaptic terminals. Neuron. 2001;29:729–738.",
+    "Kreitzer AC, Regehr WG. Retrograde inhibition of presynaptic calcium influx by endogenous cannabinoids at excitatory synapses onto Purkinje cells. Neuron. 2001;29:717–727.",
+    "Ben-Shabat S, et al. An entourage effect: inactive endogenous fatty acid glycerol esters enhance 2-arachidonoyl-glycerol cannabinoid activity. Eur J Pharmacol. 1998;353:23–31."
+  ]
+}

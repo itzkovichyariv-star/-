@@ -1,0 +1,6 @@
+# build intermediates for the video pipeline
+active-control-videos/work/
+active-control-videos/models/
+*.log
+__pycache__/
+node_modules/

@@ -1,0 +1,362 @@
+{
+  "id": "04",
+  "episode": 4,
+  "series": "The Science Behind Cannabis",
+  "title": "The Body's Own Cannabinoids",
+  "subtitle": "The discovery of anandamide and 2-AG",
+  "objectives": [
+    "Explain why the existence of a receptor implied the existence of an endogenous ligand.",
+    "Describe how anandamide (1992) and 2-AG (1995) were found and what they are chemically.",
+    "Contrast endocannabinoids with classical neurotransmitters."
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "kind": "title",
+      "heading": "The Body's Own Cannabinoids",
+      "narration": "The Science Behind Cannabis. Episode four: The body's own cannabinoids. The brain does not make receptors for a plant. If a receptor exists, the body must produce its own molecule to activate it. This episode tells how those molecules, the endocannabinoids, were found."
+    },
+    {
+      "id": "s2",
+      "kind": "content",
+      "heading": "A receptor implies a ligand",
+      "narration": "The logic came from an earlier discovery. In 1973, opioid receptors were identified in the brain, and two years later researchers found the enkephalins, small peptides made by the body that activate those receptors. Morphine, from the poppy, simply mimicked them. By analogy, once the cannabinoid receptor was characterised in 1988 and cloned in 1990, the expectation was clear: somewhere in the body there must be an endogenous cannabinoid, a natural ligand, and THC must be imitating it. The search began in Raphael Mechoulam's laboratory in Jerusalem.",
+      "bullets": [
+        {
+          "text": "Precedent: opioid receptors (1973) → enkephalins (1975)",
+          "at": 0.08
+        },
+        {
+          "text": "Morphine, from the poppy, mimics the body's own peptides",
+          "at": 0.3
+        },
+        {
+          "text": "Cannabinoid receptor (1988, cloned 1990) → an endogenous ligand must exist",
+          "at": 0.5
+        },
+        {
+          "text": "The search begins in Mechoulam's laboratory, Jerusalem",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "Opioid system",
+          "rows": [
+            "Receptor found 1973",
+            "Endogenous ligands: enkephalins (1975)",
+            "Plant mimic: morphine"
+          ]
+        },
+        "right": {
+          "title": "Cannabinoid system",
+          "rows": [
+            "Receptor found 1988, cloned 1990",
+            "Endogenous ligand: ?",
+            "Plant mimic: THC"
+          ]
+        },
+        "at": 0.08
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "content",
+      "heading": "Where to look",
+      "narration": "The team made a key assumption. Since the receptor binds very lipophilic molecules, the natural ligand was probably a lipid too, not a peptide or an amino acid like most known neurotransmitters. So instead of water-soluble extracts, William Devane and Lumír Hanuš extracted the fatty fractions of pig brain. To find the needle in the haystack, they used a binding assay: a radioactive synthetic cannabinoid, HU-243, was allowed to bind to the receptor, and each brain fraction was tested for its ability to displace it. Fractions that displaced the radioligand contained something that recognised the receptor.",
+      "bullets": [
+        {
+          "text": "Assumption: a receptor for lipophilic ligands has a lipid ligand",
+          "at": 0.08
+        },
+        {
+          "text": "Lipid fractions extracted from pig brain (Devane, Hanuš)",
+          "at": 0.35
+        },
+        {
+          "text": "Binding assay with radioactive HU-243 as the probe",
+          "at": 0.55
+        },
+        {
+          "text": "Fractions that displace the probe contain the ligand",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "pathway",
+        "nodes": [
+          {
+            "id": "brain",
+            "label": "Pig brain",
+            "x": 0.5,
+            "y": 0.05,
+            "at": 0.35
+          },
+          {
+            "id": "lipid",
+            "label": "Lipid extract",
+            "x": 0.5,
+            "y": 0.23,
+            "at": 0.4
+          },
+          {
+            "id": "frac",
+            "label": "Chromatographic fractions",
+            "x": 0.5,
+            "y": 0.41,
+            "at": 0.45
+          },
+          {
+            "id": "assay",
+            "label": "Binding assay with [³H]HU-243",
+            "x": 0.5,
+            "y": 0.59,
+            "at": 0.55
+          },
+          {
+            "id": "hit",
+            "label": "Active fraction",
+            "x": 0.5,
+            "y": 0.77,
+            "at": 0.7
+          },
+          {
+            "id": "struct",
+            "label": "Structure by NMR and MS",
+            "x": 0.5,
+            "y": 0.95,
+            "at": 0.85
+          }
+        ],
+        "edges": [
+          {
+            "from": "brain",
+            "to": "lipid",
+            "label": "",
+            "at": 0.4
+          },
+          {
+            "from": "lipid",
+            "to": "frac",
+            "label": "",
+            "at": 0.45
+          },
+          {
+            "from": "frac",
+            "to": "assay",
+            "label": "test each",
+            "at": 0.55
+          },
+          {
+            "from": "assay",
+            "to": "hit",
+            "label": "displaces the probe",
+            "at": 0.7
+          },
+          {
+            "from": "hit",
+            "to": "struct",
+            "label": "",
+            "at": 0.85
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "content",
+      "heading": "1992: anandamide",
+      "narration": "In 1992, the group reported the first endocannabinoid in the journal Science. The molecule was N-arachidonoylethanolamine: a long, unsaturated fatty acid called arachidonic acid, joined to a small ethanolamine head group. It looked nothing like THC, yet it bound the receptor and produced the same cellular responses. Mechoulam named it anandamide, from the Sanskrit word ananda, meaning bliss, and the chemical ending amide. Anandamide turned out to be a partial agonist: it activates the receptor, but less fully than some other ligands, and it is present in the brain at quite low concentrations.",
+      "bullets": [
+        {
+          "text": "1992, Science: Devane, Hanuš, Mechoulam and colleagues",
+          "at": 0.05
+        },
+        {
+          "text": "N-arachidonoylethanolamine: arachidonic acid + ethanolamine",
+          "at": 0.25
+        },
+        {
+          "text": "Chemically unlike THC, yet binds the same receptor",
+          "at": 0.45
+        },
+        {
+          "text": "Named from Sanskrit 'ananda' + 'amide'; a partial agonist, low brain levels",
+          "at": 0.65
+        }
+      ],
+      "visual": {
+        "type": "bigfact",
+        "text": "Anandamide",
+        "sub": "N-arachidonoylethanolamine · C₂₂H₃₇NO₂ · discovered 1992"
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "content",
+      "heading": "1995: 2-AG",
+      "narration": "A second endocannabinoid followed in 1995. Working with Shimon Ben-Shabat and Hanuš, Mechoulam's group isolated two-arachidonoylglycerol, 2-AG, from canine gut, and in the same year Takayuki Sugiura's group in Japan independently identified it in rat brain. Two A G is also built from arachidonic acid, this time attached to glycerol, the backbone of ordinary fats. Unlike anandamide, 2-AG is a full agonist at both CB1 and CB2, and it is far more abundant in the brain, by roughly a hundred to a thousand fold. Many researchers now regard 2-AG as the main signalling endocannabinoid at synapses.",
+      "bullets": [
+        {
+          "text": "1995: 2-arachidonoylglycerol (2-AG) — Mechoulam, Ben-Shabat, Hanuš (canine gut)",
+          "at": 0.05
+        },
+        {
+          "text": "Independently: Sugiura et al., rat brain (1995)",
+          "at": 0.3
+        },
+        {
+          "text": "Arachidonic acid attached to glycerol",
+          "at": 0.45
+        },
+        {
+          "text": "Full agonist at CB1 and CB2; ~100–1000× more abundant than anandamide",
+          "at": 0.65
+        }
+      ],
+      "visual": {
+        "type": "bigfact",
+        "text": "2-AG",
+        "sub": "2-arachidonoylglycerol · C₂₃H₃₈O₄ · discovered 1995"
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "content",
+      "heading": "Two ligands compared",
+      "narration": "The two endocannabinoids share a common origin: both are derived from arachidonic acid, a fatty acid that is a normal component of cell membranes. They differ in the head group, ethanolamine versus glycerol, in how strongly they activate the receptors, and in how much of each the brain contains. They also differ in the enzymes that make and break them down, which we will see in the next episode. Both molecules are also found outside the brain, in the gut, the immune system and many other tissues, reflecting the wide distribution of the receptors themselves.",
+      "bullets": [
+        {
+          "text": "Shared origin: arachidonic acid, a normal membrane fatty acid",
+          "at": 0.08
+        },
+        {
+          "text": "Different head groups: ethanolamine (anandamide) vs glycerol (2-AG)",
+          "at": 0.3
+        },
+        {
+          "text": "Different efficacy and abundance; different enzymes",
+          "at": 0.55
+        },
+        {
+          "text": "Both found in brain, gut, immune system and other tissues",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "Anandamide (1992)",
+          "rows": [
+            "Arachidonic acid + ethanolamine",
+            "Partial agonist at CB1",
+            "Low tissue levels",
+            "Degraded by FAAH"
+          ]
+        },
+        "right": {
+          "title": "2-AG (1995)",
+          "rows": [
+            "Arachidonic acid + glycerol",
+            "Full agonist at CB1 and CB2",
+            "~100–1000× more abundant",
+            "Degraded by MAGL"
+          ]
+        },
+        "at": 0.08
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "content",
+      "heading": "Not a classical neurotransmitter",
+      "narration": "Endocannabinoids break the textbook rules for neurotransmitters. Classical transmitters such as glutamate or dopamine are made in advance, packed into small vesicles, and released when a nerve impulse arrives. Endocannabinoids are not stored at all. They are produced on demand, cut out of membrane lipids when a cell is stimulated, released immediately, act on nearby receptors, and are then quickly broken down. Several other lipids, including noladin ether, virodhamine and N-arachidonoyl dopamine, have been proposed as additional endocannabinoids, but their roles are less firmly established than those of anandamide and 2-AG.",
+      "bullets": [
+        {
+          "text": "Classical transmitters: made in advance, stored in vesicles, released on impulse",
+          "at": 0.08
+        },
+        {
+          "text": "Endocannabinoids: not stored; made on demand from membrane lipids",
+          "at": 0.35
+        },
+        {
+          "text": "Released immediately, act locally, rapidly degraded",
+          "at": 0.55
+        },
+        {
+          "text": "Other candidates (noladin ether, virodhamine, NADA) less established",
+          "at": 0.78
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "Classical neurotransmitter",
+          "rows": [
+            "Synthesised in advance",
+            "Stored in vesicles",
+            "Released by exocytosis",
+            "Water-soluble"
+          ]
+        },
+        "right": {
+          "title": "Endocannabinoid",
+          "rows": [
+            "Made on demand",
+            "Not stored",
+            "Diffuses from the membrane",
+            "Lipid"
+          ]
+        },
+        "at": 0.08
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "outro",
+      "heading": "Next: How the system works",
+      "narration": "In the final episode, we put the pieces together: how endocannabinoids are made and removed, and how they carry signals backwards across the synapse."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What earlier discovery provided the logic for searching for endocannabinoids?",
+      "options": [
+        "The structure of DNA",
+        "Opioid receptors and the enkephalins",
+        "The cloning of insulin",
+        "The discovery of penicillin"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Anandamide is chemically composed of:",
+      "options": [
+        "Glucose and a phenol ring",
+        "Arachidonic acid and ethanolamine",
+        "Two THC molecules",
+        "Glycerol and three fatty acids"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which statement about 2-AG is correct?",
+      "options": [
+        "It is a peptide",
+        "It was discovered in 1964",
+        "It is far more abundant in brain than anandamide",
+        "It is stored in synaptic vesicles"
+      ],
+      "answer": 2
+    }
+  ],
+  "excluded": "The name 'anandamide' is explained etymologically only; nothing is said about mood, reward or subjective effects. No claims about what endocannabinoid levels mean for a person.",
+  "sources": [
+    "Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811",
+    "Devane WA, Hanuš L, Breuer A, Pertwee RG, Stevenson LA, Griffin G, Gibson D, Mandelbaum A, Etinger A, Mechoulam R. Isolation and structure of a brain constituent that binds to the cannabinoid receptor. Science. 1992;258:1946–1949.",
+    "Mechoulam R, Ben-Shabat S, Hanuš L, et al. Identification of an endogenous 2-monoglyceride, present in canine gut, that binds to cannabinoid receptors. Biochem Pharmacol. 1995;50:83–90.",
+    "Sugiura T, et al. 2-Arachidonoylglycerol: a possible endogenous cannabinoid receptor ligand in brain. Biochem Biophys Res Commun. 1995;215:89–97."
+  ]
+}
