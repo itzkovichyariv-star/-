@@ -18,6 +18,6 @@ for ep in episodes/*.json; do
   python3 build/tts.py "$ep" "$WORK/$b" --model-dir "$MODEL"
 done
 python3 build/make_scripts.py episodes scripts "$WORK"
-ls episodes/*.json | xargs -P "${JOBS:-2}" -I{} sh -c 'b=$(basename {} .json); node build/render.js {} "'"$WORK"'/$b" "output/$b.mp4" --fps 15'
+ls episodes/*.json | xargs -P "${JOBS:-2}" -I{} sh -c 'b=$(basename {} .json); node build/render.js {} "'"$WORK"'/$b" "output/$b.mp4" --fps 24'
 for ep in episodes/*.json; do b=$(basename "$ep" .json); cp "$WORK/$b/captions.srt" "output/$b.srt"; done
 echo "done: output/"

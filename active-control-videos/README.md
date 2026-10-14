@@ -50,7 +50,7 @@ Two places were handled with particular care:
 ## Production notes
 
 - **Narration:** English, synthetic voice (Piper `en_US-lessac-medium`, run offline through sherpa-onnx). The voice is clear but recognisably synthetic; if a human voice-over is preferred, record each scene's narration and drop the WAVs into the work folder as `s1.wav`, `s2.wav`, … — the renderer times every scene from the audio, so no re-editing is needed.
-- **Visuals:** 1920×1080, 15 fps, dark motion-graphics style, rendered deterministically from HTML/SVG in headless Chromium. Every visual element's state is a pure function of time, so re-renders are reproducible.
+- **Visuals:** 1920×1080, 24 fps, motion-graphics style rendered deterministically from HTML/SVG in headless Chromium. Every element's state is a pure function of time, so re-renders are reproducible. Motion includes a drifting particle-network background, kinetic title typography, staggered slide/scale reveals with an active-bullet highlight, timelines that draw on, flow particles along pathway arrows, a ligand that docks into the receptor and engages its G protein, calcium and 2-AG particles moving through the synapse, ripple pulses on the brain map, and animated captions and scene transitions.
 - **Subtitles:** burned-in captions plus a separate `.srt` per episode.
 - **Font:** Inter (SIL Open Font License), bundled in `assets/fonts/`.
 
