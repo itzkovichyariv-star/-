@@ -1,0 +1,403 @@
+{
+ "episode": "04-endocannabinoids-anandamide-and-2ag",
+ "shots": [
+  {
+   "t": 0.0,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 0.0,
+   "motion": "still",
+   "title": "The Body's Own Cannabinoids",
+   "subtitle": "Anandamide and 2-AG"
+  },
+  {
+   "t": 4.8,
+   "src": "stock:1313296852",
+   "motion": "push",
+   "label": "Receptors for a plant?",
+   "sub": "the brain does not make them for that"
+  },
+  {
+   "t": 7.8,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 22.0,
+   "motion": "still",
+   "label": "A receptor implies a ligand",
+   "sub": "a molecule made by the body to activate it"
+  },
+  {
+   "t": 12.7,
+   "src": "stock:208188424",
+   "motion": "drift",
+   "label": "Endocannabinoids",
+   "sub": "the body's own cannabinoids"
+  },
+  {
+   "t": 18.1,
+   "src": "stock:311409789",
+   "motion": "push",
+   "label": "An earlier discovery"
+  },
+  {
+   "t": 21.2,
+   "src": "stock:1140275338",
+   "motion": "push",
+   "label": "1973 · opioid receptors",
+   "sub": "identified in the brain"
+  },
+  {
+   "t": 24.9,
+   "src": "stock:311841436",
+   "motion": "pan-right",
+   "label": "1975 · enkephalins",
+   "sub": "found two years later"
+  },
+  {
+   "t": 28.6,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 19.5,
+   "motion": "still",
+   "label": "Small peptides",
+   "sub": "made by the body · activate those receptors"
+  },
+  {
+   "t": 32.8,
+   "src": "stock:448397148",
+   "in": 6.0,
+   "motion": "drift",
+   "label": "Morphine, from the poppy",
+   "sub": "simply mimicked them"
+  },
+  {
+   "t": 35.9,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 33.0,
+   "motion": "still",
+   "label": "Cannabinoid receptor",
+   "sub": "characterised 1988 · cloned 1990"
+  },
+  {
+   "t": 41.8,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 45.5,
+   "motion": "still",
+   "label": "An endogenous cannabinoid?",
+   "sub": "a natural ligand that THC imitates"
+  },
+  {
+   "t": 51.0,
+   "src": "stock:778425214",
+   "motion": "pan-right",
+   "label": "Jerusalem",
+   "sub": "Raphael Mechoulam's laboratory"
+  },
+  {
+   "t": 56.1,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 56.5,
+   "motion": "still",
+   "label": "A key assumption"
+  },
+  {
+   "t": 58.4,
+   "src": "stock:296656558",
+   "in": 8.0,
+   "motion": "drift",
+   "label": "Probably a lipid",
+   "sub": "the receptor binds very lipophilic molecules"
+  },
+  {
+   "t": 64.5,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 64.5,
+   "motion": "still",
+   "label": "Not a peptide or amino acid",
+   "sub": "unlike most known neurotransmitters"
+  },
+  {
+   "t": 68.7,
+   "src": "stock:374005542",
+   "motion": "push",
+   "label": "Fatty fractions",
+   "sub": "instead of water-soluble extracts"
+  },
+  {
+   "t": 71.0,
+   "src": "stock:380892515",
+   "motion": "push",
+   "label": "William Devane · Lumír Hanuš",
+   "sub": "extracted the fatty fractions of brain"
+  },
+  {
+   "t": 75.8,
+   "src": "stock:141032083",
+   "motion": "pull",
+   "label": "A binding assay",
+   "sub": "finding the needle in the haystack"
+  },
+  {
+   "t": 78.6,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 76.5,
+   "motion": "still",
+   "label": "HU-243",
+   "sub": "a radioactive synthetic cannabinoid on the receptor"
+  },
+  {
+   "t": 84.9,
+   "src": "stock:335810958",
+   "in": 1.0,
+   "motion": "push",
+   "label": "Each fraction tested",
+   "sub": "can it displace the radioligand?"
+  },
+  {
+   "t": 89.1,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 86.0,
+   "motion": "still",
+   "label": "A positive fraction",
+   "sub": "something in it recognises the receptor"
+  },
+  {
+   "t": 95.6,
+   "src": "stock:462517559",
+   "motion": "push",
+   "label": "1992 · Science",
+   "sub": "the first endocannabinoid"
+  },
+  {
+   "t": 100.8,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 100.0,
+   "motion": "still",
+   "label": "N-arachidonoylethanolamine",
+   "sub": "arachidonic acid, a long unsaturated fatty acid"
+  },
+  {
+   "t": 107.2,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 106.0,
+   "motion": "still",
+   "label": "+ ethanolamine",
+   "sub": "a small head group"
+  },
+  {
+   "t": 109.8,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 111.0,
+   "motion": "still",
+   "label": "Nothing like THC",
+   "sub": "yet it binds the receptor · same cellular responses"
+  },
+  {
+   "t": 115.9,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 117.0,
+   "motion": "still",
+   "label": "Anandamide",
+   "sub": "Sanskrit 'ananda' + amide"
+  },
+  {
+   "t": 122.7,
+   "src": "stock:208188424",
+   "in": 3.0,
+   "motion": "pull",
+   "label": "Partial agonist",
+   "sub": "activates the receptor, but less fully"
+  },
+  {
+   "t": 129.8,
+   "src": "stock:1140275338",
+   "in": 6.0,
+   "motion": "push",
+   "label": "Low concentrations",
+   "sub": "in the brain"
+  },
+  {
+   "t": 134.3,
+   "src": "stock:619408737",
+   "motion": "push",
+   "label": "1995",
+   "sub": "a second endocannabinoid"
+  },
+  {
+   "t": 137.6,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 138.0,
+   "motion": "still",
+   "label": "2-arachidonoylglycerol · 2-AG",
+   "sub": "Mechoulam, Ben-Shabat, Hanuš"
+  },
+  {
+   "t": 141.5,
+   "src": "stock:395729463",
+   "motion": "push",
+   "label": "Isolated from gut tissue"
+  },
+  {
+   "t": 145.9,
+   "src": "stock:309462422",
+   "motion": "push",
+   "label": "Japan · Takayuki Sugiura's group",
+   "sub": "independently, in rat brain"
+  },
+  {
+   "t": 152.7,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 152.5,
+   "motion": "still",
+   "label": "Arachidonic acid + glycerol"
+  },
+  {
+   "t": 158.1,
+   "src": "stock:374005542",
+   "in": 5.0,
+   "motion": "push",
+   "label": "Glycerol",
+   "sub": "the backbone of ordinary fats"
+  },
+  {
+   "t": 160.2,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 160.0,
+   "motion": "still",
+   "label": "Full agonist",
+   "sub": "at CB1 and CB2"
+  },
+  {
+   "t": 164.6,
+   "src": "stock:186895946",
+   "motion": "push",
+   "label": "Far more abundant",
+   "sub": "roughly 100–1000× more than anandamide"
+  },
+  {
+   "t": 170.4,
+   "src": "stock:451831901",
+   "motion": "push",
+   "label": "The main synaptic endocannabinoid"
+  },
+  {
+   "t": 177.1,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 178.5,
+   "motion": "still",
+   "label": "A common origin",
+   "sub": "both derived from arachidonic acid"
+  },
+  {
+   "t": 182.7,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 196.0,
+   "motion": "still",
+   "label": "Arachidonic acid",
+   "sub": "a normal component of cell membranes"
+  },
+  {
+   "t": 186.2,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 183.0,
+   "motion": "still",
+   "label": "Different head groups",
+   "sub": "ethanolamine vs glycerol"
+  },
+  {
+   "t": 192.5,
+   "src": "stock:1140275338",
+   "in": 9.0,
+   "motion": "pull",
+   "label": "Different amounts",
+   "sub": "in the brain"
+  },
+  {
+   "t": 195.1,
+   "src": "stock:492845855",
+   "motion": "push",
+   "label": "Different enzymes",
+   "sub": "make and break them down · episode 5"
+  },
+  {
+   "t": 201.2,
+   "src": "stock:395729463",
+   "in": 8.0,
+   "motion": "push",
+   "label": "Also outside the brain",
+   "sub": "in the gut"
+  },
+  {
+   "t": 204.8,
+   "src": "stock:474981862",
+   "motion": "follow-right",
+   "label": "Immune system and other tissues",
+   "sub": "like the receptors themselves"
+  },
+  {
+   "t": 211.8,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 212.0,
+   "motion": "still",
+   "label": "Not a classical neurotransmitter"
+  },
+  {
+   "t": 216.0,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 215.0,
+   "motion": "still",
+   "label": "Glutamate · dopamine",
+   "sub": "made in advance, packed into vesicles"
+  },
+  {
+   "t": 222.2,
+   "src": "stock:639207019",
+   "motion": "follow-right",
+   "label": "Released by a nerve impulse"
+  },
+  {
+   "t": 224.8,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 224.0,
+   "motion": "still",
+   "label": "Not stored at all"
+  },
+  {
+   "t": 227.1,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 229.0,
+   "motion": "still",
+   "label": "Made on demand",
+   "sub": "cut out of membrane lipids"
+  },
+  {
+   "t": 232.2,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 233.5,
+   "motion": "still",
+   "label": "Released · act nearby · broken down"
+  },
+  {
+   "t": 237.0,
+   "src": "stock:141032083",
+   "in": 4.0,
+   "motion": "push",
+   "label": "Other candidate lipids",
+   "sub": "noladin ether · virodhamine · NADA"
+  },
+  {
+   "t": 245.5,
+   "src": "stock:1386134090",
+   "in": 3.0,
+   "motion": "push",
+   "label": "Anandamide and 2-AG",
+   "sub": "the best-established endocannabinoids"
+  },
+  {
+   "t": 251.0,
+   "src": "file:3d/ep04_full.mp4",
+   "in": 251.0,
+   "motion": "still",
+   "title": "Next: How the System Works",
+   "subtitle": "Made, removed, and signalling backwards"
+  }
+ ],
+ "end": 260.29
+}

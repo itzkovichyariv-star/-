@@ -2,7 +2,7 @@
 
 *The Science Behind Cannabis — The discovery of anandamide and 2-AG*
 
-**Running time:** 4:04 (narrated video, 1920×1080)
+**Running time:** 4:20 (narrated video, 1920×1080)
 
 **Primary source:** Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811
 
@@ -16,17 +16,24 @@
 
 Each scene lists the narration (voice-over), the on-screen text and the visual. Timecodes come from the rendered narration.
 
-### 1. The Body's Own Cannabinoids  <sub>Title card · 0:00–0:17</sub>
+### 1. The Body's Own Cannabinoids  <sub>Title card · 0:00–0:18</sub>
 
 **Narration**
 
 > The Science Behind Cannabis. Episode four: The body's own cannabinoids. The brain does not make receptors for a plant. If a receptor exists, the body must produce its own molecule to activate it. This episode tells how those molecules, the endocannabinoids, were found.
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:00` 3D animation (molecules/receptors) — on screen: **The Body's Own Cannabinoids** (Anandamide and 2-AG)
+- `0:05` Footage: Animation of neuron cells and synaptic activity, slow push-in — on screen: **Receptors for a plant?** (the brain does not make them for that)
+- `0:08` 3D animation (molecules/receptors) — on screen: **A receptor implies a ligand** (a molecule made by the body to activate it)
+- `0:13` Footage: 4K Neuronal Activity, gentle drift — on screen: **Endocannabinoids** (the body's own cannabinoids)
+
+**3D animation used in this scene**
 
 Title card over a slowly orbiting 3D model of anandamide, in a drifting particle field.
 
-### 2. A receptor implies a ligand  <sub>Scene · 0:18–0:52</sub>
+### 2. A receptor implies a ligand  <sub>Scene · 0:18–0:56</sub>
 
 **Narration**
 
@@ -39,11 +46,22 @@ Title card over a slowly orbiting 3D model of anandamide, in a drifting particle
 - Cannabinoid receptor (1988, cloned 1990) → an endogenous ligand must exist
 - The search begins in Mechoulam's laboratory, Jerusalem
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:18` Footage: Close-up of hands turning over an old book, slow push-in — on screen: **An earlier discovery**
+- `0:21` Footage: human brain internal parts anatomy, slow push-in — on screen: **1973 · opioid receptors** (identified in the brain)
+- `0:25` Footage: Lab Research Test Tubes, pan — on screen: **1975 · enkephalins** (found two years later)
+- `0:29` 3D animation (molecules/receptors) — on screen: **Small peptides** (made by the body · activate those receptors)
+- `0:33` Footage: Poppy flowers in summertime with soft wind moving flowers and sun flares, gentle drift — on screen: **Morphine, from the poppy** (simply mimicked them)
+- `0:36` 3D animation (molecules/receptors) — on screen: **Cannabinoid receptor** (characterised 1988 · cloned 1990)
+- `0:42` 3D animation (molecules/receptors) — on screen: **An endogenous cannabinoid?** (a natural ligand that THC imitates)
+- `0:51` Footage: The old city of golden dome of the rock,aerial flight,ramadan, 2024 \\nDrone view of old city of Jerusalem with al aqsa mosque, ramadan, April,03,2024, pan — on screen: **Jerusalem** (Raphael Mechoulam's laboratory)
+
+**3D animation used in this scene**
 
 Lipid bilayer with 7-helix receptor(s) cannabinoid receptor; actions: ligand-dock, question; ligands: morphine (poppy), THC (plant).
 
-### 3. Where to look  <sub>Scene · 0:53–1:29</sub>
+### 3. Where to look  <sub>Scene · 0:56–1:35</sub>
 
 **Narration**
 
@@ -56,11 +74,23 @@ Lipid bilayer with 7-helix receptor(s) cannabinoid receptor; actions: ligand-doc
 - Binding assay with radioactive HU-243 as the probe
 - Fractions that displace the probe contain the ligand
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:56` 3D animation (molecules/receptors) — on screen: **A key assumption**
+- `0:58` Footage: transparent green oil bubbles and fluid shapes in purified water on a white gradient background, gentle drift — on screen: **Probably a lipid** (the receptor binds very lipophilic molecules)
+- `1:04` 3D animation (molecules/receptors) — on screen: **Not a peptide or amino acid** (unlike most known neurotransmitters)
+- `1:09` Footage: Pouring olive oil from glass bottle, slow push-in — on screen: **Fatty fractions** (instead of water-soluble extracts)
+- `1:11` Footage: scientist holding flask with lab glassware and test tubes in chemical laboratory background, science laboratory research and development concept, slow push-in — on screen: **William Devane · Lumír Hanuš** (extracted the fatty fractions of brain)
+- `1:16` Footage: Closeup of female technician walking with rack full of test tubes with blood samples, slow pull-out — on screen: **A binding assay** (finding the needle in the haystack)
+- `1:19` 3D animation (molecules/receptors) — on screen: **HU-243** (a radioactive synthetic cannabinoid on the receptor)
+- `1:25` Footage: The scientist conducts a PCR test, takes a polymerase using an automatic pipette, an express test for coronavirus, slow push-in — on screen: **Each fraction tested** (can it displace the radioligand?)
+- `1:29` 3D animation (molecules/receptors) — on screen: **A positive fraction** (something in it recognises the receptor)
+
+**3D animation used in this scene**
 
 Membrane vesicles studded with receptors; radiolabelled probe molecules (radiolabelled probe ([³H]HU-243)) drift and bind.
 
-### 4. 1992: anandamide  <sub>Scene · 1:30–2:05</sub>
+### 4. 1992: anandamide  <sub>Scene · 1:36–2:14</sub>
 
 **Narration**
 
@@ -73,11 +103,21 @@ Membrane vesicles studded with receptors; radiolabelled probe molecules (radiola
 - Chemically unlike THC, yet binds the same receptor
 - Named from Sanskrit 'ananda' + 'amide'; a partial agonist, low brain levels
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `1:36` Footage: old book on a wooden table, slow push-in — on screen: **1992 · Science** (the first endocannabinoid)
+- `1:41` 3D animation (molecules/receptors) — on screen: **N-arachidonoylethanolamine** (arachidonic acid, a long unsaturated fatty acid)
+- `1:47` 3D animation (molecules/receptors) — on screen: **+ ethanolamine** (a small head group)
+- `1:50` 3D animation (molecules/receptors) — on screen: **Nothing like THC** (yet it binds the receptor · same cellular responses)
+- `1:56` 3D animation (molecules/receptors) — on screen: **Anandamide** (Sanskrit 'ananda' + amide)
+- `2:03` Footage: 4K Neuronal Activity, slow pull-out — on screen: **Partial agonist** (activates the receptor, but less fully)
+- `2:10` Footage: human brain internal parts anatomy, slow push-in — on screen: **Low concentrations** (in the brain)
+
+**3D animation used in this scene**
 
 Camera tour of 3D ball-and-stick molecules: anandamide.
 
-### 5. 1995: 2-AG  <sub>Scene · 2:06–2:44</sub>
+### 5. 1995: 2-AG  <sub>Scene · 2:14–2:57</sub>
 
 **Narration**
 
@@ -90,11 +130,23 @@ Camera tour of 3D ball-and-stick molecules: anandamide.
 - Arachidonic acid attached to glycerol
 - Full agonist at CB1 and CB2; ~100–1000× more abundant than anandamide
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `2:14` Footage: Scientist dripping pink liquid into chemical flask 4k movie, slow push-in — on screen: **1995** (a second endocannabinoid)
+- `2:18` 3D animation (molecules/receptors) — on screen: **2-arachidonoylglycerol · 2-AG** (Mechoulam, Ben-Shabat, Hanuš)
+- `2:22` Footage: large intestine 3d illustration human digestive system, slow push-in — on screen: **Isolated from gut tissue**
+- `2:26` Footage: Aerial view 4k video by drone of building in Tokyo city  Japan on sunrise, slow push-in — on screen: **Japan · Takayuki Sugiura's group** (independently, in rat brain)
+- `2:33` 3D animation (molecules/receptors) — on screen: **Arachidonic acid + glycerol**
+- `2:38` Footage: Pouring olive oil from glass bottle, slow push-in — on screen: **Glycerol** (the backbone of ordinary fats)
+- `2:40` 3D animation (molecules/receptors) — on screen: **Full agonist** (at CB1 and CB2)
+- `2:45` Footage: Human neurons with firing synapses, slow push-in — on screen: **Far more abundant** (roughly 100–1000× more than anandamide)
+- `2:50` Footage: Neuronal and Synapse Activity animation showing chemical messengers or neurotransmitters released, slow push-in — on screen: **The main synaptic endocannabinoid**
+
+**3D animation used in this scene**
 
 Camera tour of 3D ball-and-stick molecules: 2-AG.
 
-### 6. Two ligands compared  <sub>Scene · 2:45–3:16</sub>
+### 6. Two ligands compared  <sub>Scene · 2:57–3:31</sub>
 
 **Narration**
 
@@ -107,11 +159,21 @@ Camera tour of 3D ball-and-stick molecules: 2-AG.
 - Different efficacy and abundance; different enzymes
 - Both found in brain, gut, immune system and other tissues
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `2:57` 3D animation (molecules/receptors) — on screen: **A common origin** (both derived from arachidonic acid)
+- `3:03` 3D animation (molecules/receptors) — on screen: **Arachidonic acid** (a normal component of cell membranes)
+- `3:06` 3D animation (molecules/receptors) — on screen: **Different head groups** (ethanolamine vs glycerol)
+- `3:12` Footage: human brain internal parts anatomy, slow pull-out — on screen: **Different amounts** (in the brain)
+- `3:15` Footage: Lab assistant drips yellow liquid into test tube with reagent in chemical workshop slow motion, slow push-in — on screen: **Different enzymes** (make and break them down · episode 5)
+- `3:21` Footage: large intestine 3d illustration human digestive system, slow push-in — on screen: **Also outside the brain** (in the gut)
+- `3:25` Footage: red blood cells and white blood cells traveling through a blood vessel, follows the motion — on screen: **Immune system and other tissues** (like the receptors themselves)
+
+**3D animation used in this scene**
 
 Camera tour of 3D ball-and-stick molecules: anandamide, 2-AG, arachidonic acid; background: membrane.
 
-### 7. Not a classical neurotransmitter  <sub>Scene · 3:17–3:54</sub>
+### 7. Not a classical neurotransmitter  <sub>Scene · 3:32–4:11</sub>
 
 **Narration**
 
@@ -124,17 +186,32 @@ Camera tour of 3D ball-and-stick molecules: anandamide, 2-AG, arachidonic acid; 
 - Released immediately, act locally, rapidly degraded
 - Other candidates (noladin ether, virodhamine, NADA) less established
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `3:32` 3D animation (molecules/receptors) — on screen: **Not a classical neurotransmitter**
+- `3:36` 3D animation (molecules/receptors) — on screen: **Glutamate · dopamine** (made in advance, packed into vesicles)
+- `3:42` Footage: Hyperpolarization is an essential mechanism used by complex organisms to transmit signals across neurons allowing for the communication and coordination of behavior, follows the motion — on screen: **Released by a nerve impulse**
+- `3:45` 3D animation (molecules/receptors) — on screen: **Not stored at all**
+- `3:47` 3D animation (molecules/receptors) — on screen: **Made on demand** (cut out of membrane lipids)
+- `3:52` 3D animation (molecules/receptors) — on screen: **Released · act nearby · broken down**
+- `3:57` Footage: Closeup of female technician walking with rack full of test tubes with blood samples, slow push-in — on screen: **Other candidate lipids** (noladin ether · virodhamine · NADA)
+- `4:06` Footage: 3D Neural Network Animation Brain Neuron Communication and Connectivity, slow push-in — on screen: **Anandamide and 2-AG** (the best-established endocannabinoids)
+
+**3D animation used in this scene**
 
 3D synapse (presynaptic terminal, cleft, postsynaptic neuron) with vesicles, CB1 receptors, Ca²⁺ channel and 2-AG molecules; stages: classic, depol, release.
 
-### 8. Next: How the system works  <sub>Closing card · 3:55–4:03</sub>
+### 8. Next: How the system works  <sub>Closing card · 4:11–4:20</sub>
 
 **Narration**
 
 > In the final episode, we put the pieces together: how endocannabinoids are made and removed, and how they carry signals backwards across the synapse.
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `4:11` 3D animation (molecules/receptors) — on screen: **Next: How the System Works** (Made, removed, and signalling backwards)
+
+**3D animation used in this scene**
 
 Title card over a slowly orbiting 3D model of 2-AG, in a drifting particle field.
 

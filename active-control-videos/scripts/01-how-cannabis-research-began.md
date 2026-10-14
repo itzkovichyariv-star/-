@@ -2,7 +2,7 @@
 
 *The Science Behind Cannabis — From plant chemistry to a biological system*
 
-**Running time:** 3:50 (narrated video, 1920×1080)
+**Running time:** 4:04 (narrated video, 1920×1080)
 
 **Primary source:** Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811
 
@@ -16,17 +16,23 @@
 
 Each scene lists the narration (voice-over), the on-screen text and the visual. Timecodes come from the rendered narration.
 
-### 1. How Cannabis Research Began  <sub>Title card · 0:00–0:16</sub>
+### 1. How Cannabis Research Began  <sub>Title card · 0:00–0:18</sub>
 
 **Narration**
 
 > The Science Behind Cannabis. Episode one: How cannabis research began. In this episode we follow the story of how chemists and pharmacologists worked out what cannabis is made of, and how that work led to the discovery of a signalling system that exists in every one of us.
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:00` Footage: Panning through an abstract glass molecular network, slow push-in — on screen: **How Cannabis Research Began** (From plant chemistry to a biological system)
+- `0:05` Footage: Close up medical researcher working in the lab looking into microscope, dive in — on screen: **Chemists and pharmacologists** (what is cannabis made of?)
+- `0:12` Footage: 3D Neural Network Animation Brain Neuron Communication and Connectivity, emerge — on screen: **A signalling system** (present in every one of us)
+
+**3D animation used in this scene**
 
 Title card over a slowly orbiting 3D model of THC, in a drifting particle field.
 
-### 2. A plant studied for a long time  <sub>Scene · 0:17–0:45</sub>
+### 2. A plant studied for a long time  <sub>Scene · 0:18–0:49</sub>
 
 **Narration**
 
@@ -38,11 +44,21 @@ Title card over a slowly orbiting 3D model of THC, in a drifting particle field.
 - 1840s: William O'Shaughnessy describes cannabis to European medicine
 - Open question for a century: which molecules are responsible?
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:18` Footage: Aerial fly over of a beautiful marijuana CBD hemp field with strong sun flare, slow push-in — on screen: **Cannabis sativa** (cultivated for fibre, seed and oil)
+- `0:24` Footage: Chinese herbs Chinese herbal medicine, gentle drift — on screen: **Traditional medicine** (Asia and the Middle East)
+- `0:28` Footage: old book on a wooden table, slow push-in — on screen: **1840s · William O'Shaughnessy** (physician, Calcutta)
+- `0:33` Footage: Close-up of hands turning over an old book, pan — on screen: **Introduced to European medicine**
+- `0:36` Footage: Growing Plants Sprouts Germination, dive in — on screen: **The plant could be studied** (but not its chemistry)
+- `0:40` Footage: Chloroplast under a microscope, emerge — on screen: **Which molecules?** (the active constituents were unknown)
+- `0:45` Footage: Timelapse of the emergence of new life in nature, rising move — on screen: **About 100 years to answer**
+
+**3D animation used in this scene**
 
 Camera tour of 3D ball-and-stick molecules: ; background: trichomes.
 
-### 3. Why the chemistry was so hard  <sub>Scene · 0:46–1:22</sub>
+### 3. Why the chemistry was so hard  <sub>Scene · 0:49–1:29</sub>
 
 **Narration**
 
@@ -55,11 +71,22 @@ Camera tour of 3D ball-and-stick molecules: ; background: trichomes.
 - No chromatography or spectroscopy until mid-20th century
 - 1940s: Adams (USA) and Todd (UK) isolate CBD, define cannabinol
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:49` Footage: Composition with 1800s vintage Medicine Bottles, Victorian Era, slow push-in — on screen: **1890s · Cannabinol** (Wood, Spivey & Easterfield, Cambridge)
+- `0:55` Footage: Juice resin of pine tree forms amber - a trap for small insects, slow push-in — on screen: **"Red oil"** (a crude resin extract)
+- `0:59` Footage: Vintage alchemist laboratory full of medieval and old scrolls, slow pull-out — on screen: **Progress stalled for decades**
+- `1:02` Footage: Drop falling from leaf into water close-up, leaf juice, plant oil, slow push-in — on screen: **Lipophilic** (oily, fat-loving, non-crystalline)
+- `1:07` Footage: A vintage macro shot of clean water in a round bottom flask shaken in a medical lab, slow push-in — on screen: **No chromatography · no spectroscopy** (early 20th-century chemistry)
+- `1:15` Footage: close up alcohol lamp is boiling red chemical liquid in flask with lab glassware on black background, slow push-in — on screen: **1940s · Roger Adams (USA)** (cannabidiol isolated)
+- `1:19` Footage: Pharmacy and chemistry theme, pan — on screen: **Alexander Todd (UK)** (structure of cannabinol clarified)
+- `1:24` 3D animation (molecules/receptors) — on screen: **Main structures still uncertain**
+
+**3D animation used in this scene**
 
 Swirling cloud of hundreds of small molecules (a crude extract).
 
-### 4. 1963–1964: the structures are solved  <sub>Scene · 1:23–1:55</sub>
+### 4. 1963–1964: the structures are solved  <sub>Scene · 1:29–2:05</sub>
 
 **Narration**
 
@@ -72,11 +99,22 @@ Swirling cloud of hundreds of small molecules (a crude extract).
 - THC identified as the principal psychoactive constituent
 - 1965–1967: total synthesis of CBD and THC
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `1:29` Footage: The old city of golden dome of the rock,aerial flight,ramadan, 2024 \\nDrone view of old city of Jerusalem with al aqsa mosque, ramadan, April,03,2024, slow push-in — on screen: **Israel · 1960s**
+- `1:32` Footage: Scientist working with chemicals in laboratory, female researcher analyzing liquid reagent in lab glassware, dive in — on screen: **1963 · Cannabidiol (CBD)** (full structure: Mechoulam & Shvo)
+- `1:38` 3D animation (molecules/receptors), emerge — on screen: **1964 · Δ9-THC isolated** (Gaoni & Mechoulam)
+- `1:45` 3D animation (molecules/receptors) — on screen: **Pure form · structure determined**
+- `1:48` Footage: Aerial fly over of a beautiful marijuana CBD hemp field with strong sun flare, slow pull-out — on screen: **THC** (the principal psychoactive constituent)
+- `1:54` Footage: Scientist dripping pink liquid into chemical flask 4k movie, slow push-in — on screen: **1965–67 · Total synthesis** (THC and CBD made in the laboratory)
+- `2:00` Footage: scientist holding flask with lab glassware and test tubes in chemical laboratory background, science laboratory research and development concept, slow push-in — on screen: **Pure, well-defined compounds** (ready for pharmacology)
+- `2:05` Footage: Lab Research Test Tubes, slow push-in — on screen: **Pure THC** (a single, well-defined molecule)
+
+**3D animation used in this scene**
 
 Swirling cloud of hundreds of small molecules (a crude extract); Δ9-THC · 1964 is isolated and brought to the centre.
 
-### 5. From chemistry to pharmacology  <sub>Scene · 1:56–2:29</sub>
+### 5. From chemistry to pharmacology  <sub>Scene · 2:06–2:40</sub>
 
 **Narration**
 
@@ -89,11 +127,21 @@ Swirling cloud of hundreds of small molecules (a crude extract); Δ9-THC · 1964
 - 1970s–80s: structure–activity studies (Mechoulam, Pertwee, Howlett)
 - New question: how does THC act on cells?
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `2:08` Footage: Lab assistant drips yellow liquid into test tube with reagent in chemical workshop slow motion, slow push-in — on screen: **A known dose** (of one molecule, effects measured)
+- `2:15` Footage: A fascinating journey into the microcosm with this intricately designed 3D render of a molecule, slow pull-out — on screen: **Chemical variants** (one change at a time)
+- `2:21` Footage: analyzing :  hologram chemical structure in futuristic technology for testing in laboratory, slow push-in — on screen: **Which changes matter?** (structure–activity relationships)
+- `2:23` Footage: medical scientist team are working on science laboratory research term by using microscope and scientific equipment in experiment of medicine technology, pharmaceutical analysis education, slow push-in — on screen: **1970s–80s** (Mechoulam · Pertwee · Howlett)
+- `2:29` Footage: Side view of of a scientist working with a microscope in the lab, slow pull-out — on screen: **A new question**
+- `2:33` Footage: Simulated image of cell membrane, a component of cell wall proteins, dive in — on screen: **How does THC act on cells?** (a fat-loving molecule at the cell membrane)
+- `2:37` Footage: Neurons transmit sensory signals and motor commands, emerge — on screen: **The next discoveries**
+
+**3D animation used in this scene**
 
 Camera tour of 3D ball-and-stick molecules: Δ9-THC, shorter side chain (THCV), a synthetic analogue (HU-210).
 
-### 6. A decade of discoveries  <sub>Scene · 2:30–3:10</sub>
+### 6. A decade of discoveries  <sub>Scene · 2:41–3:24</sub>
 
 **Narration**
 
@@ -106,11 +154,22 @@ Camera tour of 3D ball-and-stick molecules: Δ9-THC, shorter side chain (THCV), 
 - 1992: anandamide · 1995: 2-AG, the body's own cannabinoids
 - 2001: endocannabinoids shown to signal between neurons
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `2:41` Footage: Seamless looping glowing X-ray image of human brain motion rotating 360 degrees angle in blue wireframe on isolated black background, slow push-in — on screen: **1988–2001** (from plant chemistry to biology)
+- `2:47` 3D animation (molecules/receptors) — on screen: **1988 · A binding site in the brain** (Howlett laboratory · radiolabelled probe)
+- `2:54` Footage: DNA abstract 3d polygonal molecule helix spiral background animation loop, pan — on screen: **1990 · CB1 receptor cloned** (the gene is identified)
+- `2:58` Footage: Scientist working in the lab,Make experiments and research to develop products from the company's customers,Work in a modern laboratory, slow push-in — on screen: **1992 · Anandamide** (Devane, Hanuš & Mechoulam)
+- `3:07` 3D animation (molecules/receptors) — on screen: **Made by the body itself** (the first endocannabinoid)
+- `3:10` Footage: red blood cells and white blood cells traveling through a blood vessel, slow push-in — on screen: **1993 · CB2 receptor cloned** (found on immune cells)
+- `3:14` 3D animation (molecules/receptors) — on screen: **1995 · 2-AG** (a second endocannabinoid)
+- `3:18` Footage: Neuronal and Synapse Activity animation showing chemical messengers or neurotransmitters released, slow push-in — on screen: **2001 · Signals between neurons**
+
+**3D animation used in this scene**
 
 Fly-through timeline in 3D space: 1988 — A cannabinoid binding site in brain; 1990 — CB1 receptor cloned; 1992 — Anandamide discovered; 1993 — CB2 receptor cloned; 1995 — 2-AG discovered; 2001 — Retrograde signalling at synapses.
 
-### 7. What the story reveals  <sub>Scene · 3:11–3:40</sub>
+### 7. What the story reveals  <sub>Scene · 3:25–3:56</sub>
 
 **Narration**
 
@@ -123,17 +182,33 @@ Fly-through timeline in 3D space: 1988 — A cannabinoid binding site in brain; 
 - Present in all vertebrates as part of normal physiology
 - Plant molecules fit into a system that already exists
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `3:25` Footage: Human brain, slow push-in — on screen: **The endocannabinoid system**
+- `3:29` Footage: Brain Cell Working, gentle drift — on screen: **A specific system** (not a vague, general action)
+- `3:32` 3D animation (molecules/receptors) — on screen: **Receptors** (CB1 in the cell membrane)
+- `3:38` 3D animation (molecules/receptors) — on screen: **Signalling molecules · Enzymes** (made on demand, broken down quickly)
+- `3:44` Footage: Close-up view of tropical fishes swimming on coral reef background, follows the motion — on screen: **All vertebrates** (part of normal physiology)
+- `3:46` Footage: White pigeon flying on black background, Ultra Slow Motion, rising move
+- `3:48` 3D animation (molecules/receptors) — on screen: **Plant molecules fit into it** (THC docks on CB1)
+- `3:51` Footage: A scientist in sterile clothing looks through a microscope, slow pull-out — on screen: **Each part, in turn**
+
+**3D animation used in this scene**
 
 Lipid bilayer with 7-helix receptor(s) CB1; actions: ligand-dock; ligands: 2-AG (made by the body), THC (from the plant).
 
-### 8. Next: What are cannabinoids?  <sub>Closing card · 3:41–3:49</sub>
+### 8. Next: What are cannabinoids?  <sub>Closing card · 3:56–4:04</sub>
 
 **Narration**
 
 > In the next episode, we look at the molecules themselves: what cannabinoids are, how they are built, and how the plant produces them.
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `3:56` Footage: A fascinating journey into the microcosm with this intricately designed 3D render of a molecule, slow push-in — on screen: **Next: What Are Cannabinoids?** (The molecules of the plant)
+- `4:01` Footage: the glare of the sun shines through the green leaves of the vine, gentle drift — on screen: **How the plant produces them**
+
+**3D animation used in this scene**
 
 Title card over a slowly orbiting 3D model of CBD, in a drifting particle field.
 

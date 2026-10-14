@@ -2,7 +2,7 @@
 
 *The Science Behind Cannabis — Synthesis, degradation and retrograde signalling*
 
-**Running time:** 5:45 (narrated video, 1920×1080)
+**Running time:** 6:00 (narrated video, 1920×1080)
 
 **Primary source:** Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811
 
@@ -16,17 +16,23 @@
 
 Each scene lists the narration (voice-over), the on-screen text and the visual. Timecodes come from the rendered narration.
 
-### 1. How the Endocannabinoid System Works  <sub>Title card · 0:00–0:14</sub>
+### 1. How the Endocannabinoid System Works  <sub>Title card · 0:00–0:15</sub>
 
 **Narration**
 
 > The Science Behind Cannabis. Episode five: How the endocannabinoid system works. We now have all the components: two receptors, two ligands, and the enzymes around them. In this episode we see how they operate together at the synapse.
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
 
-Title card over a slowly orbiting 3D model of 2-AG above a lipid membrane with a CB1 receptor, in a drifting particle field.
+- `0:00` 3D animation (molecules/receptors) — on screen: **How the Endocannabinoid System Works** (Receptors · ligands · enzymes)
+- `0:05` Footage: Animation of neuron cells and synaptic activity, slow push-in — on screen: **All the components** (two receptors · two ligands · their enzymes)
+- `0:10` Footage: Neuronal and Synapse Activity animation showing chemical messengers or neurotransmitters released, slow push-in — on screen: **Working together at the synapse**
 
-### 2. Three components, one system  <sub>Scene · 0:15–0:48</sub>
+**3D animation used in this scene**
+
+Title card over a slowly orbiting 3D model of 2-AG, in a drifting particle field.
+
+### 2. Three components, one system  <sub>Scene · 0:15–0:49</sub>
 
 **Narration**
 
@@ -39,11 +45,22 @@ Title card over a slowly orbiting 3D model of 2-AG above a lipid membrane with a
 - Enzymes: synthesis on demand, rapid degradation
 - Designed for brief, local messages
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:15` 3D animation (molecules/receptors) — on screen: **Three parts**
+- `0:18` 3D animation (molecules/receptors) — on screen: **1 · Receptors** (CB1 and CB2 detect the signal)
+- `0:23` 3D animation (molecules/receptors) — on screen: **2 · Ligands** (anandamide and 2-AG are the signal)
+- `0:26` 3D animation (molecules/receptors) — on screen: **3 · Enzymes** (control the signal in time)
+- `0:29` 3D animation (molecules/receptors) — on screen: **Build · then destroy** (when needed, and a moment later)
+- `0:35` Footage: Human neurons with firing synapses, slow push-in — on screen: **Made on demand · removed quickly**
+- `0:38` Footage: 4K Neuronal Activity, gentle drift — on screen: **Brief, local messages** (not long-lasting broadcasts)
+- `0:44` 3D animation (molecules/receptors) — on screen: **The enzymes are essential** (to understanding the system)
+
+**3D animation used in this scene**
 
 Lipid bilayer with 7-helix receptor(s) CB1, CB2; actions: ligand-dock; ligands: anandamide, 2-AG.
 
-### 3. Making the ligands  <sub>Scene · 0:49–1:27</sub>
+### 3. Making the ligands  <sub>Scene · 0:50–1:31</sub>
 
 **Narration**
 
@@ -56,11 +73,22 @@ Lipid bilayer with 7-helix receptor(s) CB1, CB2; actions: ligand-dock; ligands: 
 - Triggered by a rise in intracellular calcium or receptor activation
 - Ligand appears only when the cell is active
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `0:50` Footage: Simulated image of cell membrane, a component of cell wall proteins, slow push-in — on screen: **Cut out of membrane lipids**
+- `0:54` 3D animation (molecules/receptors) — on screen: **Anandamide** (from NAPE · mainly by NAPE-PLD)
+- `1:02` 3D animation (molecules/receptors) — on screen: **Alternative routes exist**
+- `1:05` 3D animation (molecules/receptors) — on screen: **2-AG in two steps**
+- `1:08` 3D animation (molecules/receptors) — on screen: **PLCβ → DAG · DAGL → 2-AG**
+- `1:16` Footage: Hyperpolarization is an essential mechanism used by complex organisms to transmit signals across neurons allowing for the communication and coordination of behavior, follows the motion — on screen: **Switched on by calcium** (a rise inside the cell)
+- `1:21` Footage: 3D animation of neurons structure sending electric impulses and communicating each other, gentle drift — on screen: **…or by other receptors**
+- `1:24` Footage: 3D Neural Network Animation Brain Neuron Communication and Connectivity, slow push-in — on screen: **Only when the cell is active** (that makes the system responsive)
+
+**3D animation used in this scene**
 
 Enzyme (translucent blob) NAPE-PLD assembles anandamide; DAGL assembles 2-AG.
 
-### 4. Removing the ligands  <sub>Scene · 1:28–2:09</sub>
+### 4. Removing the ligands  <sub>Scene · 1:31–2:14</sub>
 
 **Narration**
 
@@ -73,11 +101,23 @@ Enzyme (translucent blob) NAPE-PLD assembles anandamide; DAGL assembles 2-AG.
 - Also ABHD6, ABHD12, COX-2
 - Fast degradation: signals last seconds and stay local
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `1:31` 3D animation (molecules/receptors) — on screen: **Signals must also end**
+- `1:33` 3D animation (molecules/receptors) — on screen: **FAAH** (fatty acid amide hydrolase)
+- `1:38` Footage: Scientist working with chemicals in laboratory, female researcher analyzing liquid reagent in lab glassware, slow push-in — on screen: **1996** (Benjamin Cravatt's group)
+- `1:42` 3D animation (molecules/receptors) — on screen: **Anandamide is split** (→ arachidonic acid + ethanolamine)
+- `1:47` 3D animation (molecules/receptors) — on screen: **MAGL · 2002** (monoacylglycerol lipase)
+- `1:53` 3D animation (molecules/receptors) — on screen: **2-AG is split** (→ arachidonic acid + glycerol)
+- `1:57` Footage: Closeup of female technician walking with rack full of test tubes with blood samples, slow pull-out — on screen: **Other enzymes** (ABHD6 · ABHD12 · COX-2)
+- `2:04` Footage: 4K Neuronal Activity, slow pull-out — on screen: **Fast degradation** (the signal lasts only seconds)
+- `2:10` 3D animation (molecules/receptors) — on screen: **Stays close** (to where it was made)
+
+**3D animation used in this scene**
 
 Enzyme (translucent blob) FAAH cuts anandamide → arachidonic acid, ethanolamine; MAGL cuts 2-AG → arachidonic acid, glycerol.
 
-### 5. Signalling backwards: the discovery  <sub>Scene · 2:10–2:44</sub>
+### 5. Signalling backwards: the discovery  <sub>Scene · 2:14–2:51</sub>
 
 **Narration**
 
@@ -90,11 +130,24 @@ Enzyme (translucent blob) FAAH cuts anandamide → arachidonic acid, ethanolamin
 - Messenger: an endocannabinoid
 - Direction: from receiving neuron back to sending neuron → retrograde
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `2:14` 3D animation (molecules/receptors) — on screen: **Where in the synapse?**
+- `2:17` Footage: scientist holding flask with lab glassware and test tubes in chemical laboratory background, science laboratory research and development concept, slow push-in — on screen: **2001 · three laboratories** (working independently)
+- `2:22` Footage: Beautiful aerial view of the Golden Gate bridge in San Francisco, California, slow push-in — on screen: **San Francisco** (Rachel Wilson & Roger Nicoll)
+- `2:25` Footage: Aerial view 4k video by drone of building in Tokyo city  Japan on sunrise, slow push-in — on screen: **Japan** (Takako Ohno-Shosaku & Masanobu Kano)
+- `2:28` Footage: Aerial view of Boston at night, slow push-in — on screen: **Boston** (Anatol Kreitzer & Wade Regehr)
+- `2:31` 3D animation (molecules/receptors) — on screen: **Postsynaptic neuron strongly activated**
+- `2:35` Footage: Hyperpolarization is an essential mechanism used by complex organisms to transmit signals across neurons allowing for the communication and coordination of behavior, follows the motion — on screen: **Its inputs briefly suppressed**
+- `2:38` 3D animation (molecules/receptors) — on screen: **An endocannabinoid messenger** (travelling the reverse way)
+- `2:44` 3D animation (molecules/receptors) — on screen: **Receiving neuron → sending neuron**
+- `2:49` Footage: Neuronal and Synapse Activity animation showing chemical messengers or neurotransmitters released, slow push-in — on screen: **Retrograde signalling**
+
+**3D animation used in this scene**
 
 Network of procedurally grown neurons with pulses travelling along axons; CB1 terminals glow.
 
-### 6. Retrograde signalling, step by step  <sub>Scene · 2:45–3:24</sub>
+### 6. Retrograde signalling, step by step  <sub>Scene · 2:52–3:33</sub>
 
 **Narration**
 
@@ -107,11 +160,23 @@ Network of procedurally grown neurons with pulses travelling along axons; CB1 te
 - 4–5. 2-AG binds presynaptic CB1 → Ca²⁺ channels close, K⁺ channels open
 - 6. Less transmitter released (GABA → DSI; glutamate → DSE)
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `2:52` 3D animation (molecules/receptors) — on screen: **Step by step**
+- `2:53` 3D animation (molecules/receptors) — on screen: **1 · Calcium enters** (the postsynaptic neuron is activated)
+- `2:58` 3D animation (molecules/receptors) — on screen: **2 · 2-AG is produced** (calcium switches on the enzymes)
+- `3:04` 3D animation (molecules/receptors) — on screen: **3 · 2-AG crosses backwards**
+- `3:07` 3D animation (molecules/receptors) — on screen: **4 · Binds CB1** (on the presynaptic terminal)
+- `3:11` 3D animation (molecules/receptors) — on screen: **5 · Ca²⁺ channels close** (K⁺ channels open)
+- `3:18` 3D animation (molecules/receptors) — on screen: **6 · Less transmitter released**
+- `3:23` Footage: 3D animation of neurons structure sending electric impulses and communicating each other, gentle drift — on screen: **DSI · DSE** (GABA terminals · glutamate terminals)
+- `3:28` 3D animation (molecules/receptors) — on screen: **Input tuned down** (by the receiving cell itself)
+
+**3D animation used in this scene**
 
 3D synapse (presynaptic terminal, cleft, postsynaptic neuron) with vesicles, CB1 receptors, Ca²⁺ channel and 2-AG molecules; stages: depol, release, bind, inhibit.
 
-### 7. A feedback system for synapses  <sub>Scene · 3:25–4:02</sub>
+### 7. A feedback system for synapses  <sub>Scene · 3:33–4:12</sub>
 
 **Narration**
 
@@ -124,11 +189,21 @@ Network of procedurally grown neurons with pulses travelling along axons; CB1 te
 - CB1 on inhibitory and excitatory terminals across many circuits
 - CB2 on immune cells: part of immune signalling
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `3:33` 3D animation (molecules/receptors) — on screen: **A feedback mechanism**
+- `3:38` Footage: Animation of neuron cells and synaptic activity, gentle drift — on screen: **Adjusting its own inputs** (according to its own activity)
+- `3:44` Footage: Human neurons with firing synapses, slow push-in — on screen: **Seconds…** (or longer-lasting changes)
+- `3:51` 3D animation (molecules/receptors) — on screen: **Long-term depression** (a form of synaptic plasticity)
+- `3:54` Footage: human brain internal parts anatomy, slow push-in — on screen: **Cortex · hippocampus** (CB1 on inhibitory and excitatory terminals)
+- `4:01` 3D animation (molecules/receptors) — on screen: **Many brain circuits** (basal ganglia · cerebellum)
+- `4:06` Footage: red blood cells and white blood cells traveling through a blood vessel, follows the motion — on screen: **CB2 on immune cells** (part of immune signalling)
+
+**3D animation used in this scene**
 
 Network of procedurally grown neurons with pulses travelling along axons; CB1 terminals glow.
 
-### 8. Where plant cannabinoids fit in  <sub>Scene · 4:03–4:46</sub>
+### 8. Where plant cannabinoids fit in  <sub>Scene · 4:13–5:00</sub>
 
 **Narration**
 
@@ -141,11 +216,24 @@ Network of procedurally grown neurons with pulses travelling along axons; CB1 te
 - THC: arrives via bloodstream, not cleared by synaptic enzymes, reaches many circuits at once
 - CBD: weak at CB1; reported targets include TRPV1 and FAAH
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `4:13` 3D animation (molecules/receptors) — on screen: **Where plant cannabinoids fit in**
+- `4:18` 3D animation (molecules/receptors) — on screen: **THC · partial agonist** (at CB1 and CB2)
+- `4:21` 3D animation (molecules/receptors) — on screen: **Same receptors** (occupied and activated)
+- `4:26` 3D animation (molecules/receptors) — on screen: **Less fully than 2-AG**
+- `4:29` Footage: Neuronal and Synapse Activity animation showing chemical messengers or neurotransmitters released, slow pull-out — on screen: **Timing and location**
+- `4:32` Footage: Animation of neuron cells and synaptic activity, slow push-in — on screen: **An endocannabinoid** (one synapse · gone within seconds)
+- `4:38` Footage: Red blood cells moving within the bloodstream, follows the motion — on screen: **THC arrives via the bloodstream** (not made or removed by synaptic enzymes)
+- `4:44` Footage: 3D Neural Network Animation Brain Neuron Communication and Connectivity, slow pull-out — on screen: **Many circuits at once**
+- `4:50` 3D animation (molecules/receptors) — on screen: **CBD** (binds CB1 only weakly)
+- `4:56` Footage: Red Hot chili pepper on fire and smoke at black background, slow push-in — on screen: **Other targets** (the TRPV1 channel · the enzyme FAAH)
+
+**3D animation used in this scene**
 
 Lipid bilayer with 7-helix receptor(s) CB1, CB1, CB1; actions: ligand-dock; ligands: 2-AG · made here, gone in seconds, THC · arrives via the bloodstream, THC, THC.
 
-### 9. Beyond CB1 and CB2  <sub>Scene · 4:46–5:29</sub>
+### 9. Beyond CB1 and CB2  <sub>Scene · 5:00–5:44</sub>
 
 **Narration**
 
@@ -158,19 +246,37 @@ Lipid bilayer with 7-helix receptor(s) CB1, CB1, CB1; actions: ligand-dock; liga
 - 1998: 'entourage effect' — co-released lipids enhance 2-AG activity
 - A widespread lipid signalling system; research continues
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
+
+- `5:00` 3D animation (molecules/receptors) — on screen: **The picture keeps growing**
+- `5:03` Footage: Red Hot chili pepper on fire and smoke at black background, slow pull-out — on screen: **Anandamide also activates TRPV1**
+- `5:05` Footage: Macro, DOF spicy red chili peppers grow on a small plant in a sustainable garden, gentle drift — on screen: **Heat · capsaicin** (from chilli peppers)
+- `5:10` 3D animation (molecules/receptors) — on screen: **GPR55 · PPARs** (other proteins that respond)
+- `5:18` 3D animation (molecules/receptors) — on screen: **1998 · Ben-Shabat & Mechoulam**
+- `5:24` 3D animation (molecules/receptors) — on screen: **Related lipids** (boost 2-AG without binding the receptor)
+- `5:29` 3D animation (molecules/receptors) — on screen: **Entourage effect**
+- `5:32` Footage: A vintage macro shot of clean water in a round bottom flask shaken in a medical lab, slow push-in — on screen: **First revealed by plant chemistry**
+- `5:37` Footage: Sunrise over Planet Earth, view from the International orbital space station, spectacular view our Planet from space, slow push-in — on screen: **A widespread lipid signalling system** (of the vertebrate body)
+- `5:42` Footage: Animation of neuron cells and synaptic activity, gentle drift — on screen: **Research continues**
+
+**3D animation used in this scene**
 
 Camera tour of 3D ball-and-stick molecules: anandamide, 2-AG, 2-palmitoylglycerol, 2-linoleoylglycerol; background: membrane.
 
-### 10. End of the series  <sub>Closing card · 5:30–5:44</sub>
+### 10. End of the series  <sub>Closing card · 5:45–6:00</sub>
 
 **Narration**
 
 > This concludes The Science Behind Cannabis: from the isolation of THC in 1964, to the receptors, the body's own ligands, and the enzymes and synapses that make up the endocannabinoid system. Thank you for watching.
 
-**Visual (3D scene)**
+**Visual (documentary cut, shot by shot)**
 
-Title card over a slowly orbiting 3D model of THC above a lipid membrane with a CB1 receptor, in a drifting particle field.
+- `5:45` 3D animation (molecules/receptors) — on screen: **The Science Behind Cannabis** (End of the series)
+- `5:52` Footage: Sunrise over Planet Earth, view from the International orbital space station, spectacular view our Planet from space, slow pull-out — on screen: **1964 → receptors → ligands → enzymes → synapses**
+
+**3D animation used in this scene**
+
+Title card over a slowly orbiting 3D model of THC, in a drifting particle field.
 
 ## Comprehension check (attention check)
 

@@ -12,13 +12,13 @@ The review is a history-of-discovery and basic-science paper: isolation of the p
 
 | # | Video | Script | Topic | Length |
 |---|---|---|---|---|
-| 1 | `output/01-how-cannabis-research-began.mp4` | `scripts/01-how-cannabis-research-began.md` | How cannabis research began: from plant chemistry to a biological system | 3:50 |
-| 2 | `output/02-what-are-cannabinoids.mp4` | `scripts/02-what-are-cannabinoids.md` | What are cannabinoids? Phytocannabinoids, biosynthesis, three families | 3:57 |
-| 3 | `output/03-discovery-of-cannabinoid-receptors.mp4` | `scripts/03-discovery-of-cannabinoid-receptors.md` | How were the receptors discovered? Adenylyl cyclase, binding, brain map, cloning | 4:38 |
-| 4 | `output/04-endocannabinoids-anandamide-and-2ag.mp4` | `scripts/04-endocannabinoids-anandamide-and-2ag.md` | The body's own cannabinoids: anandamide (1992) and 2-AG (1995) | 4:04 |
-| 5 | `output/05-how-the-endocannabinoid-system-works.mp4` | `scripts/05-how-the-endocannabinoid-system-works.md` | How the system works: synthesis, degradation, retrograde signalling | 5:45 |
+| 1 | `output/01-how-cannabis-research-began.mp4` | `scripts/01-how-cannabis-research-began.md` | How cannabis research began: from plant chemistry to a biological system | 4:04 |
+| 2 | `output/02-what-are-cannabinoids.mp4` | `scripts/02-what-are-cannabinoids.md` | What are cannabinoids? Phytocannabinoids, biosynthesis, three families | 4:12 |
+| 3 | `output/03-discovery-of-cannabinoid-receptors.mp4` | `scripts/03-discovery-of-cannabinoid-receptors.md` | How were the receptors discovered? Adenylyl cyclase, binding, brain map, cloning | 4:52 |
+| 4 | `output/04-endocannabinoids-anandamide-and-2ag.mp4` | `scripts/04-endocannabinoids-anandamide-and-2ag.md` | The body's own cannabinoids: anandamide (1992) and 2-AG (1995) | 4:20 |
+| 5 | `output/05-how-the-endocannabinoid-system-works.mp4` | `scripts/05-how-the-endocannabinoid-system-works.md` | How the system works: synthesis, degradation, retrograde signalling | 6:00 |
 
-Total ≈ 22 minutes. Each video has a matching `.srt` subtitle file in `output/`. One episode per session/week gives a dose of exposure comparable to a brief weekly chatbot interaction.
+Total ≈ 23.5 minutes. Each video has a matching `.srt` subtitle file in `output/`. One episode per session/week gives a dose of exposure comparable to a brief weekly chatbot interaction.
 
 ## Neutrality rules (what keeps the control condition inert)
 
@@ -29,7 +29,7 @@ Total ≈ 22 minutes. Each video has a matching `.srt` subtitle file in `output/
 | Mechanisms: receptors, ligands, enzymes, synaptic signalling | Craving, motivation, goal setting, self-monitoring, coping strategies |
 | Short factual comprehension questions (attention checks) | Reflective questions about the viewer's own use ("think about…") |
 | "This is how it works" phrasing | "You should / should not", warnings, advice, reassurance |
-| Abstract motion graphics | Footage of consumption, products, shops, or people using |
+| Laboratory, cell, nature and archive-style footage; 3D molecules and receptors | Footage of consumption, smoking, products, shops, or people using |
 
 Each script ends with a *Neutrality check* paragraph stating what was left out of that episode. Before fielding, a second team member should read the five scripts and flag any sentence that could be read as a behavioural message.
 
@@ -42,35 +42,48 @@ Two places were handled with particular care:
 
 1. Learning objectives (2–3)
 2. The narration, scene by scene, with timecodes from the rendered video
-3. On-screen text and a description of the visual for each scene
+3. On-screen text, plus a shot-by-shot description of the documentary cut (which footage or 3D insert appears when, and the key-term tag on screen)
 4. Three comprehension questions with answers (for attention checks)
 5. Neutrality check
 6. Sources
 
 ## Production notes
 
-- **Narration:** English, synthetic voice (Piper `en_US-lessac-medium`, run offline through sherpa-onnx). The voice is clear but recognisably synthetic; if a human voice-over is preferred, record each scene's narration and drop the WAVs into the work folder as `s1.wav`, `s2.wav`, … — the renderer times every scene from the audio, so no re-editing is needed.
-- **Visuals:** full-frame 3D scenes rendered with Three.js in headless Chromium (software WebGL), 1920×1080 at 24 fps. Molecules are real 3D conformers generated with RDKit from SMILES (THC, CBD, CBG, CBC, CBN, THCV, the acid precursors, anandamide, 2-AG, arachidonic acid, CP-55,940, HU-210, terpenes, morphine, cAMP…), drawn ball-and-stick. Set pieces: a glandular-trichome field, a crude-extract molecule cloud, a fly-through discovery timeline, a lipid bilayer with 7-helix receptors (ligand docking, G-protein engagement, cAMP depletion, receptor knockout), membrane vesicles with radiolabelled probes, a point-cloud brain with regions lighting up, a synapse with vesicle release, calcium entry and retrograde 2-AG signalling, procedurally grown neuron networks with travelling pulses, and enzymes that cut or assemble molecules (decarboxylation, FAAH/MAGL hydrolysis, NAPE-PLD/DAGL synthesis). Every element is a pure function of time, so renders are reproducible. Text (title cards, scene lower-thirds, captions) is burned in by ffmpeg from an ASS overlay so it stays crisp.
-- **Subtitles:** burned-in captions plus a separate `.srt` per episode.
+- **Format:** documentary-style cut, 1920×1080 at 24 fps. Every narrated sentence gets its own shot, cut on the sentence start, so the picture follows the narration: lab work when an experiment is described, a dive from a microscope or a leaf into cells, then 3D molecules binding a receptor when the mechanism is explained.
+- **Real footage:** licensed clips from the Adobe Stock free collection (lab work, microscopy, cells and neurons, plants growing, places such as Jerusalem, Cambridge, San Francisco). Each clip is graded to one look and given a motion that suits its subject: plants rise as they grow, fish and cells are followed in their direction of travel, close-ups push in or dive. The list of clips with titles and links is in `assets/stock_footage.json`. The raw clips are not stored in this repository (licence terms); they are re-downloaded with the project's Adobe account when rebuilding.
+- **3D inserts:** molecules and receptors rendered with Three.js in headless Chromium (software WebGL). Molecules are real 3D conformers generated with RDKit from SMILES (THC, CBD, CBG, CBC, CBN, THCV, the acid precursors, anandamide, 2-AG, arachidonic acid, CP-55,940, HU-210, terpenes, morphine, cAMP…). Set pieces: a crude-extract molecule cloud, a discovery timeline, a lipid bilayer with 7-helix receptors (ligand docking, G-protein engagement, cAMP drop, gene knockout), membrane vesicles with radiolabelled probes, a point-cloud brain with regions lighting up, a synapse with vesicle release and retrograde 2-AG signalling, neuron networks, and enzymes that cut or assemble molecules.
+- **Narration:** English, Kokoro neural voice (`bm_george`, run offline through sherpa-onnx). To use a human voice-over instead, record each scene's narration as `s1.wav`, `s2.wav`, … in the work folder; the timings, captions and cuts follow the audio.
+- **Sound:** a quiet ambient music bed under the voice (ducked during speech), soft whooshes on scene changes and a chime when a molecule docks.
+- **Text:** title cards, key-term tags (term + short explanation) and captions, burned in by ffmpeg from ASS so they stay crisp. A separate `.srt` per episode is in `output/`.
 - **Font:** Inter (SIL Open Font License), bundled in `assets/fonts/`.
 
 ## Rebuilding
 
 ```
 active-control-videos/
-├── episodes/      # source of truth: one JSON per episode (narration, on-screen text, visuals, quiz, sources)
+├── episodes/      # source of truth: one JSON per episode (narration, on-screen text, 3D scenes, quiz, sources)
+├── shotlists/     # documentary cut: one shot per sentence (stock clip or 3D insert, in-point, motion, tag)
 ├── scripts/       # generated Markdown scripts
 ├── output/        # rendered MP4 + SRT
-├── assets/fonts/
+├── assets/        # fonts, molecules.json, audio bed/SFX, stock_footage.json (clip catalogue)
 └── build/
     ├── tts.py           # narration → per-scene WAV, timing.json, captions.srt
-    ├── ass.py           # timing + episode JSON → overlay.ass (title cards, lower-thirds, captions)
+    ├── soundtrack.py    # music bed + SFX;  mix.py → mix.wav (voice + ducked music + SFX)
+    ├── ass.py           # overlay for the pure-3D render
     ├── molecules.py     # SMILES → 3D conformers (RDKit) → assets/molecules/molecules.json
-    ├── scene3d/         # Three.js engine: engine.html + engine.js (scene set pieces)
-    ├── render3d.js      # episode JSON + timing + overlay → MP4 (Playwright WebGL + ffmpeg)
+    ├── scene3d/         # Three.js engine (engine.html + engine.js)
+    ├── render3d.js      # episode JSON + timing → 3D MP4 (Playwright WebGL + ffmpeg)
+    ├── edit.py          # shot list + stock clips + 3D pass + mix.wav → final documentary MP4
     ├── render.js        # the earlier 2D motion-graphics renderer (kept for reference)
-    ├── make_scripts.py  # episode JSON → Markdown scripts
+    ├── make_scripts.py  # episode JSON + shot list → Markdown scripts
     └── build_all.sh     # runs everything
 ```
 
-Edit the JSON, then run `build/build_all.sh` (requirements are listed at the top of that script). Each scene's `scene3d` block names a set piece (`title`, `molecules`, `mixture`, `timeline`, `membrane`, `vesicles`, `brain`, `synapse`, `network`, `enzyme`) and its parameters; `at` values are fractions of the scene's duration, so changing the narration re-times everything automatically. The 3D render is software-rendered and takes roughly 0.3–0.6 s per frame.
+Steps (see `build/build_all.sh`):
+
+1. `tts.py`, `mix.py` and `ass.py` for each episode (audio and timing).
+2. `render3d.js --notext` for each episode: a clean full-length 3D pass, saved as `media/3d/epNN_full.mp4`.
+3. Download the clips listed in the shot lists into `media/stock/<id>.mov` (Adobe Stock, free collection, 1080p).
+4. `edit.py shotlists/<episode>.json <work>/<episode> output/<episode>.mp4 --media media` cuts the final video.
+
+To change a shot, edit its line in the shot list (`t` = cut time in seconds, `src` = `stock:<id>` or `file:3d/...`, `in` = in-point, `motion` = push, pull, pan-left/right, dive, emerge, rise, sink, follow-left/right, drift or still, `label`/`sub` = the key-term tag) and re-run step 4 only; it takes a few minutes. The 3D pass is software-rendered (about 0.3–1 s per frame) and only needs re-rendering when the narration or a `scene3d` block changes.
