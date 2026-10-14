@@ -251,7 +251,7 @@ Lipid bilayer with 7-helix receptor(s) CB1, CB1, CB1; actions: ligand-dock; liga
 - `5:00` 3D animation (molecules/receptors) — on screen: **The picture keeps growing**
 - `5:03` Footage: Red Hot chili pepper on fire and smoke at black background, slow pull-out — on screen: **Anandamide also activates TRPV1**
 - `5:05` Footage: Macro, DOF spicy red chili peppers grow on a small plant in a sustainable garden, gentle drift — on screen: **Heat · capsaicin** (from chilli peppers)
-- `5:10` 3D animation (molecules/receptors) — on screen: **GPR55 · PPARs** (other proteins that respond)
+- `5:10` Footage: Human neurons with firing synapses, gentle drift — on screen: **GPR55 · PPARs** (other proteins that respond to some cannabinoids)
 - `5:18` 3D animation (molecules/receptors) — on screen: **1998 · Ben-Shabat & Mechoulam**
 - `5:24` 3D animation (molecules/receptors) — on screen: **Related lipids** (boost 2-AG without binding the receptor)
 - `5:29` 3D animation (molecules/receptors) — on screen: **Entourage effect**

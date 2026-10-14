@@ -476,7 +476,7 @@
   {
    "t": 300.4,
    "src": "file:3d/ep05_full.mp4",
-   "in": 300.7,
+   "in": 303.8,
    "motion": "still",
    "label": "The picture keeps growing"
   },
@@ -496,11 +496,11 @@
   },
   {
    "t": 309.9,
-   "src": "file:3d/ep05_full.mp4",
-   "in": 311.0,
-   "motion": "still",
+   "src": "stock:186895946",
+   "in": 2.0,
+   "motion": "drift",
    "label": "GPR55 · PPARs",
-   "sub": "other proteins that respond"
+   "sub": "other proteins that respond to some cannabinoids"
   },
   {
    "t": 318.3,

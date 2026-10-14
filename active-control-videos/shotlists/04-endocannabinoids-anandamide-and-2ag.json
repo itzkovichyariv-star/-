@@ -18,8 +18,8 @@
   },
   {
    "t": 7.8,
-   "src": "file:3d/ep04_full.mp4",
-   "in": 22.0,
+   "src": "file:3d/ep01_s7.mp4",
+   "in": 2.0,
    "motion": "still",
    "label": "A receptor implies a ligand",
    "sub": "a molecule made by the body to activate it"
@@ -92,9 +92,8 @@
   },
   {
    "t": 56.1,
-   "src": "file:3d/ep04_full.mp4",
-   "in": 56.5,
-   "motion": "still",
+   "src": "stock:191326402",
+   "motion": "push",
    "label": "A key assumption"
   },
   {
@@ -333,9 +332,9 @@
   },
   {
    "t": 211.8,
-   "src": "file:3d/ep04_full.mp4",
-   "in": 212.0,
-   "motion": "still",
+   "src": "stock:124243351",
+   "in": 2.0,
+   "motion": "drift",
    "label": "Not a classical neurotransmitter"
   },
   {

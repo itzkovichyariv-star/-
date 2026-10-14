@@ -76,7 +76,7 @@ Lipid bilayer with 7-helix receptor(s) cannabinoid receptor; actions: ligand-doc
 
 **Visual (documentary cut, shot by shot)**
 
-- `0:56` 3D animation (molecules/receptors) — on screen: **A key assumption**
+- `0:56` Footage: Scientist working with chemicals in laboratory, female researcher analyzing liquid reagent in lab glassware, slow push-in — on screen: **A key assumption**
 - `0:58` Footage: transparent green oil bubbles and fluid shapes in purified water on a white gradient background, gentle drift — on screen: **Probably a lipid** (the receptor binds very lipophilic molecules)
 - `1:04` 3D animation (molecules/receptors) — on screen: **Not a peptide or amino acid** (unlike most known neurotransmitters)
 - `1:09` Footage: Pouring olive oil from glass bottle, slow push-in — on screen: **Fatty fractions** (instead of water-soluble extracts)
@@ -188,7 +188,7 @@ Camera tour of 3D ball-and-stick molecules: anandamide, 2-AG, arachidonic acid; 
 
 **Visual (documentary cut, shot by shot)**
 
-- `3:32` 3D animation (molecules/receptors) — on screen: **Not a classical neurotransmitter**
+- `3:32` Footage: 3D animation of neurons structure sending electric impulses and communicating each other, gentle drift — on screen: **Not a classical neurotransmitter**
 - `3:36` 3D animation (molecules/receptors) — on screen: **Glutamate · dopamine** (made in advance, packed into vesicles)
 - `3:42` Footage: Hyperpolarization is an essential mechanism used by complex organisms to transmit signals across neurons allowing for the communication and coordination of behavior, follows the motion — on screen: **Released by a nerve impulse**
 - `3:45` 3D animation (molecules/receptors) — on screen: **Not stored at all**
