@@ -78,7 +78,7 @@ Lipid bilayer with 7-helix receptor(s) receptor; actions: receptor-vanish, recep
 
 **Visual (documentary cut, shot by shot)**
 
-- `0:54` Footage: scientist team has researching in the laboratory, meeting and writing analysis results in the laboratory : 4k, slow push-in — on screen: **Three clues** (pointing to a receptor)
+- `0:54` Footage: Pharmacy and chemistry theme, gentle drift — on screen: **Three clues** (pointing to a receptor)
 - `0:57` 3D animation (molecules/receptors) — on screen: **1 · Stereoselectivity** (natural THC active · mirror image almost inactive)
 - `1:04` 3D animation (molecules/receptors) — on screen: **Handedness matters** (a membrane could not tell them apart)
 - `1:07` 3D animation (molecules/receptors) — on screen: **2 · Structure–activity** (a shorter side chain changes potency)

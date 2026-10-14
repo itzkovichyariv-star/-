@@ -106,9 +106,9 @@
   },
   {
    "t": 53.6,
-   "src": "stock:328800722",
-   "in": 2.0,
-   "motion": "push",
+   "src": "stock:246881887",
+   "in": 1.0,
+   "motion": "drift",
    "label": "Three clues",
    "sub": "pointing to a receptor"
   },
