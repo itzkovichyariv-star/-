@@ -285,7 +285,7 @@
             ],
             "assembleOffset": 10,
             "halo": "0xf59e0b",
-            "labelY": -7
+            "labelY": 8
           }
         ],
         "cam": {
@@ -343,7 +343,7 @@
             ],
             "assembleOffset": 10,
             "halo": "0xf59e0b",
-            "labelY": -7
+            "labelY": 8
           }
         ],
         "cam": {
@@ -415,7 +415,7 @@
             ],
             "at": 0.05,
             "focusAt": 0.05,
-            "labelY": -7
+            "labelY": 8
           },
           {
             "mol": "2-AG",
@@ -428,7 +428,7 @@
             ],
             "at": 0.1,
             "focusAt": 0.3,
-            "labelY": -7
+            "labelY": 8
           },
           {
             "mol": "arachidonic_acid",
@@ -441,7 +441,7 @@
             ],
             "at": 0.55,
             "focusAt": 0.58,
-            "labelY": -6
+            "labelY": 7
           }
         ],
         "cam": {

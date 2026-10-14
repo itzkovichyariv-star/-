@@ -806,7 +806,7 @@
             ],
             "at": 0.05,
             "focusAt": 0.05,
-            "labelY": -7
+            "labelY": 8
           },
           {
             "mol": "2-AG",
@@ -819,7 +819,7 @@
             ],
             "at": 0.45,
             "focusAt": 0.48,
-            "labelY": -7,
+            "labelY": 8,
             "halo": "0xf59e0b"
           },
           {
@@ -832,7 +832,7 @@
             ],
             "at": 0.5,
             "scale": 0.7,
-            "labelY": -6,
+            "labelY": 7,
             "labelColor": "#9fb0c9"
           },
           {
@@ -845,7 +845,7 @@
             ],
             "at": 0.55,
             "scale": 0.7,
-            "labelY": -6,
+            "labelY": 7,
             "labelColor": "#9fb0c9"
           }
         ],

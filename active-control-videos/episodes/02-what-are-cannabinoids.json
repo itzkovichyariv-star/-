@@ -504,7 +504,7 @@
             ],
             "at": 0.5,
             "focusAt": 0.5,
-            "labelY": -7
+            "labelY": 8
           },
           {
             "mol": "THC_mirror",
@@ -516,7 +516,7 @@
             ],
             "at": 0.56,
             "labelColor": "#9fb0c9",
-            "labelY": -7
+            "labelY": 8
           }
         ],
         "cam": {
