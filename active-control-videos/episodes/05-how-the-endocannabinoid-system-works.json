@@ -18,8 +18,40 @@
       "scene3d": {
         "type": "title",
         "mol": "2-AG",
-        "receptor": true,
-        "phase": 0.2
+        "bg": "network",
+        "palette": "teal",
+        "phase": 0.2,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -143,7 +175,89 @@
           "height": 12,
           "speed": 0.04,
           "phase": 0.7
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -40,
+              26,
+              80
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.08,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 18,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.25,
+            "anchor": "ligand0",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand0",
+            "move": 1.5
+          },
+          {
+            "at": 0.33,
+            "orbit": {
+              "anchor": "receptor1",
+              "r": 18,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 1.5
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.45,
+            "anchor": "enzyme0",
+            "offset": [
+              10,
+              6,
+              17
+            ],
+            "lookAt": "enzyme0",
+            "move": 2
+          },
+          {
+            "at": 0.58,
+            "anchor": "enzyme1",
+            "offset": [
+              10,
+              6,
+              17
+            ],
+            "lookAt": "enzyme1",
+            "move": 2.5
+          },
+          {
+            "at": 0.75,
+            "orbit": {
+              "anchor": "center",
+              "r": 46,
+              "h": 16,
+              "speed": 0.04,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -289,7 +403,103 @@
           "height": 5,
           "speed": 0.05,
           "phase": 0.5
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              10,
+              64
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.04,
+            "anchor": "item0",
+            "offset": [
+              0,
+              8,
+              24
+            ],
+            "lookAt": "item0",
+            "move": 2
+          },
+          {
+            "at": 0.12,
+            "orbit": {
+              "anchor": "enzyme0",
+              "r": 18,
+              "h": 4,
+              "speed": 0.09,
+              "phase": 0.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 5,
+              "speed": 0.06,
+              "phase": 2.0
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.38,
+            "anchor": "item1",
+            "offset": [
+              0,
+              8,
+              24
+            ],
+            "lookAt": "item1",
+            "move": 2.5
+          },
+          {
+            "at": 0.42,
+            "orbit": {
+              "anchor": "enzyme1",
+              "r": 18,
+              "h": 4,
+              "speed": 0.09,
+              "phase": 1.2
+            },
+            "move": 2
+          },
+          {
+            "at": 0.62,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 5,
+              "speed": 0.06,
+              "phase": 2.7
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              0,
+              12,
+              56
+            ],
+            "look": [
+              0,
+              0,
+              -2
+            ],
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -412,7 +622,103 @@
           "height": 5,
           "speed": 0.05,
           "phase": 2.6
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              10,
+              64
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.04,
+            "anchor": "item0",
+            "offset": [
+              0,
+              8,
+              24
+            ],
+            "lookAt": "item0",
+            "move": 2
+          },
+          {
+            "at": 0.12,
+            "orbit": {
+              "anchor": "enzyme0",
+              "r": 18,
+              "h": 4,
+              "speed": 0.09,
+              "phase": 2.6
+            },
+            "move": 2
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 5,
+              "speed": 0.06,
+              "phase": 4.1
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.38,
+            "anchor": "item1",
+            "offset": [
+              0,
+              8,
+              24
+            ],
+            "lookAt": "item1",
+            "move": 2.5
+          },
+          {
+            "at": 0.42,
+            "orbit": {
+              "anchor": "enzyme1",
+              "r": 18,
+              "h": 4,
+              "speed": 0.09,
+              "phase": 3.3
+            },
+            "move": 2
+          },
+          {
+            "at": 0.62,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 5,
+              "speed": 0.06,
+              "phase": 4.800000000000001
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              0,
+              12,
+              56
+            ],
+            "look": [
+              0,
+              0,
+              -2
+            ],
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -470,7 +776,70 @@
         ],
         "cam": {
           "dolly": 40
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -20,
+              20,
+              130
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.15,
+            "anchor": "pulse0",
+            "offset": [
+              10,
+              6,
+              22
+            ],
+            "lookAt": "pulse0",
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "neuron3",
+              "r": 30,
+              "h": 8,
+              "speed": 0.07,
+              "phase": 0.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.65,
+            "anchor": "pulse5",
+            "offset": [
+              10,
+              5,
+              20
+            ],
+            "lookAt": "pulse5",
+            "move": 3
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              10,
+              24,
+              120
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          }
+        ]
       }
     },
     {
@@ -543,7 +912,96 @@
           "speed": 0.05,
           "dolly": 8,
           "phase": 0.3
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              30,
+              110
+            ],
+            "lookAt": "axon"
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "cleft",
+              "r": 30,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 0.4
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.12,
+            "anchor": "dagl",
+            "offset": [
+              10,
+              3,
+              16
+            ],
+            "lookAt": "dagl",
+            "move": 2
+          },
+          {
+            "at": 0.27,
+            "anchor": "ag0",
+            "offset": [
+              8,
+              3,
+              12
+            ],
+            "lookAt": "ag0",
+            "move": 2
+          },
+          {
+            "at": 0.5,
+            "orbit": {
+              "anchor": "cb1_0",
+              "r": 12,
+              "h": 3,
+              "speed": 0.09,
+              "phase": 0.6
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.64,
+            "anchor": "channel",
+            "offset": [
+              6,
+              5,
+              11
+            ],
+            "lookAt": "channel",
+            "move": 2.5
+          },
+          {
+            "at": 0.78,
+            "orbit": {
+              "anchor": "cleft",
+              "r": 22,
+              "h": 5,
+              "speed": 0.07,
+              "phase": 1.5
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "cleft",
+              "r": 44,
+              "h": 8,
+              "speed": 0.05,
+              "phase": 2.4
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -614,7 +1072,70 @@
         ],
         "cam": {
           "dolly": 30
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              20,
+              20,
+              130
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "pulse2",
+            "offset": [
+              10,
+              6,
+              22
+            ],
+            "lookAt": "pulse2",
+            "move": 3
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "term2",
+              "r": 14,
+              "h": 4,
+              "speed": 0.09,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.55,
+            "orbit": {
+              "anchor": "neuron7",
+              "r": 28,
+              "h": 8,
+              "speed": 0.06,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              -10,
+              26,
+              125
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          }
+        ]
       }
     },
     {
@@ -739,7 +1260,78 @@
           "height": 14,
           "speed": 0.04,
           "phase": 0.5
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -40,
+              28,
+              90
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "orbit": {
+              "anchor": "receptor1",
+              "r": 22,
+              "h": 8,
+              "speed": 0.07,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "receptor1",
+              "r": 14,
+              "h": 5,
+              "speed": 0.09,
+              "phase": 1.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.52,
+            "anchor": "ligand1",
+            "offset": [
+              10,
+              6,
+              18
+            ],
+            "lookAt": "ligand1",
+            "move": 2
+          },
+          {
+            "at": 0.66,
+            "orbit": {
+              "anchor": "center",
+              "r": 40,
+              "h": 18,
+              "speed": 0.05,
+              "phase": 2.0
+            },
+            "move": 3
+          },
+          {
+            "at": 0.82,
+            "orbit": {
+              "anchor": "receptor2",
+              "r": 16,
+              "h": 6,
+              "speed": 0.08,
+              "phase": 3.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -854,7 +1446,43 @@
           "radius": 30,
           "height": 4,
           "speed": 0.05
-        }
+        },
+        "palette": "teal",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 26,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.48,
+            "orbit": {
+              "anchor": "item1",
+              "r": 26,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          }
+        ]
       }
     },
     {
@@ -865,8 +1493,40 @@
       "scene3d": {
         "type": "title",
         "mol": "THC",
-        "receptor": true,
-        "phase": 2.8
+        "bg": "brain",
+        "palette": "teal",
+        "phase": 2.8,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     }
   ],

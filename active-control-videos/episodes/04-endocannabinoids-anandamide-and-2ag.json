@@ -18,7 +18,40 @@
       "scene3d": {
         "type": "title",
         "mol": "anandamide",
-        "phase": 0.6
+        "bg": "vesicles",
+        "palette": "violet",
+        "phase": 0.6,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -114,7 +147,85 @@
           "height": 9,
           "speed": 0.05,
           "phase": 0.4
-        }
+        },
+        "palette": "violet",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              20,
+              70
+            ],
+            "lookAt": "receptor0"
+          },
+          {
+            "at": 0.1,
+            "anchor": "ligand0",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand0",
+            "move": 1.5
+          },
+          {
+            "at": 0.2,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 17,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.48,
+            "anchor": "ligand1",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand1",
+            "move": 1.5
+          },
+          {
+            "at": 0.58,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 15,
+              "h": 6,
+              "speed": 0.09,
+              "phase": 1.8
+            },
+            "move": 2
+          },
+          {
+            "at": 0.78,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 12,
+              "h": 5,
+              "speed": 0.1,
+              "phase": 3.0
+            },
+            "move": 2
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 40,
+              "h": 14,
+              "speed": 0.04,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -235,7 +346,81 @@
           "radius": 58,
           "height": 8,
           "dolly": 0.4
-        }
+        },
+        "palette": "violet",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              22,
+              120
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.15,
+            "orbit": {
+              "anchor": "vesicle0",
+              "r": 28,
+              "h": 6,
+              "speed": 0.06,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "vesicle2",
+              "r": 26,
+              "h": 6,
+              "speed": 0.06,
+              "phase": 2.0
+            },
+            "move": 3
+          },
+          {
+            "at": 0.55,
+            "anchor": "probe0",
+            "offset": [
+              10,
+              6,
+              20
+            ],
+            "lookAt": "probe0",
+            "move": 2.5
+          },
+          {
+            "at": 0.75,
+            "orbit": {
+              "anchor": "dock0",
+              "r": 15,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.4
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.9,
+            "pos": [
+              20,
+              24,
+              100
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -293,7 +478,56 @@
           "height": 5,
           "speed": 0.05,
           "phase": 0.3
-        }
+        },
+        "palette": "violet",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              10,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 30,
+              "h": 5,
+              "speed": 0.06,
+              "phase": 0.3
+            },
+            "move": 2
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item0",
+              "r": 18,
+              "h": 3,
+              "speed": 0.09,
+              "phase": 2.0
+            },
+            "move": 3
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "item0",
+              "r": 26,
+              "h": 6,
+              "speed": 0.06,
+              "phase": 4.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -351,7 +585,56 @@
           "height": 5,
           "speed": 0.05,
           "phase": 2.3
-        }
+        },
+        "palette": "violet",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              10,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 30,
+              "h": 5,
+              "speed": 0.06,
+              "phase": 0.3
+            },
+            "move": 2
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item0",
+              "r": 18,
+              "h": 3,
+              "speed": 0.09,
+              "phase": 2.0
+            },
+            "move": 3
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "item0",
+              "r": 26,
+              "h": 6,
+              "speed": 0.06,
+              "phase": 4.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -449,7 +732,53 @@
           "radius": 30,
           "height": 4,
           "speed": 0.05
-        }
+        },
+        "palette": "violet",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 26,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item1",
+              "r": 26,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.58,
+            "orbit": {
+              "anchor": "item2",
+              "r": 26,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          }
+        ]
       }
     },
     {
@@ -518,7 +847,85 @@
           "height": 6,
           "speed": 0.05,
           "phase": 0.4
-        }
+        },
+        "palette": "violet",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              34,
+              120
+            ],
+            "lookAt": "axon"
+          },
+          {
+            "at": 0.06,
+            "anchor": "pulse",
+            "offset": [
+              14,
+              4,
+              22
+            ],
+            "lookAt": "pulse",
+            "move": 2
+          },
+          {
+            "at": 0.18,
+            "orbit": {
+              "anchor": "pre",
+              "r": 26,
+              "h": 8,
+              "speed": 0.07,
+              "phase": 0.5
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.33,
+            "orbit": {
+              "anchor": "cleft",
+              "r": 22,
+              "h": 2,
+              "speed": 0.07,
+              "phase": 1.6
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.48,
+            "anchor": "dagl",
+            "offset": [
+              10,
+              3,
+              16
+            ],
+            "lookAt": "dagl",
+            "move": 2
+          },
+          {
+            "at": 0.62,
+            "anchor": "ag0",
+            "offset": [
+              8,
+              3,
+              12
+            ],
+            "lookAt": "ag0",
+            "move": 2
+          },
+          {
+            "at": 0.8,
+            "orbit": {
+              "anchor": "cleft",
+              "r": 44,
+              "h": 8,
+              "speed": 0.05,
+              "phase": 2.4
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -529,7 +936,40 @@
       "scene3d": {
         "type": "title",
         "mol": "2-AG",
-        "phase": 1.2
+        "bg": "network",
+        "palette": "violet",
+        "phase": 1.2,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     }
   ],

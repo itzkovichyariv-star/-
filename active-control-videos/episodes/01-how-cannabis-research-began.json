@@ -17,7 +17,40 @@
       "narration": "The Science Behind Cannabis. Episode one: How cannabis research began. In this episode we follow the story of how chemists and pharmacologists worked out what cannabis is made of, and how that work led to the discovery of a signalling system that exists in every one of us.",
       "scene3d": {
         "type": "title",
-        "mol": "THC"
+        "mol": "THC",
+        "bg": "trichomes",
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -64,16 +97,50 @@
         "background": "trichomes",
         "membraneY": -14,
         "items": [],
-        "cam": {
-          "radius": 34,
-          "height": 3,
-          "speed": 0.05,
-          "center": [
-            0,
-            -6,
-            0
-          ]
-        }
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -40,
+              -6,
+              60
+            ],
+            "look": [
+              0,
+              -10,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "pos": [
+              20,
+              -8,
+              30
+            ],
+            "look": [
+              -10,
+              -12,
+              -10
+            ],
+            "move": 8
+          },
+          {
+            "at": 0.7,
+            "pos": [
+              -10,
+              14,
+              50
+            ],
+            "look": [
+              0,
+              -10,
+              -20
+            ],
+            "move": 8
+          }
+        ]
       }
     },
     {
@@ -126,7 +193,65 @@
       },
       "scene3d": {
         "type": "mixture",
-        "n": 460
+        "n": 460,
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              20,
+              90
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.25,
+            "pos": [
+              30,
+              6,
+              34
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 6
+          },
+          {
+            "at": 0.6,
+            "pos": [
+              -20,
+              -8,
+              30
+            ],
+            "look": [
+              5,
+              2,
+              0
+            ],
+            "move": 6
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              0,
+              10,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 5
+          }
+        ]
       }
     },
     {
@@ -179,7 +304,45 @@
           "mol": "THC",
           "label": "Δ9-THC · 1964",
           "at": 0.33
-        }
+        },
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              26,
+              10,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "iso",
+              "r": 24,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.3
+            },
+            "move": 3
+          },
+          {
+            "at": 0.75,
+            "orbit": {
+              "anchor": "iso",
+              "r": 16,
+              "h": 2,
+              "speed": 0.1,
+              "phase": 2.5
+            },
+            "move": 4
+          }
+        ]
       }
     },
     {
@@ -253,7 +416,53 @@
           "radius": 26,
           "height": 3,
           "speed": 0.05
-        }
+        },
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.35,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.58,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          }
+        ]
       }
     },
     {
@@ -353,7 +562,8 @@
             "exhibit": "synapse",
             "at": 0.85
           }
-        ]
+        ],
+        "palette": "warm"
       }
     },
     {
@@ -406,6 +616,7 @@
       },
       "scene3d": {
         "type": "membrane",
+        "palette": "warm",
         "receptors": [
           {
             "x": 0,
@@ -463,12 +674,83 @@
             "action": "ligand-dock"
           }
         ],
-        "cam": {
-          "radius": 30,
-          "height": 10,
-          "speed": 0.05,
-          "phase": 0.5
-        }
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -34,
+              24,
+              70
+            ],
+            "lookAt": "receptor0"
+          },
+          {
+            "at": 0.12,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 20,
+              "h": 7,
+              "speed": 0.07,
+              "phase": 0.2
+            },
+            "move": 3
+          },
+          {
+            "at": 0.36,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 13,
+              "h": 4,
+              "speed": 0.1,
+              "phase": 1.4
+            },
+            "move": 2
+          },
+          {
+            "at": 0.55,
+            "anchor": "enzyme0",
+            "offset": [
+              10,
+              6,
+              17
+            ],
+            "lookAt": "enzyme0",
+            "move": 2
+          },
+          {
+            "at": 0.7,
+            "anchor": "ligand1",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand1",
+            "move": 1.5
+          },
+          {
+            "at": 0.78,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 17,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 44,
+              "h": 16,
+              "speed": 0.04,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -479,7 +761,40 @@
       "scene3d": {
         "type": "title",
         "mol": "CBD",
-        "phase": 2.2
+        "bg": "space",
+        "palette": "warm",
+        "phase": 2.2,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     }
   ],

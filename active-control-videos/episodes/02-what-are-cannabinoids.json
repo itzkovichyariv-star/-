@@ -18,7 +18,39 @@
       "scene3d": {
         "type": "title",
         "mol": "CBD",
-        "phase": 1.4
+        "bg": "space",
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -111,7 +143,53 @@
           "radius": 28,
           "height": 3,
           "speed": 0.05
-        }
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.03,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.5,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          }
+        ]
       }
     },
     {
@@ -289,7 +367,70 @@
           "radius": 30,
           "height": 6,
           "speed": 0.05
-        }
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              -2,
+              60
+            ],
+            "look": [
+              0,
+              -6,
+              0
+            ]
+          },
+          {
+            "at": 0.18,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "item1",
+              "r": 20,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 2.0
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "item1",
+              "r": 14,
+              "h": 3,
+              "speed": 0.1,
+              "phase": 3.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.84,
+            "pos": [
+              0,
+              18,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              8
+            ],
+            "move": 4
+          }
+        ]
       }
     },
     {
@@ -431,7 +572,83 @@
           "radius": 24,
           "height": 3,
           "speed": 0.06
-        }
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.32,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.54,
+            "orbit": {
+              "anchor": "item2",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          },
+          {
+            "at": 0.68,
+            "orbit": {
+              "anchor": "item3",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 3.1
+            }
+          },
+          {
+            "at": 0.77,
+            "orbit": {
+              "anchor": "item4",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 4.0
+            }
+          },
+          {
+            "at": 0.88,
+            "orbit": {
+              "anchor": "item5",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 4.9
+            }
+          }
+        ]
       }
     },
     {
@@ -529,7 +746,70 @@
             0
           ],
           "phase": 1.1
-        }
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -24,
+              14,
+              50
+            ],
+            "look": [
+              -10,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "item0",
+            "offset": [
+              10,
+              8,
+              18
+            ],
+            "lookAt": "item0",
+            "move": 3
+          },
+          {
+            "at": 0.45,
+            "pos": [
+              0,
+              6,
+              44
+            ],
+            "look": [
+              0,
+              2,
+              0
+            ],
+            "move": 3
+          },
+          {
+            "at": 0.6,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 3,
+              "speed": 0.06,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.78,
+            "orbit": {
+              "anchor": "item2",
+              "r": 22,
+              "h": 3,
+              "speed": 0.06,
+              "phase": 2.6
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -629,7 +909,63 @@
           "radius": 28,
           "height": 3,
           "speed": 0.05
-        }
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.57,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          },
+          {
+            "at": 0.8,
+            "orbit": {
+              "anchor": "item3",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 3.1
+            }
+          }
+        ]
       }
     },
     {
@@ -735,7 +1071,63 @@
           "radius": 24,
           "height": 4,
           "speed": 0.06
-        }
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.08,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.22,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.33,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          },
+          {
+            "at": 0.6,
+            "orbit": {
+              "anchor": "item3",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 3.1
+            }
+          }
+        ]
       }
     },
     {
@@ -746,8 +1138,40 @@
       "scene3d": {
         "type": "title",
         "mol": "CBG",
-        "receptor": true,
-        "phase": 2.0
+        "bg": "brain",
+        "palette": "green",
+        "phase": 2.0,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     }
   ],

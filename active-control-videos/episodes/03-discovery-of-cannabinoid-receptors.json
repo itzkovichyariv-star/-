@@ -18,8 +18,40 @@
       "scene3d": {
         "type": "title",
         "mol": "THC",
-        "receptor": true,
-        "phase": 0.4
+        "bg": "membrane",
+        "palette": "blue",
+        "phase": 0.4,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -137,7 +169,92 @@
           "radius": 34,
           "height": 10,
           "speed": 0.05
-        }
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              16,
+              70
+            ],
+            "look": [
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "ligand0",
+            "offset": [
+              8,
+              4,
+              14
+            ],
+            "lookAt": "ligand0",
+            "move": 2
+          },
+          {
+            "at": 0.3,
+            "pos": [
+              16,
+              3,
+              30
+            ],
+            "look": [
+              0,
+              1,
+              0
+            ],
+            "move": 3
+          },
+          {
+            "at": 0.55,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 18,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.62,
+            "anchor": "ligand3",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand3",
+            "move": 1.5
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 15,
+              "h": 6,
+              "speed": 0.09,
+              "phase": 1.2
+            },
+            "move": 2
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 40,
+              "h": 14,
+              "speed": 0.04,
+              "phase": 2.2
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -238,7 +355,78 @@
           "radius": 30,
           "height": 4,
           "speed": 0.05
-        }
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              8,
+              50
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.25,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.6
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "item2",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.3
+            },
+            "move": 3
+          },
+          {
+            "at": 0.65,
+            "orbit": {
+              "anchor": "item3",
+              "r": 24,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.88,
+            "anchor": "item3",
+            "offset": [
+              0,
+              10,
+              34
+            ],
+            "lookAt": "item3",
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -326,7 +514,85 @@
           "height": 13,
           "speed": 0.05,
           "phase": 0.9
-        }
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              22,
+              70
+            ],
+            "lookAt": "receptor0"
+          },
+          {
+            "at": 0.08,
+            "anchor": "ligand0",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand0",
+            "move": 1.2
+          },
+          {
+            "at": 0.16,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 17,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.42,
+            "anchor": "receptor0",
+            "offset": [
+              12,
+              5,
+              18
+            ],
+            "lookAt": "gprotein",
+            "move": 1.5
+          },
+          {
+            "at": 0.62,
+            "anchor": "alpha",
+            "offset": [
+              6,
+              4,
+              13
+            ],
+            "lookAt": "alpha",
+            "move": 1.2
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "ac",
+              "r": 15,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.2
+            },
+            "move": 1.5
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 46,
+              "h": 16,
+              "speed": 0.04,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -373,7 +639,70 @@
           "radius": 56,
           "height": 8,
           "dolly": 0.45
-        }
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              20,
+              110
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.12,
+            "anchor": "probe0",
+            "offset": [
+              10,
+              6,
+              20
+            ],
+            "lookAt": "probe0",
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "dock0",
+              "r": 16,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.4
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.62,
+            "orbit": {
+              "anchor": "vesicle1",
+              "r": 26,
+              "h": 6,
+              "speed": 0.06,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              20,
+              24,
+              100
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          }
+        ]
       }
     },
     {
@@ -495,6 +824,99 @@
             "at": 0.65,
             "labelDy": -4.5
           }
+        ],
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -20,
+              16,
+              80
+            ],
+            "look": [
+              2,
+              -1,
+              0
+            ]
+          },
+          {
+            "at": 0.2,
+            "orbit": {
+              "anchor": "center",
+              "r": 46,
+              "h": 10,
+              "speed": 0.06,
+              "phase": 3.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "region0",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 2.6
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.47,
+            "orbit": {
+              "anchor": "region1",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 1.4
+            },
+            "move": 2
+          },
+          {
+            "at": 0.53,
+            "orbit": {
+              "anchor": "region2",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 0.6
+            },
+            "move": 2
+          },
+          {
+            "at": 0.58,
+            "orbit": {
+              "anchor": "region3",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 2.2
+            },
+            "move": 2
+          },
+          {
+            "at": 0.66,
+            "orbit": {
+              "anchor": "region4",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 1.0
+            },
+            "move": 2
+          },
+          {
+            "at": 0.82,
+            "orbit": {
+              "anchor": "center",
+              "r": 44,
+              "h": 12,
+              "speed": 0.05,
+              "phase": 2.0
+            },
+            "move": 3
+          }
         ]
       }
     },
@@ -542,37 +964,86 @@
         "at": 0.08
       },
       "scene3d": {
-        "type": "membrane",
-        "receptors": [
-          {
-            "x": -14,
-            "z": 0,
-            "label": "CB1 · nerve terminal"
-          },
-          {
-            "x": 14,
-            "z": 0,
-            "label": "CB2 · immune cell",
-            "color": "0x60a5fa"
-          }
-        ],
-        "ligands": [],
+        "type": "dna",
+        "palette": "blue",
+        "receptorLabel": "CB1 receptor",
+        "geneLabel": "CNR1 gene (1990)",
         "stages": [
           {
-            "at": 0.0,
-            "action": "receptor-vanish"
+            "at": 0.05,
+            "action": "unwind"
           },
           {
-            "at": 0.08,
-            "action": "receptor-appear"
+            "at": 0.12,
+            "action": "read"
+          },
+          {
+            "at": 0.38,
+            "action": "express"
           }
         ],
-        "cam": {
-          "radius": 40,
-          "height": 12,
-          "speed": 0.04,
-          "phase": 1.3
-        }
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              10,
+              90
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "reader",
+            "offset": [
+              14,
+              3,
+              20
+            ],
+            "lookAt": "reader",
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "receptor",
+              "r": 20,
+              "h": 5,
+              "speed": 0.08,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.62,
+            "orbit": {
+              "anchor": "helix",
+              "r": 40,
+              "h": 8,
+              "speed": 0.05,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              -14,
+              10,
+              52
+            ],
+            "look": [
+              6,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
       }
     },
     {
@@ -629,52 +1100,86 @@
         ]
       },
       "scene3d": {
-        "type": "membrane",
-        "receptors": [
-          {
-            "x": 0,
-            "z": 0,
-            "label": "CB1"
-          }
-        ],
-        "ligands": [
-          {
-            "mol": "THC",
-            "mode": "pass",
-            "scale": 0.9
-          },
-          {
-            "mol": "THC",
-            "mode": "pass",
-            "scale": 0.9
-          },
-          {
-            "mol": "THC",
-            "mode": "pass",
-            "scale": 0.9
-          },
-          {
-            "mol": "THC",
-            "mode": "pass",
-            "scale": 0.9
-          }
-        ],
+        "type": "dna",
+        "palette": "blue",
+        "receptorLabel": "CB1 receptor",
+        "geneLabel": "CNR1 gene",
+        "deleteLabel": "gene deleted (knockout)",
         "stages": [
           {
-            "at": 0.12,
-            "action": "receptor-vanish"
+            "at": 0.02,
+            "action": "unwind"
           },
           {
-            "at": 0.3,
-            "action": "ligand-pass"
+            "at": 0.1,
+            "action": "delete"
           }
         ],
-        "cam": {
-          "radius": 32,
-          "height": 10,
-          "speed": 0.015,
-          "phase": 1.2
-        }
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              8,
+              80
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.08,
+            "orbit": {
+              "anchor": "gene",
+              "r": 22,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.6
+            },
+            "move": 3
+          },
+          {
+            "at": 0.35,
+            "orbit": {
+              "anchor": "helix",
+              "r": 34,
+              "h": 10,
+              "speed": 0.05,
+              "phase": 2.0
+            },
+            "move": 3
+          },
+          {
+            "at": 0.6,
+            "pos": [
+              -14,
+              14,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              16,
+              4,
+              46
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          }
+        ]
       }
     },
     {
@@ -685,7 +1190,40 @@
       "scene3d": {
         "type": "title",
         "mol": "anandamide",
-        "phase": 1.7
+        "bg": "vesicles",
+        "palette": "blue",
+        "phase": 1.7,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -26,
+              12,
+              70
+            ],
+            "lookAt": "mol"
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            }
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              4,
+              2,
+              36
+            ],
+            "lookAt": "mol",
+            "move": 3
+          }
+        ]
       }
     }
   ],

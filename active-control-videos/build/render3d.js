@@ -49,11 +49,16 @@ const spec = { gap: timing.gap, total: timing.total, scenes: timing.scenes.map((
 
   const t0s = CLIP ? CLIP[0] : 0, t1s = CLIP ? CLIP[1] : timing.total;
   const nFrames = Math.ceil((t1s - t0s) * FPS);
-  const ass = path.resolve(audioDir, 'overlay.ass');
+  let ass = path.resolve(audioDir, 'overlay.ass');
+  if (CLIP && fs.existsSync(ass)) {   // clip mode: shift the overlay so it lines up with the clip window
+    const toS = s => { const [h, m, sec] = s.split(':'); return (+h) * 3600 + (+m) * 60 + parseFloat(sec); };
+    const fmt = t => { t = Math.max(0, t); const h = Math.floor(t / 3600), m = Math.floor(t % 3600 / 60), sec = t % 60; return `${h}:${String(m).padStart(2, '0')}:${sec.toFixed(2).padStart(5, '0')}`; };
+    const lines = fs.readFileSync(ass, 'utf8').split('\n').map(l => { if (!l.startsWith('Dialogue:')) return l; const f = l.split(','); const a = toS(f[1]) - t0s, b = toS(f[2]) - t0s; if (b <= 0) return null; f[1] = fmt(a); f[2] = fmt(b); return f.join(','); }).filter(l => l !== null);
+    ass = path.resolve(audioDir, 'overlay.clip.ass'); fs.writeFileSync(ass, lines.join('\n'));
+  }
   const vf = fs.existsSync(ass) ? [`subtitles=${ass.replace(/([\\:])/g, '\\$1')}:fontsdir=${path.resolve(__dirname, '..', 'assets', 'fonts')}`] : [];
-  if (CLIP) vf.unshift(`setpts=PTS+${t0s}/TB`);  // shift timestamps so the ASS overlay lines up with the clip window
   const ffArgs = ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-'];
-  if (!CLIP) ffArgs.push('-i', path.resolve(audioDir, 'narration.wav'));
+  if (!CLIP) ffArgs.push('-i', path.resolve(audioDir, fs.existsSync(path.resolve(audioDir, 'mix.wav')) ? 'mix.wav' : 'narration.wav'));
   if (vf.length) ffArgs.push('-vf', vf.join(','));
   ffArgs.push('-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-preset', 'medium', '-r', String(FPS));
   if (!CLIP) ffArgs.push('-c:a', 'aac', '-b:a', '160k', '-shortest');
