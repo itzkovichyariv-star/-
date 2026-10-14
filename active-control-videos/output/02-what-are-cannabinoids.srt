@@ -1,0 +1,219 @@
+1
+00:00:00,350 --> 00:00:01,876
+The Science Behind Cannabis.
+
+2
+00:00:01,876 --> 00:00:03,784
+Episode two: What are cannabinoids?
+
+3
+00:00:03,784 --> 00:00:08,035
+In this episode we look at the molecules themselves: what they have in common,
+
+4
+00:00:08,035 --> 00:00:11,142
+how the plant makes them, and how chemists classify them.
+
+5
+00:00:12,642 --> 00:00:17,746
+The word cannabinoid originally described a group of compounds found only in the cannabis plant.
+
+6
+00:00:17,746 --> 00:00:22,212
+Chemically they are terpenophenolic compounds: each molecule combines a phenol ring,
+
+7
+00:00:22,212 --> 00:00:26,200
+like the ones found in many plant products, with a terpene-derived portion,
+
+8
+00:00:26,200 --> 00:00:29,868
+built from the same building blocks as the scents of pine and citrus.
+
+9
+00:00:29,868 --> 00:00:32,899
+Most of them share a skeleton of twenty-one carbon atoms.
+
+10
+00:00:32,899 --> 00:00:38,428
+More than one hundred different phytocannabinoids, meaning plant cannabinoids, have now been identified,
+
+11
+00:00:38,428 --> 00:00:42,416
+and they differ from one another in small details of this common framework.
+
+12
+00:00:43,916 --> 00:00:50,905
+Inside the plant, cannabinoids are made in tiny glandular structures called trichomes, mainly on the flowers.
+
+13
+00:00:50,905 --> 00:00:55,586
+The biosynthesis starts with a molecule called cannabigerolic acid, CBGA.
+
+14
+00:00:55,586 --> 00:01:00,844
+Enzymes then convert CBGA into different acidic cannabinoids: THCA, CBDA, or CBCA,
+
+15
+00:01:00,844 --> 00:01:03,794
+depending on which enzyme the plant expresses.
+
+16
+00:01:03,794 --> 00:01:07,834
+These acidic forms are what the living plant actually contains.
+
+17
+00:01:07,834 --> 00:01:11,681
+When the plant material is heated or stored for a long time,
+
+18
+00:01:11,681 --> 00:01:18,222
+the acids lose a carbon dioxide group, a process called decarboxylation, and become the neutral forms:
+
+19
+00:01:18,222 --> 00:01:19,312
+THC, CBD and CBC.
+
+20
+00:01:20,812 --> 00:01:23,858
+A handful of phytocannabinoids are studied most.
+
+21
+00:01:23,858 --> 00:01:31,473
+Delta nine tetrahydrocannabinol, THC, is the principal psychoactive constituent and binds to both cannabinoid receptors.
+
+22
+00:01:31,473 --> 00:01:35,725
+Cannabidiol, CBD, has a very similar formula but a different shape;
+
+23
+00:01:35,725 --> 00:01:41,563
+it binds only weakly to the cannabinoid receptors and interacts with several other proteins.
+
+24
+00:01:41,563 --> 00:01:46,449
+Cannabigerol, CBG, is the neutral form of the biosynthetic starting material.
+
+25
+00:01:46,449 --> 00:01:53,112
+Cannabichromene, CBC, and tetrahydrocannabivarin, THCV, which has a shorter side chain, are also present.
+
+26
+00:01:53,112 --> 00:01:56,349
+Cannabinol, CBN, is not made by the plant directly;
+
+27
+00:01:56,349 --> 00:01:59,141
+it forms when THC is oxidised during ageing.
+
+28
+00:02:00,641 --> 00:02:05,027
+Two properties of these molecules shaped the whole history of the field.
+
+29
+00:02:05,027 --> 00:02:07,098
+First, they are highly lipophilic:
+
+30
+00:02:07,098 --> 00:02:10,631
+they dissolve in fats and oils but hardly at all in water.
+
+31
+00:02:10,631 --> 00:02:13,433
+This is why they accumulate in cell membranes,
+
+32
+00:02:13,433 --> 00:02:19,160
+and it is also why early scientists assumed they might act on membranes in a non-specific way.
+
+33
+00:02:19,160 --> 00:02:24,338
+Second, THC is chiral: it exists as mirror-image forms, like a left and a right hand.
+
+34
+00:02:24,338 --> 00:02:26,592
+The natural form is (−)-trans-Δ9-THC.
+
+35
+00:02:26,592 --> 00:02:28,785
+Its mirror image is far less active.
+
+36
+00:02:28,785 --> 00:02:33,475
+That difference was an early clue that the molecule must fit into a specific,
+
+37
+00:02:33,475 --> 00:02:35,425
+shaped binding site, a receptor.
+
+38
+00:02:36,925 --> 00:02:39,975
+Today the term cannabinoid covers three families.
+
+39
+00:02:39,975 --> 00:02:43,648
+Phytocannabinoids are the plant molecules we have just met.
+
+40
+00:02:43,648 --> 00:02:49,313
+Endocannabinoids are molecules made by the body itself, which we will meet in episode four;
+
+41
+00:02:49,313 --> 00:02:53,858
+they look chemically quite different, but they act on the same receptors.
+
+42
+00:02:53,858 --> 00:02:57,842
+Synthetic cannabinoids are compounds designed in the laboratory.
+
+43
+00:02:57,842 --> 00:03:03,258
+Some of them, such as CP-55,940, WIN 55,212-2, and HU-210, were made as research tools,
+
+44
+00:03:03,258 --> 00:03:07,367
+and they turned out to be essential for discovering the receptors,
+
+45
+00:03:07,367 --> 00:03:12,036
+because they could be made radioactive and bind much more tightly than THC.
+
+46
+00:03:13,536 --> 00:03:17,389
+The plant also contains molecules that are not cannabinoids at all.
+
+47
+00:03:17,389 --> 00:03:21,299
+The most studied are terpenes, such as myrcene, limonene and pinene,
+
+48
+00:03:21,299 --> 00:03:25,439
+which give cannabis its characteristic smell and are also found in hops,
+
+49
+00:03:25,439 --> 00:03:26,992
+citrus peel and pine resin.
+
+50
+00:03:26,992 --> 00:03:31,707
+Different plant varieties contain different mixtures of cannabinoids and terpenes,
+
+51
+00:03:31,707 --> 00:03:36,250
+and scientists study how these mixtures differ from a single purified molecule.
+
+52
+00:03:36,250 --> 00:03:42,921
+The idea that minor components can modify the activity of a main component is sometimes called the entourage effect,
+
+53
+00:03:42,921 --> 00:03:45,509
+a term we will return to in the last episode.
+
+54
+00:03:47,009 --> 00:03:52,561
+In the next episode, we follow the experiments that proved cannabinoids act through specific receptors,
+
+55
+00:03:52,561 --> 00:03:55,257
+and showed where in the brain those receptors are.

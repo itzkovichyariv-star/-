@@ -1,0 +1,231 @@
+1
+00:00:00,350 --> 00:00:02,043
+The Science Behind Cannabis.
+
+2
+00:00:02,043 --> 00:00:04,581
+Episode four: The body's own cannabinoids.
+
+3
+00:00:04,581 --> 00:00:07,362
+The brain does not make receptors for a plant.
+
+4
+00:00:07,362 --> 00:00:11,956
+If a receptor exists, the body must produce its own molecule to activate it.
+
+5
+00:00:11,956 --> 00:00:16,368
+This episode tells how those molecules, the endocannabinoids, were found.
+
+6
+00:00:17,868 --> 00:00:20,445
+The logic came from an earlier discovery.
+
+7
+00:00:20,445 --> 00:00:23,902
+In 1973, opioid receptors were identified in the brain,
+
+8
+00:00:23,902 --> 00:00:27,295
+and two years later researchers found the enkephalins,
+
+9
+00:00:27,295 --> 00:00:31,192
+small peptides made by the body that activate those receptors.
+
+10
+00:00:31,192 --> 00:00:34,145
+Morphine, from the poppy, simply mimicked them.
+
+11
+00:00:34,145 --> 00:00:39,613
+By analogy, once the cannabinoid receptor was characterised in 1988 and cloned in 1990,
+
+12
+00:00:39,613 --> 00:00:45,206
+the expectation was clear: somewhere in the body there must be an endogenous cannabinoid,
+
+13
+00:00:45,206 --> 00:00:48,160
+a natural ligand, and THC must be imitating it.
+
+14
+00:00:48,160 --> 00:00:52,182
+The search began in Raphael Mechoulam's laboratory in Jerusalem.
+
+15
+00:00:53,682 --> 00:00:55,473
+The team made a key assumption.
+
+16
+00:00:55,473 --> 00:01:01,021
+Since the receptor binds very lipophilic molecules, the natural ligand was probably a lipid too,
+
+17
+00:01:01,021 --> 00:01:04,777
+not a peptide or an amino acid like most known neurotransmitters.
+
+18
+00:01:04,777 --> 00:01:06,916
+So instead of water-soluble extracts,
+
+19
+00:01:06,916 --> 00:01:11,192
+William Devane and Lumír Hanuš extracted the fatty fractions of pig brain.
+
+20
+00:01:11,192 --> 00:01:16,913
+To find the needle in the haystack, they used a binding assay: a radioactive synthetic cannabinoid,
+
+21
+00:01:16,913 --> 00:01:19,456
+HU-243, was allowed to bind to the receptor,
+
+22
+00:01:19,456 --> 00:01:23,270
+and each brain fraction was tested for its ability to displace it.
+
+23
+00:01:23,270 --> 00:01:28,471
+Fractions that displaced the radioligand contained something that recognised the receptor.
+
+24
+00:01:29,971 --> 00:01:34,458
+In 1992, the group reported the first endocannabinoid in the journal Science.
+
+25
+00:01:34,458 --> 00:01:40,285
+The molecule was N-arachidonoylethanolamine: a long, unsaturated fatty acid called arachidonic acid,
+
+26
+00:01:40,285 --> 00:01:42,732
+joined to a small ethanolamine head group.
+
+27
+00:01:42,732 --> 00:01:48,267
+It looked nothing like THC, yet it bound the receptor and produced the same cellular responses.
+
+28
+00:01:48,267 --> 00:01:54,502
+Mechoulam named it anandamide, from the Sanskrit word ananda, meaning bliss, and the chemical ending amide.
+
+29
+00:01:54,502 --> 00:01:58,755
+Anandamide turned out to be a partial agonist: it activates the receptor,
+
+30
+00:01:58,755 --> 00:02:01,028
+but less fully than some other ligands,
+
+31
+00:02:01,028 --> 00:02:04,465
+and it is present in the brain at quite low concentrations.
+
+32
+00:02:05,965 --> 00:02:08,695
+A second endocannabinoid followed in 1995.
+
+33
+00:02:08,695 --> 00:02:16,298
+Working with Shimon Ben-Shabat and Hanuš, Mechoulam's group isolated two-arachidonoylglycerol, 2-AG, from canine gut,
+
+34
+00:02:16,298 --> 00:02:22,537
+and in the same year Takayuki Sugiura's group in Japan independently identified it in rat brain.
+
+35
+00:02:22,537 --> 00:02:27,476
+Two A G is also built from arachidonic acid, this time attached to glycerol,
+
+36
+00:02:27,476 --> 00:02:29,426
+the backbone of ordinary fats.
+
+37
+00:02:29,426 --> 00:02:33,455
+Unlike anandamide, 2-AG is a full agonist at both CB1 and CB2,
+
+38
+00:02:33,455 --> 00:02:36,120
+and it is far more abundant in the brain,
+
+39
+00:02:36,120 --> 00:02:38,719
+by roughly a hundred to a thousand fold.
+
+40
+00:02:38,719 --> 00:02:44,178
+Many researchers now regard 2-AG as the main signalling endocannabinoid at synapses.
+
+41
+00:02:45,678 --> 00:02:50,394
+The two endocannabinoids share a common origin: both are derived from arachidonic acid,
+
+42
+00:02:50,394 --> 00:02:53,538
+a fatty acid that is a normal component of cell membranes.
+
+43
+00:02:53,538 --> 00:02:59,230
+They differ in the head group, ethanolamine versus glycerol, in how strongly they activate the receptors,
+
+44
+00:02:59,230 --> 00:03:01,561
+and in how much of each the brain contains.
+
+45
+00:03:01,561 --> 00:03:04,922
+They also differ in the enzymes that make and break them down,
+
+46
+00:03:04,922 --> 00:03:06,982
+which we will see in the next episode.
+
+47
+00:03:06,982 --> 00:03:10,234
+Both molecules are also found outside the brain, in the gut,
+
+48
+00:03:10,234 --> 00:03:15,817
+the immune system and many other tissues, reflecting the wide distribution of the receptors themselves.
+
+49
+00:03:17,317 --> 00:03:21,020
+Endocannabinoids break the textbook rules for neurotransmitters.
+
+50
+00:03:21,020 --> 00:03:26,863
+Classical transmitters such as glutamate or dopamine are made in advance, packed into small vesicles,
+
+51
+00:03:26,863 --> 00:03:29,292
+and released when a nerve impulse arrives.
+
+52
+00:03:29,292 --> 00:03:31,549
+Endocannabinoids are not stored at all.
+
+53
+00:03:31,549 --> 00:03:36,292
+They are produced on demand, cut out of membrane lipids when a cell is stimulated,
+
+54
+00:03:36,292 --> 00:03:40,920
+released immediately, act on nearby receptors, and are then quickly broken down.
+
+55
+00:03:40,920 --> 00:03:48,904
+Several other lipids, including noladin ether, virodhamine and N-arachidonoyl dopamine, have been proposed as additional endocannabinoids,
+
+56
+00:03:48,904 --> 00:03:53,416
+but their roles are less firmly established than those of anandamide and 2-AG.
+
+57
+00:03:54,916 --> 00:03:59,739
+In the final episode, we put the pieces together: how endocannabinoids are made and removed,
+
+58
+00:03:59,739 --> 00:04:02,675
+and how they carry signals backwards across the synapse.
