@@ -590,7 +590,7 @@ window.renderAt = (t) => {
   const sc = scenes[idx]; const set = getSet(idx);
   const local = Math.max(0, t - sc.start); const p = clamp(local / sc.duration, 0, 1);
   set.update(local, p, t);
-  set.scene.traverse(o => { if (o.userData && o.userData.isLabel && o.material) { const d = o.getWorldPosition(new THREE.Vector3()).distanceTo(set.cam.position); o.material.opacity *= clamp((d - 7) / 8, 0, 1); } });
+  set.scene.traverse(o => { if (o.userData && o.userData.isLabel && o.material) { const d = o.getWorldPosition(new THREE.Vector3()).distanceTo(set.cam.position); o.material.opacity *= clamp((d - 7) / 8, 0, 1); if (SPEC.nolabels) o.material.opacity = 0; } });
   const end = sc.start + sc.duration + SPEC.gap; let fade = 0;
   if (t < sc.start) fade = 1 - easeOut((t - (sc.start - FADE * 0.5)) / (FADE * 0.5)); else if (t < sc.start + FADE * 0.5) fade = 1 - easeOut((t - sc.start) / (FADE * 0.5));
   if (t > end - FADE) fade = Math.max(fade, easeOut((t - (end - FADE)) / FADE));

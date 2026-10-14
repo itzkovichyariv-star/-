@@ -20,11 +20,12 @@ const arg = (k, d) => rest.includes(k) ? rest[rest.indexOf(k) + 1] : d;
 const FPS = parseInt(arg('--fps', '24'), 10);
 const CLIP = rest.includes('--clip') ? [parseFloat(arg('--clip')), parseFloat(rest[rest.indexOf('--clip') + 2])] : null;
 const STILLS = rest.includes('--stills');
+const NOTEXT = rest.includes('--notext');
 
 const ep = JSON.parse(fs.readFileSync(epPath, 'utf8'));
 const timing = JSON.parse(fs.readFileSync(path.resolve(audioDir, 'timing.json'), 'utf8'));
 const molecules = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..', 'assets', 'molecules', 'molecules.json'), 'utf8'));
-const spec = { gap: timing.gap, total: timing.total, scenes: timing.scenes.map((ts, i) => ({ id: ts.id, start: ts.start, duration: ts.duration, set: ep.scenes[i].scene3d || { type: 'title', mol: 'THC' } })) };
+const spec = { nolabels: rest.includes('--nolabels'), gap: timing.gap, total: timing.total, scenes: timing.scenes.map((ts, i) => ({ id: ts.id, start: ts.start, duration: ts.duration, set: ep.scenes[i].scene3d || { type: 'title', mol: 'THC' } })) };
 
 (async () => {
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium', args: ['--no-sandbox', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--enable-webgl', '--allow-file-access-from-files', '--font-render-hinting=none'] });
@@ -56,7 +57,7 @@ const spec = { gap: timing.gap, total: timing.total, scenes: timing.scenes.map((
     const lines = fs.readFileSync(ass, 'utf8').split('\n').map(l => { if (!l.startsWith('Dialogue:')) return l; const f = l.split(','); const a = toS(f[1]) - t0s, b = toS(f[2]) - t0s; if (b <= 0) return null; f[1] = fmt(a); f[2] = fmt(b); return f.join(','); }).filter(l => l !== null);
     ass = path.resolve(audioDir, 'overlay.clip.ass'); fs.writeFileSync(ass, lines.join('\n'));
   }
-  const vf = fs.existsSync(ass) ? [`subtitles=${ass.replace(/([\\:])/g, '\\$1')}:fontsdir=${path.resolve(__dirname, '..', 'assets', 'fonts')}`] : [];
+  const vf = (!NOTEXT && fs.existsSync(ass)) ? [`subtitles=${ass.replace(/([\\:])/g, '\\$1')}:fontsdir=${path.resolve(__dirname, '..', 'assets', 'fonts')}`] : [];
   const ffArgs = ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-'];
   if (!CLIP) ffArgs.push('-i', path.resolve(audioDir, fs.existsSync(path.resolve(audioDir, 'mix.wav')) ? 'mix.wav' : 'narration.wav'));
   if (vf.length) ffArgs.push('-vf', vf.join(','));

@@ -1,0 +1,173 @@
+{
+ "episode": "01-how-cannabis-research-began",
+ "shots": [
+  {
+   "t": 18.3,
+   "src": "stock:297883093",
+   "motion": "push",
+   "label": "Cannabis sativa",
+   "sub": "cultivated for fibre, seed and oil"
+  },
+  {
+   "t": 23.7,
+   "src": "stock:356052750",
+   "motion": "pull",
+   "label": "Traditional medicine",
+   "sub": "Asia and the Middle East"
+  },
+  {
+   "t": 28.1,
+   "src": "stock:462517559",
+   "motion": "push",
+   "label": "1840s · William O'Shaughnessy",
+   "sub": "physician, Calcutta"
+  },
+  {
+   "t": 32.6,
+   "src": "stock:311409789",
+   "motion": "pan-right",
+   "label": "Introduced to European medicine"
+  },
+  {
+   "t": 35.8,
+   "src": "stock:534565341",
+   "motion": "dive",
+   "fx": 0.52,
+   "fy": 0.66,
+   "label": "The plant could be studied",
+   "sub": "but not its chemistry"
+  },
+  {
+   "t": 40.2,
+   "src": "stock:338107719",
+   "motion": "emerge",
+   "fx": 0.5,
+   "fy": 0.5,
+   "label": "Which molecules?",
+   "sub": "the active constituents were unknown"
+  },
+  {
+   "t": 45.2,
+   "src": "stock:525880349",
+   "motion": "push",
+   "label": "About 100 years to answer"
+  },
+  {
+   "t": 49.4,
+   "src": "stock:539656258",
+   "motion": "push",
+   "label": "1890s · Cannabinol",
+   "sub": "Wood, Spivey & Easterfield, Cambridge"
+  },
+  {
+   "t": 54.8,
+   "src": "stock:312239284",
+   "motion": "push",
+   "fx": 0.45,
+   "fy": 0.5,
+   "label": "\"Red oil\"",
+   "sub": "a crude resin extract"
+  },
+  {
+   "t": 59.4,
+   "src": "stock:316287238",
+   "motion": "pull",
+   "label": "Progress stalled for decades"
+  },
+  {
+   "t": 61.9,
+   "src": "stock:484302232",
+   "motion": "push",
+   "fx": 0.7,
+   "fy": 0.3,
+   "label": "Lipophilic",
+   "sub": "oily, fat-loving, non-crystalline"
+  },
+  {
+   "t": 67.1,
+   "src": "stock:197877256",
+   "motion": "push",
+   "label": "No chromatography · no spectroscopy",
+   "sub": "early 20th-century chemistry"
+  },
+  {
+   "t": 74.6,
+   "src": "stock:322298499",
+   "motion": "push",
+   "fx": 0.75,
+   "fy": 0.35,
+   "label": "1940s · Roger Adams (USA)",
+   "sub": "cannabidiol isolated"
+  },
+  {
+   "t": 78.6,
+   "src": "stock:246881887",
+   "motion": "pan-left",
+   "label": "Alexander Todd (UK)",
+   "sub": "structure of cannabinol clarified"
+  },
+  {
+   "t": 83.7,
+   "src": "file:3d/ep01_083.mp4",
+   "in": 1.2,
+   "motion": "still",
+   "label": "Main structures still uncertain"
+  },
+  {
+   "t": 89.1,
+   "src": "stock:778425214",
+   "motion": "push",
+   "label": "Israel · 1960s"
+  },
+  {
+   "t": 91.8,
+   "src": "stock:191326402",
+   "motion": "dive",
+   "fx": 0.42,
+   "fy": 0.6,
+   "label": "1963 · Cannabidiol (CBD)",
+   "sub": "full structure: Mechoulam & Shvo",
+   "in": 1.0
+  },
+  {
+   "t": 98.0,
+   "src": "file:3d/ep01_thc.mp4",
+   "in": 0.0,
+   "motion": "emerge",
+   "label": "1964 · Δ9-THC isolated",
+   "sub": "Gaoni & Mechoulam"
+  },
+  {
+   "t": 105.4,
+   "src": "file:3d/ep01_thc.mp4",
+   "in": 7.4,
+   "motion": "still",
+   "label": "Pure form · structure determined"
+  },
+  {
+   "t": 108.4,
+   "src": "stock:297883093",
+   "in": 5.8,
+   "motion": "pull",
+   "label": "THC",
+   "sub": "the principal psychoactive constituent"
+  },
+  {
+   "t": 113.8,
+   "src": "stock:619408737",
+   "motion": "push",
+   "fx": 0.55,
+   "fy": 0.6,
+   "label": "1965–67 · Total synthesis",
+   "sub": "THC and CBD made in the laboratory"
+  },
+  {
+   "t": 120.1,
+   "src": "stock:380892515",
+   "motion": "push",
+   "label": "Pure, well-defined compounds",
+   "sub": "ready for pharmacology"
+  }
+ ],
+ "end": 125.3
+}
