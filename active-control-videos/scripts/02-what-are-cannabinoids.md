@@ -22,6 +22,10 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 
 > The Science Behind Cannabis. Episode two: What are cannabinoids? In this episode we look at the molecules themselves: what they have in common, how the plant makes them, and how chemists classify them.
 
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of CBD, in a drifting particle field.
+
 ### 2. A family of related molecules  <sub>Scene · 0:12–0:43</sub>
 
 **Narration**
@@ -35,9 +39,9 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 - More than 100 phytocannabinoids identified
 - They differ in small details of a common framework
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Phenol ring** — Aromatic ring with a hydroxyl group; **Terpene unit** — Built from isoprene building blocks; **C21 skeleton** — Shared by THC, CBD, CBG, CBC…; **> 100 variants** — Small changes, different molecules
+Camera tour of 3D ball-and-stick molecules: THC, CBD, CBG.
 
 ### 3. How the plant builds them  <sub>Scene · 0:44–1:20</sub>
 
@@ -52,9 +56,9 @@ Card grid: **Phenol ring** — Aromatic ring with a hydroxyl group; **Terpene un
 - Plant enzymes convert CBGA into THCA, CBDA or CBCA
 - Heat or ageing removes CO₂ (decarboxylation) → THC, CBD, CBC
 
-**Visual**
+**Visual (3D scene)**
 
-Flow diagram: CBGA → THCA (THCA synthase); CBGA → CBDA (CBDA synthase); CBGA → CBCA (CBCA synthase); THCA → THC (heat, −CO₂); CBDA → CBD (heat, −CO₂); CBCA → CBC (heat, −CO₂). Nodes: CBGA, THCA, CBDA, CBCA, THC, CBD, CBC
+Camera tour of 3D ball-and-stick molecules: CBGA, THCA → THC, CBDA → CBD, CBCA → CBC; background: trichomes.
 
 ### 4. The main phytocannabinoids  <sub>Scene · 1:20–1:59</sub>
 
@@ -69,9 +73,9 @@ Flow diagram: CBGA → THCA (THCA synthase); CBGA → CBDA (CBDA synthase); CBGA
 - CBG: neutral form of the biosynthetic precursor
 - CBC, THCV (shorter side chain); CBN forms from aged THC
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **THC** — Δ9-tetrahydrocannabinol · C₂₁H₃₀O₂; **CBD** — Cannabidiol · C₂₁H₃₀O₂; **CBG** — Cannabigerol · precursor; **CBC** — Cannabichromene; **THCV** — Tetrahydrocannabivarin · C₃ side chain; **CBN** — Cannabinol · oxidation product of THC
+Camera tour of 3D ball-and-stick molecules: THC, CBD, CBG, CBC, THCV, CBN.
 
 ### 5. Shape and handedness  <sub>Scene · 2:00–2:36</sub>
 
@@ -86,9 +90,9 @@ Card grid: **THC** — Δ9-tetrahydrocannabinol · C₂₁H₃₀O₂; **CBD** �
 - THC is chiral: mirror-image forms, like left and right hands
 - The mirror image is far less active → evidence for a shaped binding site
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **(−)-trans-Δ9-THC**: The natural form; Fits the receptor; Active at nanomolar concentrations. Right, **(+)-trans-Δ9-THC**: The mirror image; Poor fit; Far less active.
+Camera tour of 3D ball-and-stick molecules: (−)-trans-Δ9-THC, THC, mirror image; background: membrane; mirror plane between enantiomers.
 
 ### 6. Three families of cannabinoids  <sub>Scene · 2:37–3:12</sub>
 
@@ -103,9 +107,9 @@ Two-column comparison. Left, **(−)-trans-Δ9-THC**: The natural form; Fits the
 - Synthetic cannabinoids: designed in the laboratory
 - Research tools such as CP-55,940 and HU-210 made receptor discovery possible
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Phytocannabinoids** — Plant · THC, CBD, CBG, CBC; **Endocannabinoids** — Body · anandamide, 2-AG; **Synthetic cannabinoids** — Laboratory · CP-55,940, WIN 55,212-2, HU-210
+Camera tour of 3D ball-and-stick molecules: phytocannabinoid · THC, endocannabinoid · anandamide, synthetic · CP-55,940, synthetic · HU-210.
 
 ### 7. Not cannabinoids, but present: terpenes  <sub>Scene · 3:13–3:46</sub>
 
@@ -120,15 +124,19 @@ Card grid: **Phytocannabinoids** — Plant · THC, CBD, CBG, CBC; **Endocannabin
 - Varieties differ in their cannabinoid and terpene profiles
 - 'Entourage effect': minor components modifying a main component
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Myrcene** — Also in hops and mango; **Limonene** — Also in citrus peel; **α-Pinene** — Also in pine resin; **Profile** — Each variety: its own mixture
+Camera tour of 3D ball-and-stick molecules: myrcene, limonene, α-pinene, THC; background: trichomes.
 
 ### 8. Next: How were the receptors discovered?  <sub>Closing card · 3:47–3:56</sub>
 
 **Narration**
 
 > In the next episode, we follow the experiments that proved cannabinoids act through specific receptors, and showed where in the brain those receptors are.
+
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of CBG above a lipid membrane with a CB1 receptor, in a drifting particle field.
 
 ## Comprehension check (attention check)
 

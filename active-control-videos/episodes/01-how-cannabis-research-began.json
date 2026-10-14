@@ -14,7 +14,11 @@
       "id": "s1",
       "kind": "title",
       "heading": "How Cannabis Research Began",
-      "narration": "The Science Behind Cannabis. Episode one: How cannabis research began. In this episode we follow the story of how chemists and pharmacologists worked out what cannabis is made of, and how that work led to the discovery of a signalling system that exists in every one of us."
+      "narration": "The Science Behind Cannabis. Episode one: How cannabis research began. In this episode we follow the story of how chemists and pharmacologists worked out what cannabis is made of, and how that work led to the discovery of a signalling system that exists in every one of us.",
+      "scene3d": {
+        "type": "title",
+        "mol": "THC"
+      }
     },
     {
       "id": "s2",
@@ -54,6 +58,22 @@
             "at": 0.7
           }
         ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "trichomes",
+        "membraneY": -14,
+        "items": [],
+        "cam": {
+          "radius": 34,
+          "height": 3,
+          "speed": 0.05,
+          "center": [
+            0,
+            -6,
+            0
+          ]
+        }
       }
     },
     {
@@ -103,6 +123,10 @@
             "at": 0.6
           }
         ]
+      },
+      "scene3d": {
+        "type": "mixture",
+        "n": 460
       }
     },
     {
@@ -147,6 +171,15 @@
             "at": 0.8
           }
         ]
+      },
+      "scene3d": {
+        "type": "mixture",
+        "n": 320,
+        "isolate": {
+          "mol": "THC",
+          "label": "Δ9-THC · 1964",
+          "at": 0.33
+        }
       }
     },
     {
@@ -176,6 +209,51 @@
         "type": "bigfact",
         "text": "Pure molecule → known dose → measurable effect",
         "sub": "The basis of modern pharmacology"
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "Δ9-THC",
+            "pos": [
+              -18,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05,
+            "halo": "0xf59e0b"
+          },
+          {
+            "mol": "THCV",
+            "label": "shorter side chain (THCV)",
+            "pos": [
+              0,
+              0,
+              -4
+            ],
+            "at": 0.32,
+            "focusAt": 0.35
+          },
+          {
+            "mol": "HU210",
+            "label": "a synthetic analogue (HU-210)",
+            "pos": [
+              18,
+              0,
+              0
+            ],
+            "at": 0.55,
+            "focusAt": 0.58
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 26,
+          "height": 3,
+          "speed": 0.05
+        }
       }
     },
     {
@@ -235,6 +313,47 @@
             "at": 0.85
           }
         ]
+      },
+      "scene3d": {
+        "type": "timeline",
+        "nodes": [
+          {
+            "year": "1988",
+            "text": "A cannabinoid binding site in brain",
+            "exhibit": "receptor",
+            "at": 0.1
+          },
+          {
+            "year": "1990",
+            "text": "CB1 receptor cloned",
+            "exhibit": "helix",
+            "at": 0.3
+          },
+          {
+            "year": "1992",
+            "text": "Anandamide discovered",
+            "mol": "anandamide",
+            "at": 0.5
+          },
+          {
+            "year": "1993",
+            "text": "CB2 receptor cloned",
+            "exhibit": "receptor",
+            "at": 0.62
+          },
+          {
+            "year": "1995",
+            "text": "2-AG discovered",
+            "mol": "2-AG",
+            "at": 0.72
+          },
+          {
+            "year": "2001",
+            "text": "Retrograde signalling at synapses",
+            "exhibit": "synapse",
+            "at": 0.85
+          }
+        ]
       }
     },
     {
@@ -284,13 +403,84 @@
             "at": 0.8
           }
         ]
+      },
+      "scene3d": {
+        "type": "membrane",
+        "receptors": [
+          {
+            "x": 0,
+            "z": 0,
+            "label": "CB1"
+          }
+        ],
+        "ligands": [
+          {
+            "mol": "2-AG",
+            "label": "2-AG (made by the body)",
+            "scale": 0.55,
+            "mode": "local",
+            "at": 0.35,
+            "life": 7,
+            "to": 0
+          },
+          {
+            "mol": "THC",
+            "label": "THC (from the plant)",
+            "scale": 0.6,
+            "at": 0.72,
+            "from": [
+              -4,
+              24,
+              -24
+            ],
+            "to": 0
+          }
+        ],
+        "enzymes": [
+          {
+            "label": "FAAH",
+            "pos": [
+              -15,
+              3.5,
+              10
+            ],
+            "color": "0xa78bfa"
+          },
+          {
+            "label": "MAGL",
+            "pos": [
+              15,
+              3.5,
+              12
+            ],
+            "color": "0xa78bfa",
+            "seed": 7
+          }
+        ],
+        "stages": [
+          {
+            "at": 0.72,
+            "action": "ligand-dock"
+          }
+        ],
+        "cam": {
+          "radius": 30,
+          "height": 10,
+          "speed": 0.05,
+          "phase": 0.5
+        }
       }
     },
     {
       "id": "s8",
       "kind": "outro",
       "heading": "Next: What are cannabinoids?",
-      "narration": "In the next episode, we look at the molecules themselves: what cannabinoids are, how they are built, and how the plant produces them."
+      "narration": "In the next episode, we look at the molecules themselves: what cannabinoids are, how they are built, and how the plant produces them.",
+      "scene3d": {
+        "type": "title",
+        "mol": "CBD",
+        "phase": 2.2
+      }
     }
   ],
   "quiz": [

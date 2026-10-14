@@ -22,6 +22,10 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 
 > The Science Behind Cannabis. Episode one: How cannabis research began. In this episode we follow the story of how chemists and pharmacologists worked out what cannabis is made of, and how that work led to the discovery of a signalling system that exists in every one of us.
 
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of THC, in a drifting particle field.
+
 ### 2. A plant studied for a long time  <sub>Scene · 0:17–0:45</sub>
 
 **Narration**
@@ -34,9 +38,9 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 - 1840s: William O'Shaughnessy describes cannabis to European medicine
 - Open question for a century: which molecules are responsible?
 
-**Visual**
+**Visual (3D scene)**
 
-Timeline: **Antiquity** — Fibre, seed, oil, traditional preparations; **1840s** — O'Shaughnessy, Calcutta; **1850–1890s** — Extracts and tinctures, chemistry unknown
+Camera tour of 3D ball-and-stick molecules: ; background: trichomes.
 
 ### 3. Why the chemistry was so hard  <sub>Scene · 0:46–1:22</sub>
 
@@ -51,9 +55,9 @@ Timeline: **Antiquity** — Fibre, seed, oil, traditional preparations; **1840s*
 - No chromatography or spectroscopy until mid-20th century
 - 1940s: Adams (USA) and Todd (UK) isolate CBD, define cannabinol
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Lipophilic** — Dissolves in fat and oil, not in water; **Non-crystalline** — No clean solids to purify; **Complex mixture** — Dozens of closely related molecules; **Few tools** — Chromatography and NMR came later
+Swirling cloud of hundreds of small molecules (a crude extract).
 
 ### 4. 1963–1964: the structures are solved  <sub>Scene · 1:23–1:55</sub>
 
@@ -68,9 +72,9 @@ Card grid: **Lipophilic** — Dissolves in fat and oil, not in water; **Non-crys
 - THC identified as the principal psychoactive constituent
 - 1965–1967: total synthesis of CBD and THC
 
-**Visual**
+**Visual (3D scene)**
 
-Timeline: **1963** — Structure of CBD (Mechoulam & Shvo); **1964** — Isolation and structure of Δ9-THC (Gaoni & Mechoulam); **1965–67** — Total synthesis of THC and CBD
+Swirling cloud of hundreds of small molecules (a crude extract); Δ9-THC · 1964 is isolated and brought to the centre.
 
 ### 5. From chemistry to pharmacology  <sub>Scene · 1:56–2:29</sub>
 
@@ -85,9 +89,9 @@ Timeline: **1963** — Structure of CBD (Mechoulam & Shvo); **1964** — Isolati
 - 1970s–80s: structure–activity studies (Mechoulam, Pertwee, Howlett)
 - New question: how does THC act on cells?
 
-**Visual**
+**Visual (3D scene)**
 
-Large on-screen statement: **Pure molecule → known dose → measurable effect** — The basis of modern pharmacology
+Camera tour of 3D ball-and-stick molecules: Δ9-THC, shorter side chain (THCV), a synthetic analogue (HU-210).
 
 ### 6. A decade of discoveries  <sub>Scene · 2:30–3:10</sub>
 
@@ -102,9 +106,9 @@ Large on-screen statement: **Pure molecule → known dose → measurable effect*
 - 1992: anandamide · 1995: 2-AG, the body's own cannabinoids
 - 2001: endocannabinoids shown to signal between neurons
 
-**Visual**
+**Visual (3D scene)**
 
-Timeline: **1988** — Cannabinoid binding site in brain; **1990** — CB1 receptor cloned; **1992** — Anandamide discovered; **1993** — CB2 receptor cloned; **1995** — 2-AG discovered; **2001** — Retrograde signalling at synapses
+Fly-through timeline in 3D space: 1988 — A cannabinoid binding site in brain; 1990 — CB1 receptor cloned; 1992 — Anandamide discovered; 1993 — CB2 receptor cloned; 1995 — 2-AG discovered; 2001 — Retrograde signalling at synapses.
 
 ### 7. What the story reveals  <sub>Scene · 3:11–3:40</sub>
 
@@ -119,15 +123,19 @@ Timeline: **1988** — Cannabinoid binding site in brain; **1990** — CB1 recep
 - Present in all vertebrates as part of normal physiology
 - Plant molecules fit into a system that already exists
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Receptors** — CB1 and CB2 on cell membranes; **Ligands** — Anandamide and 2-AG, made by the body; **Enzymes** — Build and break down the ligands; **Plant cannabinoids** — THC, CBD and others interact with it
+Lipid bilayer with 7-helix receptor(s) CB1; actions: ligand-dock; ligands: 2-AG (made by the body), THC (from the plant).
 
 ### 8. Next: What are cannabinoids?  <sub>Closing card · 3:41–3:49</sub>
 
 **Narration**
 
 > In the next episode, we look at the molecules themselves: what cannabinoids are, how they are built, and how the plant produces them.
+
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of CBD, in a drifting particle field.
 
 ## Comprehension check (attention check)
 

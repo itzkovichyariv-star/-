@@ -14,7 +14,12 @@
       "id": "s1",
       "kind": "title",
       "heading": "What Are Cannabinoids?",
-      "narration": "The Science Behind Cannabis. Episode two: What are cannabinoids? In this episode we look at the molecules themselves: what they have in common, how the plant makes them, and how chemists classify them."
+      "narration": "The Science Behind Cannabis. Episode two: What are cannabinoids? In this episode we look at the molecules themselves: what they have in common, how the plant makes them, and how chemists classify them.",
+      "scene3d": {
+        "type": "title",
+        "mol": "CBD",
+        "phase": 1.4
+      }
     },
     {
       "id": "s2",
@@ -63,6 +68,50 @@
             "at": 0.65
           }
         ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "THC",
+            "pos": [
+              -16,
+              0,
+              0
+            ],
+            "at": 0.03,
+            "focusAt": 0.03
+          },
+          {
+            "mol": "CBD",
+            "label": "CBD",
+            "pos": [
+              0,
+              0,
+              -6
+            ],
+            "at": 0.45,
+            "focusAt": 0.5
+          },
+          {
+            "mol": "CBG",
+            "label": "CBG",
+            "pos": [
+              16,
+              0,
+              0
+            ],
+            "at": 0.62,
+            "focusAt": 0.7
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 28,
+          "height": 3,
+          "speed": 0.05
+        }
       }
     },
     {
@@ -182,6 +231,65 @@
             "at": 0.8
           }
         ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "trichomes",
+        "membraneY": -14,
+        "items": [
+          {
+            "mol": "CBGA",
+            "label": "CBGA",
+            "pos": [
+              0,
+              2,
+              0
+            ],
+            "at": 0.2,
+            "focusAt": 0.2
+          },
+          {
+            "mol": "THCA",
+            "label": "THCA → THC",
+            "pos": [
+              -20,
+              2,
+              6
+            ],
+            "at": 0.4,
+            "focusAt": 0.42,
+            "decarb": 0.72
+          },
+          {
+            "mol": "CBDA",
+            "label": "CBDA → CBD",
+            "pos": [
+              0,
+              2,
+              22
+            ],
+            "at": 0.45,
+            "decarb": 0.76
+          },
+          {
+            "mol": "CBCA",
+            "label": "CBCA → CBC",
+            "pos": [
+              20,
+              2,
+              6
+            ],
+            "at": 0.5,
+            "decarb": 0.8,
+            "focusAt": 0.74
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 30,
+          "height": 6,
+          "speed": 0.05
+        }
       }
     },
     {
@@ -241,6 +349,89 @@
             "at": 0.88
           }
         ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "THC",
+            "sub": "Δ9-tetrahydrocannabinol",
+            "pos": [
+              -26,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05
+          },
+          {
+            "mol": "CBD",
+            "label": "CBD",
+            "sub": "cannabidiol",
+            "pos": [
+              -13,
+              0,
+              -14
+            ],
+            "at": 0.3,
+            "focusAt": 0.32
+          },
+          {
+            "mol": "CBG",
+            "label": "CBG",
+            "sub": "cannabigerol",
+            "pos": [
+              0,
+              0,
+              -20
+            ],
+            "at": 0.52,
+            "focusAt": 0.54
+          },
+          {
+            "mol": "CBC",
+            "label": "CBC",
+            "sub": "cannabichromene",
+            "pos": [
+              13,
+              0,
+              -14
+            ],
+            "at": 0.66,
+            "focusAt": 0.68
+          },
+          {
+            "mol": "THCV",
+            "label": "THCV",
+            "sub": "tetrahydrocannabivarin",
+            "pos": [
+              26,
+              0,
+              0
+            ],
+            "at": 0.75,
+            "focusAt": 0.77
+          },
+          {
+            "mol": "CBN",
+            "label": "CBN",
+            "sub": "cannabinol",
+            "pos": [
+              13,
+              0,
+              14
+            ],
+            "at": 0.86,
+            "focusAt": 0.88
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 24,
+          "height": 3,
+          "speed": 0.06
+        }
       }
     },
     {
@@ -285,6 +476,60 @@
           ]
         },
         "at": 0.5
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "membrane",
+        "membraneY": -13,
+        "mirrorPlane": true,
+        "items": [
+          {
+            "mol": "THC",
+            "label": "(−)-trans-Δ9-THC",
+            "pos": [
+              -10,
+              4,
+              0
+            ],
+            "at": 0.03,
+            "sink": 0.1
+          },
+          {
+            "mol": "THC",
+            "label": "",
+            "pos": [
+              -10,
+              4,
+              0
+            ],
+            "at": 0.5,
+            "focusAt": 0.5,
+            "labelY": -7
+          },
+          {
+            "mol": "THC_mirror",
+            "label": "mirror image",
+            "pos": [
+              10,
+              4,
+              0
+            ],
+            "at": 0.56,
+            "labelColor": "#9fb0c9",
+            "labelY": -7
+          }
+        ],
+        "cam": {
+          "radius": 30,
+          "height": 4,
+          "speed": 0.05,
+          "center": [
+            0,
+            -2,
+            0
+          ],
+          "phase": 1.1
+        }
       }
     },
     {
@@ -329,6 +574,62 @@
             "at": 0.55
           }
         ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "phytocannabinoid · THC",
+            "pos": [
+              -18,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05
+          },
+          {
+            "mol": "anandamide",
+            "label": "endocannabinoid · anandamide",
+            "pos": [
+              0,
+              0,
+              -8
+            ],
+            "at": 0.28,
+            "focusAt": 0.3
+          },
+          {
+            "mol": "CP55940",
+            "label": "synthetic · CP-55,940",
+            "pos": [
+              18,
+              0,
+              -2
+            ],
+            "at": 0.55,
+            "focusAt": 0.57,
+            "halo": "0xf59e0b"
+          },
+          {
+            "mol": "HU210",
+            "label": "synthetic · HU-210",
+            "pos": [
+              30,
+              0,
+              10
+            ],
+            "at": 0.68,
+            "focusAt": 0.8
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 28,
+          "height": 3,
+          "speed": 0.05
+        }
       }
     },
     {
@@ -378,13 +679,76 @@
             "at": 0.55
           }
         ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "trichomes",
+        "membraneY": -14,
+        "items": [
+          {
+            "mol": "myrcene",
+            "label": "myrcene",
+            "pos": [
+              -14,
+              2,
+              0
+            ],
+            "at": 0.08,
+            "focusAt": 0.08
+          },
+          {
+            "mol": "limonene",
+            "label": "limonene",
+            "pos": [
+              0,
+              2,
+              -6
+            ],
+            "at": 0.2,
+            "focusAt": 0.22
+          },
+          {
+            "mol": "pinene",
+            "label": "α-pinene",
+            "pos": [
+              14,
+              2,
+              0
+            ],
+            "at": 0.3,
+            "focusAt": 0.33
+          },
+          {
+            "mol": "THC",
+            "label": "THC",
+            "pos": [
+              0,
+              2,
+              14
+            ],
+            "at": 0.55,
+            "focusAt": 0.6
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 24,
+          "height": 4,
+          "speed": 0.06
+        }
       }
     },
     {
       "id": "s8",
       "kind": "outro",
       "heading": "Next: How were the receptors discovered?",
-      "narration": "In the next episode, we follow the experiments that proved cannabinoids act through specific receptors, and showed where in the brain those receptors are."
+      "narration": "In the next episode, we follow the experiments that proved cannabinoids act through specific receptors, and showed where in the brain those receptors are.",
+      "scene3d": {
+        "type": "title",
+        "mol": "CBG",
+        "receptor": true,
+        "phase": 2.0
+      }
     }
   ],
   "quiz": [

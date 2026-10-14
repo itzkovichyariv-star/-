@@ -22,6 +22,10 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 
 > The Science Behind Cannabis. Episode four: The body's own cannabinoids. The brain does not make receptors for a plant. If a receptor exists, the body must produce its own molecule to activate it. This episode tells how those molecules, the endocannabinoids, were found.
 
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of anandamide, in a drifting particle field.
+
 ### 2. A receptor implies a ligand  <sub>Scene · 0:18–0:52</sub>
 
 **Narration**
@@ -35,9 +39,9 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 - Cannabinoid receptor (1988, cloned 1990) → an endogenous ligand must exist
 - The search begins in Mechoulam's laboratory, Jerusalem
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **Opioid system**: Receptor found 1973; Endogenous ligands: enkephalins (1975); Plant mimic: morphine. Right, **Cannabinoid system**: Receptor found 1988, cloned 1990; Endogenous ligand: ?; Plant mimic: THC.
+Lipid bilayer with 7-helix receptor(s) cannabinoid receptor; actions: ligand-dock, question; ligands: morphine (poppy), THC (plant).
 
 ### 3. Where to look  <sub>Scene · 0:53–1:29</sub>
 
@@ -52,9 +56,9 @@ Two-column comparison. Left, **Opioid system**: Receptor found 1973; Endogenous 
 - Binding assay with radioactive HU-243 as the probe
 - Fractions that displace the probe contain the ligand
 
-**Visual**
+**Visual (3D scene)**
 
-Flow diagram: BRAIN → LIPID; LIPID → FRAC; FRAC → ASSAY (test each); ASSAY → HIT (displaces the probe); HIT → STRUCT. Nodes: Pig brain, Lipid extract, Chromatographic fractions, Binding assay with [³H]HU-243, Active fraction, Structure by NMR and MS
+Membrane vesicles studded with receptors; radiolabelled probe molecules (radiolabelled probe ([³H]HU-243)) drift and bind.
 
 ### 4. 1992: anandamide  <sub>Scene · 1:30–2:05</sub>
 
@@ -69,9 +73,9 @@ Flow diagram: BRAIN → LIPID; LIPID → FRAC; FRAC → ASSAY (test each); ASSAY
 - Chemically unlike THC, yet binds the same receptor
 - Named from Sanskrit 'ananda' + 'amide'; a partial agonist, low brain levels
 
-**Visual**
+**Visual (3D scene)**
 
-Large on-screen statement: **Anandamide** — N-arachidonoylethanolamine · C₂₂H₃₇NO₂ · discovered 1992
+Camera tour of 3D ball-and-stick molecules: anandamide.
 
 ### 5. 1995: 2-AG  <sub>Scene · 2:06–2:44</sub>
 
@@ -86,9 +90,9 @@ Large on-screen statement: **Anandamide** — N-arachidonoylethanolamine · C₂
 - Arachidonic acid attached to glycerol
 - Full agonist at CB1 and CB2; ~100–1000× more abundant than anandamide
 
-**Visual**
+**Visual (3D scene)**
 
-Large on-screen statement: **2-AG** — 2-arachidonoylglycerol · C₂₃H₃₈O₄ · discovered 1995
+Camera tour of 3D ball-and-stick molecules: 2-AG.
 
 ### 6. Two ligands compared  <sub>Scene · 2:45–3:16</sub>
 
@@ -103,9 +107,9 @@ Large on-screen statement: **2-AG** — 2-arachidonoylglycerol · C₂₃H₃₈
 - Different efficacy and abundance; different enzymes
 - Both found in brain, gut, immune system and other tissues
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **Anandamide (1992)**: Arachidonic acid + ethanolamine; Partial agonist at CB1; Low tissue levels; Degraded by FAAH. Right, **2-AG (1995)**: Arachidonic acid + glycerol; Full agonist at CB1 and CB2; ~100–1000× more abundant; Degraded by MAGL.
+Camera tour of 3D ball-and-stick molecules: anandamide, 2-AG, arachidonic acid; background: membrane.
 
 ### 7. Not a classical neurotransmitter  <sub>Scene · 3:17–3:54</sub>
 
@@ -120,15 +124,19 @@ Two-column comparison. Left, **Anandamide (1992)**: Arachidonic acid + ethanolam
 - Released immediately, act locally, rapidly degraded
 - Other candidates (noladin ether, virodhamine, NADA) less established
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **Classical neurotransmitter**: Synthesised in advance; Stored in vesicles; Released by exocytosis; Water-soluble. Right, **Endocannabinoid**: Made on demand; Not stored; Diffuses from the membrane; Lipid.
+3D synapse (presynaptic terminal, cleft, postsynaptic neuron) with vesicles, CB1 receptors, Ca²⁺ channel and 2-AG molecules; stages: classic, depol, release.
 
 ### 8. Next: How the system works  <sub>Closing card · 3:55–4:03</sub>
 
 **Narration**
 
 > In the final episode, we put the pieces together: how endocannabinoids are made and removed, and how they carry signals backwards across the synapse.
+
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of 2-AG, in a drifting particle field.
 
 ## Comprehension check (attention check)
 

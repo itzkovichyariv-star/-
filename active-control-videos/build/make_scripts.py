@@ -17,6 +17,19 @@ VIS_DESC = {
     "synapse": lambda v: "Animated synapse: presynaptic terminal with vesicles, CB1 receptors and a Ca²⁺ channel; postsynaptic neuron below. Stages: " + " → ".join(s['state'] for s in v['stages']),
 }
 
+SCENE3D_DESC = {
+    "title": lambda v: f"Title card over a slowly orbiting 3D model of {v.get('mol','THC')}" + (" above a lipid membrane with a CB1 receptor" if v.get("receptor") else "") + ", in a drifting particle field.",
+    "molecules": lambda v: "Camera tour of 3D ball-and-stick molecules: " + ", ".join(i.get("label") or i["mol"] for i in v.get("items", []) if i.get("label") or i.get("mol")) + (f"; background: {v['background']}" if v.get("background") else "") + ("; mirror plane between enantiomers" if v.get("mirrorPlane") else "") + ".",
+    "mixture": lambda v: "Swirling cloud of hundreds of small molecules (a crude extract)" + (f"; {v['isolate']['label']} is isolated and brought to the centre" if v.get("isolate") else "") + ".",
+    "timeline": lambda v: "Fly-through timeline in 3D space: " + "; ".join(f"{n['year']} — {n['text']}" for n in v.get("nodes", [])) + ".",
+    "membrane": lambda v: "Lipid bilayer with 7-helix receptor(s) " + ", ".join(r.get("label", "receptor") for r in v.get("receptors", [])) + "; actions: " + ", ".join(s["action"] for s in v.get("stages", [])) + (("; ligands: " + ", ".join(l.get("label") or l["mol"] for l in v.get("ligands", []))) if v.get("ligands") else "") + ".",
+    "brain": lambda v: "Point-cloud brain; regions light up: " + ", ".join(f"{r['label']} ({r.get('level','high')})" for r in v.get("regions", [])) + ".",
+    "synapse": lambda v: "3D synapse (presynaptic terminal, cleft, postsynaptic neuron) with vesicles, CB1 receptors, Ca²⁺ channel and 2-AG molecules; stages: " + ", ".join(s["action"] for s in v.get("stages", [])) + ".",
+    "network": lambda v: "Network of procedurally grown neurons with pulses travelling along axons" + ("; CB1 terminals glow" if any(s["action"] == "cb1" for s in v.get("stages", [])) else "") + ".",
+    "enzyme": lambda v: "Enzyme (translucent blob) " + "; ".join(f"{i['enzyme']} {'cuts' if i.get('mode','cut')=='cut' else 'assembles'} {i['label']}" + (f" → {', '.join(p for p in i.get('products', []) if p)}" if i.get('mode','cut')=='cut' else "") for i in v.get("items", [])) + ".",
+    "vesicles": lambda v: f"Membrane vesicles studded with receptors; radiolabelled probe molecules ({v.get('probeLabel','probe')}) drift and bind.",
+}
+
 def fmt(sec):
     m, s = divmod(int(round(sec)), 60)
     return f"{m}:{s:02d}"
@@ -52,10 +65,10 @@ def main():
                 L.append("**On-screen text**\n")
                 for b in sc["bullets"]: L.append(f"- {b['text']}")
                 L.append("")
-            v = sc.get("visual")
-            if v and v.get("type") in VIS_DESC:
-                L.append("**Visual**\n")
-                L.append(VIS_DESC[v["type"]](v) + "\n")
+            v3 = sc.get("scene3d")
+            if v3:
+                L.append("**Visual (3D scene)**\n")
+                L.append(SCENE3D_DESC.get(v3.get("type"), lambda v: v.get("type", ""))(v3) + "\n")
         L.append("## Comprehension check (attention check)\n")
         for i, q in enumerate(ep["quiz"], 1):
             L.append(f"{i}. {q['q']}")

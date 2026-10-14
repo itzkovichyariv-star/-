@@ -22,6 +22,10 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 
 > The Science Behind Cannabis. Episode five: How the endocannabinoid system works. We now have all the components: two receptors, two ligands, and the enzymes around them. In this episode we see how they operate together at the synapse.
 
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of 2-AG above a lipid membrane with a CB1 receptor, in a drifting particle field.
+
 ### 2. Three components, one system  <sub>Scene · 0:15–0:48</sub>
 
 **Narration**
@@ -35,9 +39,9 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 - Enzymes: synthesis on demand, rapid degradation
 - Designed for brief, local messages
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Receptors** — CB1 · CB2; **Ligands** — Anandamide · 2-AG; **Synthesis** — NAPE-PLD · DAGL; **Degradation** — FAAH · MAGL
+Lipid bilayer with 7-helix receptor(s) CB1, CB2; actions: ligand-dock; ligands: anandamide, 2-AG.
 
 ### 3. Making the ligands  <sub>Scene · 0:49–1:27</sub>
 
@@ -52,9 +56,9 @@ Card grid: **Receptors** — CB1 · CB2; **Ligands** — Anandamide · 2-AG; **S
 - Triggered by a rise in intracellular calcium or receptor activation
 - Ligand appears only when the cell is active
 
-**Visual**
+**Visual (3D scene)**
 
-Flow diagram: NAPE → AEA (NAPE-PLD); PL → DAG (PLCβ); DAG → AG (DAGLα / β). Nodes: NAPE, Anandamide, Membrane phospholipid, DAG, 2-AG, Ca²⁺ ↑
+Enzyme (translucent blob) NAPE-PLD assembles anandamide; DAGL assembles 2-AG.
 
 ### 4. Removing the ligands  <sub>Scene · 1:28–2:09</sub>
 
@@ -69,9 +73,9 @@ Flow diagram: NAPE → AEA (NAPE-PLD); PL → DAG (PLCβ); DAG → AG (DAGLα / 
 - Also ABHD6, ABHD12, COX-2
 - Fast degradation: signals last seconds and stay local
 
-**Visual**
+**Visual (3D scene)**
 
-Flow diagram: AEA → AA1 (FAAH); AG → AA2 (MAGL). Nodes: Anandamide, Arachidonic acid + ethanolamine, 2-AG, Arachidonic acid + glycerol
+Enzyme (translucent blob) FAAH cuts anandamide → arachidonic acid, ethanolamine; MAGL cuts 2-AG → arachidonic acid, glycerol.
 
 ### 5. Signalling backwards: the discovery  <sub>Scene · 2:10–2:44</sub>
 
@@ -86,9 +90,9 @@ Flow diagram: AEA → AA1 (FAAH); AG → AA2 (MAGL). Nodes: Anandamide, Arachido
 - Messenger: an endocannabinoid
 - Direction: from receiving neuron back to sending neuron → retrograde
 
-**Visual**
+**Visual (3D scene)**
 
-Animated synapse: presynaptic terminal with vesicles, CB1 receptors and a Ca²⁺ channel; postsynaptic neuron below. Stages: base → depol → release → bind
+Network of procedurally grown neurons with pulses travelling along axons; CB1 terminals glow.
 
 ### 6. Retrograde signalling, step by step  <sub>Scene · 2:45–3:24</sub>
 
@@ -103,9 +107,9 @@ Animated synapse: presynaptic terminal with vesicles, CB1 receptors and a Ca²�
 - 4–5. 2-AG binds presynaptic CB1 → Ca²⁺ channels close, K⁺ channels open
 - 6. Less transmitter released (GABA → DSI; glutamate → DSE)
 
-**Visual**
+**Visual (3D scene)**
 
-Animated synapse: presynaptic terminal with vesicles, CB1 receptors and a Ca²⁺ channel; postsynaptic neuron below. Stages: depol → release → bind → inhibit
+3D synapse (presynaptic terminal, cleft, postsynaptic neuron) with vesicles, CB1 receptors, Ca²⁺ channel and 2-AG molecules; stages: depol, release, bind, inhibit.
 
 ### 7. A feedback system for synapses  <sub>Scene · 3:25–4:02</sub>
 
@@ -120,9 +124,9 @@ Animated synapse: presynaptic terminal with vesicles, CB1 receptors and a Ca²�
 - CB1 on inhibitory and excitatory terminals across many circuits
 - CB2 on immune cells: part of immune signalling
 
-**Visual**
+**Visual (3D scene)**
 
-Side view of the brain with labelled regions: Cortex (high density); Basal ganglia (high density); Hippocampus (high density); Cerebellum (high density)
+Network of procedurally grown neurons with pulses travelling along axons; CB1 terminals glow.
 
 ### 8. Where plant cannabinoids fit in  <sub>Scene · 4:03–4:46</sub>
 
@@ -137,9 +141,9 @@ Side view of the brain with labelled regions: Cortex (high density); Basal gangl
 - THC: arrives via bloodstream, not cleared by synaptic enzymes, reaches many circuits at once
 - CBD: weak at CB1; reported targets include TRPV1 and FAAH
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **2-AG (endogenous)**: Full agonist; Made on demand at one synapse; Degraded within seconds by MAGL; Spatially precise. Right, **THC (plant)**: Partial agonist; Delivered via the bloodstream; Not a substrate for MAGL or FAAH; Reaches many circuits at once.
+Lipid bilayer with 7-helix receptor(s) CB1, CB1, CB1; actions: ligand-dock; ligands: 2-AG · made here, gone in seconds, THC · arrives via the bloodstream, THC, THC.
 
 ### 9. Beyond CB1 and CB2  <sub>Scene · 4:46–5:29</sub>
 
@@ -154,15 +158,19 @@ Two-column comparison. Left, **2-AG (endogenous)**: Full agonist; Made on demand
 - 1998: 'entourage effect' — co-released lipids enhance 2-AG activity
 - A widespread lipid signalling system; research continues
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **TRPV1** — Ion channel; activated by anandamide; **GPR55** — Orphan GPCR; responds to some cannabinoids; **PPARs** — Nuclear receptors; **Entourage effect** — 2-palmitoylglycerol, 2-linoleoylglycerol with 2-AG (1998)
+Camera tour of 3D ball-and-stick molecules: anandamide, 2-AG, 2-palmitoylglycerol, 2-linoleoylglycerol; background: membrane.
 
 ### 10. End of the series  <sub>Closing card · 5:30–5:44</sub>
 
 **Narration**
 
 > This concludes The Science Behind Cannabis: from the isolation of THC in 1964, to the receptors, the body's own ligands, and the enzymes and synapses that make up the endocannabinoid system. Thank you for watching.
+
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of THC above a lipid membrane with a CB1 receptor, in a drifting particle field.
 
 ## Comprehension check (attention check)
 

@@ -50,7 +50,7 @@ Two places were handled with particular care:
 ## Production notes
 
 - **Narration:** English, synthetic voice (Piper `en_US-lessac-medium`, run offline through sherpa-onnx). The voice is clear but recognisably synthetic; if a human voice-over is preferred, record each scene's narration and drop the WAVs into the work folder as `s1.wav`, `s2.wav`, … — the renderer times every scene from the audio, so no re-editing is needed.
-- **Visuals:** 1920×1080, 24 fps, motion-graphics style rendered deterministically from HTML/SVG in headless Chromium. Every element's state is a pure function of time, so re-renders are reproducible. Motion includes a drifting particle-network background, kinetic title typography, staggered slide/scale reveals with an active-bullet highlight, timelines that draw on, flow particles along pathway arrows, a ligand that docks into the receptor and engages its G protein, calcium and 2-AG particles moving through the synapse, ripple pulses on the brain map, and animated captions and scene transitions.
+- **Visuals:** full-frame 3D scenes rendered with Three.js in headless Chromium (software WebGL), 1920×1080 at 24 fps. Molecules are real 3D conformers generated with RDKit from SMILES (THC, CBD, CBG, CBC, CBN, THCV, the acid precursors, anandamide, 2-AG, arachidonic acid, CP-55,940, HU-210, terpenes, morphine, cAMP…), drawn ball-and-stick. Set pieces: a glandular-trichome field, a crude-extract molecule cloud, a fly-through discovery timeline, a lipid bilayer with 7-helix receptors (ligand docking, G-protein engagement, cAMP depletion, receptor knockout), membrane vesicles with radiolabelled probes, a point-cloud brain with regions lighting up, a synapse with vesicle release, calcium entry and retrograde 2-AG signalling, procedurally grown neuron networks with travelling pulses, and enzymes that cut or assemble molecules (decarboxylation, FAAH/MAGL hydrolysis, NAPE-PLD/DAGL synthesis). Every element is a pure function of time, so renders are reproducible. Text (title cards, scene lower-thirds, captions) is burned in by ffmpeg from an ASS overlay so it stays crisp.
 - **Subtitles:** burned-in captions plus a separate `.srt` per episode.
 - **Font:** Inter (SIL Open Font License), bundled in `assets/fonts/`.
 
@@ -64,9 +64,13 @@ active-control-videos/
 ├── assets/fonts/
 └── build/
     ├── tts.py           # narration → per-scene WAV, timing.json, captions.srt
-    ├── render.js        # timing + episode JSON → MP4 (Playwright + ffmpeg)
+    ├── ass.py           # timing + episode JSON → overlay.ass (title cards, lower-thirds, captions)
+    ├── molecules.py     # SMILES → 3D conformers (RDKit) → assets/molecules/molecules.json
+    ├── scene3d/         # Three.js engine: engine.html + engine.js (scene set pieces)
+    ├── render3d.js      # episode JSON + timing + overlay → MP4 (Playwright WebGL + ffmpeg)
+    ├── render.js        # the earlier 2D motion-graphics renderer (kept for reference)
     ├── make_scripts.py  # episode JSON → Markdown scripts
     └── build_all.sh     # runs everything
 ```
 
-Edit the JSON, then run `build/build_all.sh` (requirements are listed at the top of that script). Changing narration automatically re-times the scene; `at` values on bullets and visual elements are fractions of the scene's duration, so they keep their relative position.
+Edit the JSON, then run `build/build_all.sh` (requirements are listed at the top of that script). Each scene's `scene3d` block names a set piece (`title`, `molecules`, `mixture`, `timeline`, `membrane`, `vesicles`, `brain`, `synapse`, `network`, `enzyme`) and its parameters; `at` values are fractions of the scene's duration, so changing the narration re-times everything automatically. The 3D render is software-rendered and takes roughly 0.3–0.6 s per frame.

@@ -14,7 +14,12 @@
       "id": "s1",
       "kind": "title",
       "heading": "The Body's Own Cannabinoids",
-      "narration": "The Science Behind Cannabis. Episode four: The body's own cannabinoids. The brain does not make receptors for a plant. If a receptor exists, the body must produce its own molecule to activate it. This episode tells how those molecules, the endocannabinoids, were found."
+      "narration": "The Science Behind Cannabis. Episode four: The body's own cannabinoids. The brain does not make receptors for a plant. If a receptor exists, the body must produce its own molecule to activate it. This episode tells how those molecules, the endocannabinoids, were found.",
+      "scene3d": {
+        "type": "title",
+        "mol": "anandamide",
+        "phase": 0.6
+      }
     },
     {
       "id": "s2",
@@ -58,6 +63,58 @@
           ]
         },
         "at": 0.08
+      },
+      "scene3d": {
+        "type": "membrane",
+        "receptors": [
+          {
+            "x": 0,
+            "z": 0,
+            "label": "cannabinoid receptor"
+          }
+        ],
+        "ligands": [
+          {
+            "mol": "morphine",
+            "label": "morphine (poppy)",
+            "scale": 0.6,
+            "at": 0.12,
+            "from": [
+              -24,
+              18,
+              -8
+            ],
+            "color": "#9fb0c9"
+          },
+          {
+            "mol": "THC",
+            "label": "THC (plant)",
+            "scale": 0.6,
+            "at": 0.5,
+            "from": [
+              24,
+              20,
+              8
+            ]
+          }
+        ],
+        "question": true,
+        "stages": [
+          {
+            "at": 0.12,
+            "action": "ligand-dock"
+          },
+          {
+            "at": 0.78,
+            "action": "question"
+          }
+        ],
+        "cam": {
+          "radius": 30,
+          "height": 9,
+          "speed": 0.05,
+          "phase": 0.4
+        }
       }
     },
     {
@@ -161,6 +218,24 @@
             "at": 0.85
           }
         ]
+      },
+      "scene3d": {
+        "type": "vesicles",
+        "n": 6,
+        "probes": 10,
+        "probe": "HU210",
+        "probeLabel": "radiolabelled probe ([³H]HU-243)",
+        "stages": [
+          {
+            "at": 0.55,
+            "action": "bind"
+          }
+        ],
+        "cam": {
+          "radius": 58,
+          "height": 8,
+          "dolly": 0.4
+        }
       }
     },
     {
@@ -190,6 +265,35 @@
         "type": "bigfact",
         "text": "Anandamide",
         "sub": "N-arachidonoylethanolamine · C₂₂H₃₇NO₂ · discovered 1992"
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "anandamide",
+            "label": "anandamide",
+            "sub": "N-arachidonoylethanolamine · 1992",
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "assemble": [
+              "frag_acyl",
+              "frag_amine"
+            ],
+            "assembleOffset": 10,
+            "halo": "0xf59e0b",
+            "labelY": -7
+          }
+        ],
+        "cam": {
+          "radius": 30,
+          "height": 5,
+          "speed": 0.05,
+          "phase": 0.3
+        }
       }
     },
     {
@@ -219,6 +323,35 @@
         "type": "bigfact",
         "text": "2-AG",
         "sub": "2-arachidonoylglycerol · C₂₃H₃₈O₄ · discovered 1995"
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "2-AG",
+            "label": "2-AG",
+            "sub": "2-arachidonoylglycerol · 1995",
+            "pos": [
+              0,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "assemble": [
+              "frag_acyl",
+              "frag_glycerol"
+            ],
+            "assembleOffset": 10,
+            "halo": "0xf59e0b",
+            "labelY": -7
+          }
+        ],
+        "cam": {
+          "radius": 30,
+          "height": 5,
+          "speed": 0.05,
+          "phase": 2.3
+        }
       }
     },
     {
@@ -265,6 +398,58 @@
           ]
         },
         "at": 0.08
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "membrane",
+        "membraneY": -14,
+        "items": [
+          {
+            "mol": "anandamide",
+            "label": "anandamide",
+            "sub": "arachidonic acid + ethanolamine",
+            "pos": [
+              -12,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05,
+            "labelY": -7
+          },
+          {
+            "mol": "2-AG",
+            "label": "2-AG",
+            "sub": "arachidonic acid + glycerol",
+            "pos": [
+              12,
+              0,
+              0
+            ],
+            "at": 0.1,
+            "focusAt": 0.3,
+            "labelY": -7
+          },
+          {
+            "mol": "arachidonic_acid",
+            "label": "arachidonic acid",
+            "sub": "a normal membrane fatty acid",
+            "pos": [
+              0,
+              -6,
+              16
+            ],
+            "at": 0.55,
+            "focusAt": 0.58,
+            "labelY": -6
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 30,
+          "height": 4,
+          "speed": 0.05
+        }
       }
     },
     {
@@ -311,13 +496,41 @@
           ]
         },
         "at": 0.08
+      },
+      "scene3d": {
+        "type": "synapse",
+        "stages": [
+          {
+            "at": 0.0,
+            "action": "classic"
+          },
+          {
+            "at": 0.35,
+            "action": "depol"
+          },
+          {
+            "at": 0.5,
+            "action": "release"
+          }
+        ],
+        "cam": {
+          "radius": 44,
+          "height": 6,
+          "speed": 0.05,
+          "phase": 0.4
+        }
       }
     },
     {
       "id": "s8",
       "kind": "outro",
       "heading": "Next: How the system works",
-      "narration": "In the final episode, we put the pieces together: how endocannabinoids are made and removed, and how they carry signals backwards across the synapse."
+      "narration": "In the final episode, we put the pieces together: how endocannabinoids are made and removed, and how they carry signals backwards across the synapse.",
+      "scene3d": {
+        "type": "title",
+        "mol": "2-AG",
+        "phase": 1.2
+      }
     }
   ],
   "quiz": [

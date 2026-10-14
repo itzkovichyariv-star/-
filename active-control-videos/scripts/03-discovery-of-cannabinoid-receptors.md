@@ -22,6 +22,10 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 
 > The Science Behind Cannabis. Episode three: How were cannabinoid receptors discovered? This episode follows a scientific detective story: how researchers went from doubting that cannabinoids have a specific target, to cloning two receptors and mapping them in the brain.
 
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of THC above a lipid membrane with a CB1 receptor, in a drifting particle field.
+
 ### 2. The membrane hypothesis  <sub>Scene · 0:17–0:51</sub>
 
 **Narration**
@@ -35,9 +39,9 @@ Each scene lists the narration (voice-over), the on-screen text and the visual. 
 - Hypothesis B: binding to a specific protein receptor (like morphine)
 - Resolving the question took about fifteen years
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **Membrane hypothesis**: THC dissolves into the lipid bilayer; Disturbs membrane function generally; No specific target. Right, **Receptor hypothesis**: THC fits a specific protein; Triggers a defined signal; Shape and handedness matter.
+Lipid bilayer with 7-helix receptor(s) receptor; actions: receptor-vanish, receptor-appear, ligand-dock; ligands: THC, THC, THC, THC.
 
 ### 3. Clues pointing to a receptor  <sub>Scene · 0:52–1:29</sub>
 
@@ -52,9 +56,9 @@ Two-column comparison. Left, **Membrane hypothesis**: THC dissolves into the lip
 - High potency: synthetic analogues active at nanomolar concentrations
 - Conclusion: a precise molecular recognition site must exist
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Stereoselectivity** — A membrane has no handedness; a protein does; **Structure–activity** — Side-chain length changes potency sharply; **Nanomolar potency** — CP-55,940 (Pfizer) far more potent than THC
+Camera tour of 3D ball-and-stick molecules: (−)-THC · active, mirror image · almost inactive, shorter side chain · different potency, CP-55,940 · active at nanomolar concentrations; mirror plane between enantiomers.
 
 ### 4. 1984–1986: a signal inside the cell  <sub>Scene · 1:30–2:07</sub>
 
@@ -69,9 +73,9 @@ Card grid: **Stereoselectivity** — A membrane has no handedness; a protein doe
 - Effect tracks potency and handedness; blocked by pertussis toxin
 - Fingerprint of a Gi-coupled, G-protein-coupled receptor (GPCR)
 
-**Visual**
+**Visual (3D scene)**
 
-Animated membrane diagram: lipid bilayer → 7-helix CB1 receptor → ligand docks → Gi/o protein engages → adenylyl cyclase and cAMP fall.
+Lipid bilayer with 7-helix receptor(s) receptor; actions: ligand-dock, gprotein, camp-drop; ligands: cannabinoid.
 
 ### 5. 1988: the binding site  <sub>Scene · 2:08–2:42</sub>
 
@@ -86,9 +90,9 @@ Animated membrane diagram: lipid bilayer → 7-helix CB1 receptor → ligand doc
 - Rank order of binding matched rank order of potency in animals
 - Devane, Howlett et al. 1988: the cannabinoid receptor identified
 
-**Visual**
+**Visual (3D scene)**
 
-Large on-screen statement: **Specific · Saturable · High affinity** — The three signatures of receptor binding
+Membrane vesicles studded with receptors; radiolabelled probe molecules ([³H]CP-55,940) drift and bind.
 
 ### 6. 1990: a map of the brain  <sub>Scene · 2:43–3:16</sub>
 
@@ -103,9 +107,9 @@ Large on-screen statement: **Specific · Saturable · High affinity** — The th
 - Low density: brainstem
 - CB1 is among the most abundant GPCRs in the brain
 
-**Visual**
+**Visual (3D scene)**
 
-Side view of the brain with labelled regions: Cerebral cortex (high density); Basal ganglia (high density); Hippocampus (high density); Cerebellum (high density); Brainstem (low density)
+Point-cloud brain; regions light up: Cerebral cortex (high), Basal ganglia (high), Hippocampus (high), Cerebellum (high), Brainstem (low).
 
 ### 7. 1990 and 1993: two receptors cloned  <sub>Scene · 3:17–3:52</sub>
 
@@ -120,9 +124,9 @@ Side view of the brain with labelled regions: Cerebral cortex (high density); Ba
 - 1993: Munro et al. clone CB2 (Cambridge)
 - CB2: immune cells, spleen, later also microglia
 
-**Visual**
+**Visual (3D scene)**
 
-Two-column comparison. Left, **CB1 (1990)**: Central nervous system, also peripheral tissues; Mostly on nerve terminals; Among the most abundant GPCRs in brain. Right, **CB2 (1993)**: Immune system, spleen; Microglia in the brain; Low in neurons under normal conditions.
+Lipid bilayer with 7-helix receptor(s) CB1 · nerve terminal, CB2 · immune cell; actions: receptor-vanish, receptor-appear.
 
 ### 8. Confirmation with genetics  <sub>Scene · 3:53–4:28</sub>
 
@@ -137,15 +141,19 @@ Two-column comparison. Left, **CB1 (1990)**: Central nervous system, also periph
 - Five lines of evidence converge on specific receptors
 - New question: why does the brain have these receptors at all?
 
-**Visual**
+**Visual (3D scene)**
 
-Card grid: **Biochemistry** — Adenylyl cyclase, G proteins; **Binding** — Radioligand studies; **Mapping** — Autoradiography; **Cloning** — CB1 and CB2 genes; **Genetics** — Knockout mice
+Lipid bilayer with 7-helix receptor(s) CB1; actions: receptor-vanish, ligand-pass; ligands: THC, THC, THC, THC.
 
 ### 9. Next: The body's own cannabinoids  <sub>Closing card · 4:28–4:37</sub>
 
 **Narration**
 
 > In the next episode, we answer that question: the search for the molecules the body itself makes to activate these receptors, the endocannabinoids.
+
+**Visual (3D scene)**
+
+Title card over a slowly orbiting 3D model of anandamide, in a drifting particle field.
 
 ## Comprehension check (attention check)
 
