@@ -549,43 +549,43 @@
             "move": 2
           },
           {
-            "at": 0.42,
-            "anchor": "receptor0",
+            "at": 0.4,
+            "anchor": "gprotein",
             "offset": [
-              12,
-              5,
-              18
+              9,
+              -7,
+              13
             ],
             "lookAt": "gprotein",
-            "move": 1.5
+            "move": 2
           },
           {
-            "at": 0.62,
+            "at": 0.6,
             "anchor": "alpha",
             "offset": [
-              6,
-              4,
-              13
+              7,
+              -5,
+              12
             ],
             "lookAt": "alpha",
             "move": 1.2
           },
           {
-            "at": 0.7,
+            "at": 0.68,
             "orbit": {
               "anchor": "ac",
               "r": 15,
-              "h": 3,
+              "h": -7,
               "speed": 0.07,
               "phase": 1.2
             },
             "move": 1.5
           },
           {
-            "at": 0.9,
+            "at": 0.88,
             "orbit": {
               "anchor": "receptor0",
-              "r": 46,
+              "r": 44,
               "h": 16,
               "speed": 0.04,
               "phase": 2.0
