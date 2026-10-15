@@ -18,7 +18,7 @@ The review is a history-of-discovery and basic-science paper: isolation of the p
 | 4 | `output/04-endocannabinoids-anandamide-and-2ag.mp4` | `scripts/04-endocannabinoids-anandamide-and-2ag.md` | The body's own cannabinoids: anandamide (1992) and 2-AG (1995) | 4:20 |
 | 5 | `output/05-how-the-endocannabinoid-system-works.mp4` | `scripts/05-how-the-endocannabinoid-system-works.md` | How the system works: synthesis, degradation, retrograde signalling | 6:00 |
 
-Total ≈ 23.5 minutes. Each video has a matching `.srt` subtitle file in `output/`. One episode per session/week gives a dose of exposure comparable to a brief weekly chatbot interaction.
+Total ≈ 23.5 minutes. Each video has a matching `.srt` subtitle file in `output/`. The MP4s in `output/` are the documentary cuts at 1080p. One episode per session/week gives a dose of exposure comparable to a brief weekly chatbot interaction.
 
 ## Neutrality rules (what keeps the control condition inert)
 
