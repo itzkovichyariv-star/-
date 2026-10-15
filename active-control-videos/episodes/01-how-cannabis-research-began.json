@@ -1,0 +1,870 @@
+{
+  "id": "01",
+  "episode": 1,
+  "series": "The Science Behind Cannabis",
+  "title": "How Cannabis Research Began",
+  "subtitle": "From plant chemistry to a biological system",
+  "objectives": [
+    "Describe why isolating the active constituents of cannabis took almost a century.",
+    "Name the researchers and years associated with the structures of CBD and THC.",
+    "Place the major discoveries of cannabinoid science on a timeline from the 1890s to the 2000s."
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "kind": "title",
+      "heading": "How Cannabis Research Began",
+      "narration": "The Science Behind Cannabis. Episode one: How cannabis research began. In this episode we follow the story of how chemists and pharmacologists worked out what cannabis is made of, and how that work led to the discovery of a signalling system that exists in every one of us.",
+      "scene3d": {
+        "type": "title",
+        "mol": "THC",
+        "bg": "trichomes",
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -18,
+              12,
+              72
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -14,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            },
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              0,
+              2,
+              38
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "content",
+      "heading": "A plant studied for a long time",
+      "narration": "Cannabis sativa has been cultivated for thousands of years, for fibre, seed and oil, and as a preparation in traditional medicine in Asia and the Middle East. In the 1840s the Irish physician William O'Shaughnessy, working in Calcutta, described cannabis preparations to European medicine. For the rest of the nineteenth century, scientists could study the plant, but they could not say which molecules inside it were responsible for its effects. That question would take about a hundred years to answer.",
+      "bullets": [
+        {
+          "text": "Cultivated for millennia for fibre, seed, oil and traditional preparations",
+          "at": 0.05
+        },
+        {
+          "text": "1840s: William O'Shaughnessy describes cannabis to European medicine",
+          "at": 0.35
+        },
+        {
+          "text": "Open question for a century: which molecules are responsible?",
+          "at": 0.7
+        }
+      ],
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "Antiquity",
+            "sub": "Fibre, seed, oil, traditional preparations",
+            "at": 0.05
+          },
+          {
+            "label": "1840s",
+            "sub": "O'Shaughnessy, Calcutta",
+            "at": 0.35
+          },
+          {
+            "label": "1850–1890s",
+            "sub": "Extracts and tinctures, chemistry unknown",
+            "at": 0.7
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "trichomes",
+        "membraneY": -14,
+        "items": [],
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -40,
+              -6,
+              60
+            ],
+            "look": [
+              0,
+              -10,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "pos": [
+              20,
+              -8,
+              30
+            ],
+            "look": [
+              -10,
+              -12,
+              -10
+            ],
+            "move": 8
+          },
+          {
+            "at": 0.7,
+            "pos": [
+              -10,
+              14,
+              50
+            ],
+            "look": [
+              0,
+              -10,
+              -20
+            ],
+            "move": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "content",
+      "heading": "Why the chemistry was so hard",
+      "narration": "The first cannabis constituent, cannabinol, was obtained in the 1890s by Wood, Spivey and Easterfield in Cambridge, from a resin they called red oil. But progress then stalled for decades. Cannabis constituents are oily, fat-loving molecules that do not form crystals, and in the early twentieth century chemists had no chromatography and no spectroscopy to separate and identify them. In the 1940s Roger Adams in the United States and Alexander Todd in Britain isolated cannabidiol and clarified the structure of cannabinol, but the exact structures of the main constituents were still uncertain.",
+      "bullets": [
+        {
+          "text": "1896–1899: cannabinol obtained from 'red oil' (Wood, Spivey, Easterfield)",
+          "at": 0.05
+        },
+        {
+          "text": "Oily, non-crystalline, lipophilic mixtures: hard to separate",
+          "at": 0.3
+        },
+        {
+          "text": "No chromatography or spectroscopy until mid-20th century",
+          "at": 0.5
+        },
+        {
+          "text": "1940s: Adams (USA) and Todd (UK) isolate CBD, define cannabinol",
+          "at": 0.72
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Lipophilic",
+            "sub": "Dissolves in fat and oil, not in water",
+            "at": 0.3
+          },
+          {
+            "title": "Non-crystalline",
+            "sub": "No clean solids to purify",
+            "at": 0.4
+          },
+          {
+            "title": "Complex mixture",
+            "sub": "Dozens of closely related molecules",
+            "at": 0.5
+          },
+          {
+            "title": "Few tools",
+            "sub": "Chromatography and NMR came later",
+            "at": 0.6
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "mixture",
+        "n": 460,
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              20,
+              90
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.25,
+            "pos": [
+              30,
+              6,
+              34
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 6
+          },
+          {
+            "at": 0.6,
+            "pos": [
+              -20,
+              -8,
+              30
+            ],
+            "look": [
+              5,
+              2,
+              0
+            ],
+            "move": 6
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              0,
+              10,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "content",
+      "heading": "1963–1964: the structures are solved",
+      "narration": "The breakthrough came in Israel. In 1963, Raphael Mechoulam and Yuval Shvo established the full structure of cannabidiol. One year later, in 1964, Yehiel Gaoni and Mechoulam isolated delta-9-tetrahydrocannabinol, known as THC, in pure form and determined its structure. They showed that THC is the principal psychoactive constituent of the plant. Over the following years, the group also completed the total synthesis of both molecules, so that pure, well-defined compounds were finally available for study.",
+      "bullets": [
+        {
+          "text": "1963: Mechoulam & Shvo determine the structure of cannabidiol (CBD)",
+          "at": 0.1
+        },
+        {
+          "text": "1964: Gaoni & Mechoulam isolate Δ9-THC and solve its structure",
+          "at": 0.35
+        },
+        {
+          "text": "THC identified as the principal psychoactive constituent",
+          "at": 0.6
+        },
+        {
+          "text": "1965–1967: total synthesis of CBD and THC",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "1963",
+            "sub": "Structure of CBD (Mechoulam & Shvo)",
+            "at": 0.1
+          },
+          {
+            "label": "1964",
+            "sub": "Isolation and structure of Δ9-THC (Gaoni & Mechoulam)",
+            "at": 0.35
+          },
+          {
+            "label": "1965–67",
+            "sub": "Total synthesis of THC and CBD",
+            "at": 0.8
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "mixture",
+        "n": 320,
+        "isolate": {
+          "mol": "THC",
+          "label": "Δ9-THC · 1964",
+          "at": 0.33
+        },
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              26,
+              10,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "iso",
+              "r": 24,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.3
+            },
+            "move": 3
+          },
+          {
+            "at": 0.75,
+            "orbit": {
+              "anchor": "iso",
+              "r": 16,
+              "h": 2,
+              "speed": 0.1,
+              "phase": 2.5
+            },
+            "move": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "content",
+      "heading": "From chemistry to pharmacology",
+      "narration": "Having pure THC changed everything. For the first time, pharmacologists could give animals a known dose of a single molecule and measure what it did. They could also make chemical variants, change one part of the molecule at a time, and see which changes mattered. This structure–activity work, carried out in the 1970s and eighties by groups including those of Mechoulam, Roger Pertwee and Allyn Howlett, raised a new question: how does a fat-loving molecule like THC actually act on cells? That question leads directly to the next discoveries.",
+      "bullets": [
+        {
+          "text": "Pure THC enabled dose–response experiments with a single molecule",
+          "at": 0.08
+        },
+        {
+          "text": "Chemical variants revealed which parts of the structure matter",
+          "at": 0.35
+        },
+        {
+          "text": "1970s–80s: structure–activity studies (Mechoulam, Pertwee, Howlett)",
+          "at": 0.55
+        },
+        {
+          "text": "New question: how does THC act on cells?",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "bigfact",
+        "text": "Pure molecule → known dose → measurable effect",
+        "sub": "The basis of modern pharmacology"
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "Δ9-THC",
+            "pos": [
+              -18,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05,
+            "halo": "0xf59e0b"
+          },
+          {
+            "mol": "THCV",
+            "label": "shorter side chain (THCV)",
+            "pos": [
+              0,
+              0,
+              -4
+            ],
+            "at": 0.32,
+            "focusAt": 0.35
+          },
+          {
+            "mol": "HU210",
+            "label": "a synthetic analogue (HU-210)",
+            "pos": [
+              18,
+              0,
+              0
+            ],
+            "at": 0.55,
+            "focusAt": 0.58
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 26,
+          "height": 3,
+          "speed": 0.05
+        },
+        "palette": "warm",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.35,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.58,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "content",
+      "heading": "A decade of discoveries",
+      "narration": "Between 1988 and 2001, the field moved from plant chemistry to biology. In 1988, Allyn Howlett's laboratory identified a specific binding site for cannabinoids in rat brain. In 1990, the receptor, called CB one, was cloned. In 1992, Mechoulam's group, with William Devane and Lumír Hanuš, discovered anandamide, the first endocannabinoid, a molecule made by the body itself. A second receptor, CB two, was cloned in 1993, and a second endocannabinoid, 2-AG, was found in 1995. By 2001, researchers had shown how these molecules carry signals between neurons.",
+      "bullets": [
+        {
+          "text": "1988: a specific cannabinoid binding site in rat brain (Howlett lab)",
+          "at": 0.1
+        },
+        {
+          "text": "1990: CB1 receptor cloned · 1993: CB2 receptor cloned",
+          "at": 0.3
+        },
+        {
+          "text": "1992: anandamide · 1995: 2-AG, the body's own cannabinoids",
+          "at": 0.55
+        },
+        {
+          "text": "2001: endocannabinoids shown to signal between neurons",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "timeline",
+        "items": [
+          {
+            "label": "1988",
+            "sub": "Cannabinoid binding site in brain",
+            "at": 0.1
+          },
+          {
+            "label": "1990",
+            "sub": "CB1 receptor cloned",
+            "at": 0.3
+          },
+          {
+            "label": "1992",
+            "sub": "Anandamide discovered",
+            "at": 0.5
+          },
+          {
+            "label": "1993",
+            "sub": "CB2 receptor cloned",
+            "at": 0.62
+          },
+          {
+            "label": "1995",
+            "sub": "2-AG discovered",
+            "at": 0.72
+          },
+          {
+            "label": "2001",
+            "sub": "Retrograde signalling at synapses",
+            "at": 0.85
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "timeline",
+        "nodes": [
+          {
+            "year": "1988",
+            "text": "A cannabinoid binding site in brain",
+            "exhibit": "receptor",
+            "at": 0.1
+          },
+          {
+            "year": "1990",
+            "text": "CB1 receptor cloned",
+            "exhibit": "helix",
+            "at": 0.3
+          },
+          {
+            "year": "1992",
+            "text": "Anandamide discovered",
+            "mol": "anandamide",
+            "at": 0.5
+          },
+          {
+            "year": "1993",
+            "text": "CB2 receptor cloned",
+            "exhibit": "receptor",
+            "at": 0.62
+          },
+          {
+            "year": "1995",
+            "text": "2-AG discovered",
+            "mol": "2-AG",
+            "at": 0.72
+          },
+          {
+            "year": "2001",
+            "text": "Retrograde signalling at synapses",
+            "exhibit": "synapse",
+            "at": 0.85
+          }
+        ],
+        "palette": "warm"
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "content",
+      "heading": "What the story reveals",
+      "narration": "The history tells us something important about how cannabis works. Its constituents do not act in some vague, general way. They act on a specific biological system, the endocannabinoid system, which consists of receptors, the body's own signalling molecules, and the enzymes that make and break those molecules down. This system is present in all vertebrates and is part of normal physiology. The plant molecules happen to fit into it. In the rest of this series we look at each part of that system in turn.",
+      "bullets": [
+        {
+          "text": "Cannabis constituents act on a specific biological system",
+          "at": 0.1
+        },
+        {
+          "text": "The endocannabinoid system: receptors, ligands, enzymes",
+          "at": 0.35
+        },
+        {
+          "text": "Present in all vertebrates as part of normal physiology",
+          "at": 0.6
+        },
+        {
+          "text": "Plant molecules fit into a system that already exists",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Receptors",
+            "sub": "CB1 and CB2 on cell membranes",
+            "at": 0.35
+          },
+          {
+            "title": "Ligands",
+            "sub": "Anandamide and 2-AG, made by the body",
+            "at": 0.45
+          },
+          {
+            "title": "Enzymes",
+            "sub": "Build and break down the ligands",
+            "at": 0.55
+          },
+          {
+            "title": "Plant cannabinoids",
+            "sub": "THC, CBD and others interact with it",
+            "at": 0.8
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "membrane",
+        "palette": "warm",
+        "receptors": [
+          {
+            "x": 0,
+            "z": 0,
+            "label": "CB1"
+          }
+        ],
+        "ligands": [
+          {
+            "mol": "2-AG",
+            "label": "2-AG (made by the body)",
+            "scale": 0.55,
+            "mode": "local",
+            "at": 0.35,
+            "life": 7,
+            "to": 0
+          },
+          {
+            "mol": "THC",
+            "label": "THC (from the plant)",
+            "scale": 0.6,
+            "at": 0.72,
+            "from": [
+              -4,
+              24,
+              -24
+            ],
+            "to": 0
+          }
+        ],
+        "enzymes": [
+          {
+            "label": "FAAH",
+            "pos": [
+              -15,
+              3.5,
+              10
+            ],
+            "color": "0xa78bfa"
+          },
+          {
+            "label": "MAGL",
+            "pos": [
+              15,
+              3.5,
+              12
+            ],
+            "color": "0xa78bfa",
+            "seed": 7
+          }
+        ],
+        "stages": [
+          {
+            "at": 0.72,
+            "action": "ligand-dock"
+          }
+        ],
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -34,
+              24,
+              70
+            ],
+            "lookAt": "receptor0"
+          },
+          {
+            "at": 0.12,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 20,
+              "h": 7,
+              "speed": 0.07,
+              "phase": 0.2
+            },
+            "move": 3
+          },
+          {
+            "at": 0.36,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 13,
+              "h": 4,
+              "speed": 0.1,
+              "phase": 1.4
+            },
+            "move": 2
+          },
+          {
+            "at": 0.55,
+            "anchor": "enzyme0",
+            "offset": [
+              10,
+              6,
+              17
+            ],
+            "lookAt": "enzyme0",
+            "move": 2
+          },
+          {
+            "at": 0.7,
+            "anchor": "ligand1",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand1",
+            "move": 1.5
+          },
+          {
+            "at": 0.78,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 17,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 44,
+              "h": 16,
+              "speed": 0.04,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "outro",
+      "heading": "Next: What are cannabinoids?",
+      "narration": "In the next episode, we look at the molecules themselves: what cannabinoids are, how they are built, and how the plant produces them.",
+      "scene3d": {
+        "type": "title",
+        "mol": "CBD",
+        "bg": "space",
+        "palette": "warm",
+        "phase": 2.2,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -18,
+              12,
+              72
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -14,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            },
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              0,
+              2,
+              38
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which molecule's structure was determined in 1964 by Gaoni and Mechoulam?",
+      "options": [
+        "Cannabidiol (CBD)",
+        "Δ9-tetrahydrocannabinol (THC)",
+        "Cannabinol (CBN)",
+        "Anandamide"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What property of cannabis constituents made early chemical work difficult?",
+      "options": [
+        "They are highly water-soluble",
+        "They are radioactive",
+        "They are oily, lipophilic and non-crystalline",
+        "They decompose in light"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "In which year was the first endocannabinoid, anandamide, discovered?",
+      "options": [
+        "1964",
+        "1988",
+        "1992",
+        "2001"
+      ],
+      "answer": 2
+    }
+  ],
+  "excluded": "No discussion of effects on users, benefits, risks, dependence, policy or consumption. The history is told as a history of chemistry and pharmacology only.",
+  "sources": [
+    "Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811",
+    "Gaoni Y, Mechoulam R. Isolation, structure, and partial synthesis of an active constituent of hashish. J Am Chem Soc. 1964;86:1646–1647.",
+    "Mechoulam R, Shvo Y. Hashish I. The structure of cannabidiol. Tetrahedron. 1963;19:2073–2078.",
+    "Devane WA, Dysarz FA, Johnson MR, Melvin LS, Howlett AC. Determination and characterization of a cannabinoid receptor in rat brain. Mol Pharmacol. 1988;34:605–613."
+  ]
+}

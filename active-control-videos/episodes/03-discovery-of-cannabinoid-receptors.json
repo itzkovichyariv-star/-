@@ -1,0 +1,1302 @@
+{
+  "id": "03",
+  "episode": 3,
+  "series": "The Science Behind Cannabis",
+  "title": "How Were Cannabinoid Receptors Discovered?",
+  "subtitle": "From a membrane hypothesis to CB1 and CB2",
+  "objectives": [
+    "Explain why researchers initially doubted that cannabinoids act through receptors.",
+    "Describe the experiments of the 1980s and 1990s that identified, mapped and cloned CB1 and CB2.",
+    "State where CB1 and CB2 receptors are mainly located."
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "kind": "title",
+      "heading": "How Were Cannabinoid Receptors Discovered?",
+      "narration": "The Science Behind Cannabis. Episode three: How were cannabinoid receptors discovered? This episode follows a scientific detective story: how researchers went from doubting that cannabinoids have a specific target, to cloning two receptors and mapping them in the brain.",
+      "scene3d": {
+        "type": "title",
+        "mol": "THC",
+        "bg": "membrane",
+        "palette": "blue",
+        "phase": 0.4,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -18,
+              12,
+              72
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -14,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            },
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              0,
+              2,
+              38
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "content",
+      "heading": "The membrane hypothesis",
+      "narration": "By the 1970s, THC could be made in pure form, but how it acted on cells was unknown. Because the molecule is so lipophilic, many scientists assumed it simply dissolved into the fatty membranes of neurons and disturbed them in a general way, much as general anaesthetics were thought to do. In that view, there would be no specific target, and no receptor to find. The alternative hypothesis was that THC binds to a specific protein, a receptor, in the same way that morphine binds to opioid receptors. Deciding between these two ideas took about fifteen years.",
+      "bullets": [
+        {
+          "text": "1970s: THC available, mechanism unknown",
+          "at": 0.05
+        },
+        {
+          "text": "Hypothesis A: non-specific disruption of cell membranes (like anaesthetics)",
+          "at": 0.25
+        },
+        {
+          "text": "Hypothesis B: binding to a specific protein receptor (like morphine)",
+          "at": 0.6
+        },
+        {
+          "text": "Resolving the question took about fifteen years",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "Membrane hypothesis",
+          "rows": [
+            "THC dissolves into the lipid bilayer",
+            "Disturbs membrane function generally",
+            "No specific target"
+          ]
+        },
+        "right": {
+          "title": "Receptor hypothesis",
+          "rows": [
+            "THC fits a specific protein",
+            "Triggers a defined signal",
+            "Shape and handedness matter"
+          ]
+        },
+        "at": 0.25
+      },
+      "scene3d": {
+        "type": "membrane",
+        "receptors": [
+          {
+            "x": 0,
+            "z": 0
+          }
+        ],
+        "ligands": [
+          {
+            "mol": "THC",
+            "mode": "sink",
+            "at": 0.12,
+            "from": [
+              -16,
+              14,
+              -6
+            ],
+            "scale": 0.6
+          },
+          {
+            "mol": "THC",
+            "mode": "sink",
+            "at": 0.2,
+            "from": [
+              14,
+              14,
+              4
+            ],
+            "scale": 0.6
+          },
+          {
+            "mol": "THC",
+            "mode": "sink",
+            "at": 0.28,
+            "from": [
+              0,
+              14,
+              -14
+            ],
+            "scale": 0.6
+          },
+          {
+            "mol": "THC",
+            "label": "THC",
+            "at": 0.62,
+            "from": [
+              -6,
+              24,
+              -24
+            ],
+            "scale": 0.6
+          }
+        ],
+        "stages": [
+          {
+            "at": 0.0,
+            "action": "receptor-vanish"
+          },
+          {
+            "at": 0.55,
+            "action": "receptor-appear"
+          },
+          {
+            "at": 0.62,
+            "action": "ligand-dock"
+          }
+        ],
+        "cam": {
+          "radius": 34,
+          "height": 10,
+          "speed": 0.05
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              16,
+              70
+            ],
+            "look": [
+              0,
+              2,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "ligand0",
+            "offset": [
+              8,
+              4,
+              14
+            ],
+            "lookAt": "ligand0",
+            "move": 2
+          },
+          {
+            "at": 0.3,
+            "pos": [
+              16,
+              3,
+              30
+            ],
+            "look": [
+              0,
+              1,
+              0
+            ],
+            "move": 3
+          },
+          {
+            "at": 0.55,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 18,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.62,
+            "anchor": "ligand3",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand3",
+            "move": 1.5
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 15,
+              "h": 6,
+              "speed": 0.09,
+              "phase": 1.2
+            },
+            "move": 2
+          },
+          {
+            "at": 0.9,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 40,
+              "h": 14,
+              "speed": 0.04,
+              "phase": 2.2
+            },
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "content",
+      "heading": "Clues pointing to a receptor",
+      "narration": "Three kinds of evidence favoured a receptor. First, stereoselectivity: the natural form of THC is active, while its mirror image is almost inactive, and a membrane would not care about handedness. Second, strict structure–activity relationships: small chemical changes, such as altering the side chain, produced large changes in potency. Third, potency itself: synthetic analogues developed by the pharmaceutical company Pfizer, such as CP-55,940, were active at nanomolar concentrations, far too low to disturb membranes in bulk. Something was recognising these molecules with high precision.",
+      "bullets": [
+        {
+          "text": "Stereoselectivity: mirror-image forms differ greatly in activity",
+          "at": 0.1
+        },
+        {
+          "text": "Structure–activity: small chemical changes, large changes in potency",
+          "at": 0.4
+        },
+        {
+          "text": "High potency: synthetic analogues active at nanomolar concentrations",
+          "at": 0.65
+        },
+        {
+          "text": "Conclusion: a precise molecular recognition site must exist",
+          "at": 0.88
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Stereoselectivity",
+            "sub": "A membrane has no handedness; a protein does",
+            "at": 0.1
+          },
+          {
+            "title": "Structure–activity",
+            "sub": "Side-chain length changes potency sharply",
+            "at": 0.4
+          },
+          {
+            "title": "Nanomolar potency",
+            "sub": "CP-55,940 (Pfizer) far more potent than THC",
+            "at": 0.65
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "mirrorPlane": true,
+        "items": [
+          {
+            "mol": "THC",
+            "label": "(−)-THC · active",
+            "pos": [
+              -9,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05
+          },
+          {
+            "mol": "THC_mirror",
+            "label": "mirror image · almost inactive",
+            "pos": [
+              9,
+              0,
+              0
+            ],
+            "at": 0.1,
+            "labelColor": "#9fb0c9"
+          },
+          {
+            "mol": "THCV",
+            "label": "shorter side chain · different potency",
+            "pos": [
+              0,
+              0,
+              -28
+            ],
+            "at": 0.38,
+            "focusAt": 0.4
+          },
+          {
+            "mol": "CP55940",
+            "label": "CP-55,940 · active at nanomolar concentrations",
+            "pos": [
+              0,
+              0,
+              -56
+            ],
+            "at": 0.62,
+            "focusAt": 0.65,
+            "halo": "0xf59e0b"
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 30,
+          "height": 4,
+          "speed": 0.05
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              8,
+              50
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.25,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.6
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "item2",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.3
+            },
+            "move": 3
+          },
+          {
+            "at": 0.65,
+            "orbit": {
+              "anchor": "item3",
+              "r": 24,
+              "h": 4,
+              "speed": 0.07,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.88,
+            "anchor": "item3",
+            "offset": [
+              0,
+              10,
+              34
+            ],
+            "lookAt": "item3",
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "content",
+      "heading": "1984–1986: a signal inside the cell",
+      "narration": "Allyn Howlett and her colleagues provided the first biochemical evidence. Working with cultured neuroblastoma cells, they showed that cannabinoids reduce the activity of adenylyl cyclase, the enzyme that makes the messenger molecule cyclic AMP. The effect depended on the potency and handedness of each cannabinoid, and it was abolished by pertussis toxin, a bacterial toxin that disables a particular family of G proteins called G i. This was the fingerprint of a G-protein-coupled receptor: a receptor on the cell surface that, when activated, uses a G protein to switch an enzyme inside the cell down.",
+      "bullets": [
+        {
+          "text": "Howlett lab, cultured neuroblastoma cells",
+          "at": 0.05
+        },
+        {
+          "text": "Cannabinoids reduce adenylyl cyclase activity → less cyclic AMP",
+          "at": 0.25
+        },
+        {
+          "text": "Effect tracks potency and handedness; blocked by pertussis toxin",
+          "at": 0.5
+        },
+        {
+          "text": "Fingerprint of a Gi-coupled, G-protein-coupled receptor (GPCR)",
+          "at": 0.78
+        }
+      ],
+      "visual": {
+        "type": "receptor",
+        "stages": [
+          {
+            "at": 0.0,
+            "state": "membrane"
+          },
+          {
+            "at": 0.25,
+            "state": "ligand"
+          },
+          {
+            "at": 0.5,
+            "state": "gprotein"
+          },
+          {
+            "at": 0.75,
+            "state": "effect"
+          }
+        ],
+        "effectLabel": "Adenylyl cyclase ↓ · cAMP ↓"
+      },
+      "scene3d": {
+        "type": "membrane",
+        "receptors": [
+          {
+            "x": 0,
+            "z": 0,
+            "label": "receptor"
+          }
+        ],
+        "ligands": [
+          {
+            "mol": "THC",
+            "label": "cannabinoid",
+            "scale": 0.6,
+            "from": [
+              -22,
+              20,
+              -8
+            ]
+          }
+        ],
+        "stages": [
+          {
+            "at": 0.1,
+            "action": "ligand-dock"
+          },
+          {
+            "at": 0.42,
+            "action": "gprotein"
+          },
+          {
+            "at": 0.62,
+            "action": "camp-drop"
+          }
+        ],
+        "cam": {
+          "radius": 22,
+          "height": 13,
+          "speed": 0.05,
+          "phase": 0.9
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              22,
+              70
+            ],
+            "lookAt": "receptor0"
+          },
+          {
+            "at": 0.08,
+            "anchor": "ligand0",
+            "offset": [
+              9,
+              5,
+              16
+            ],
+            "lookAt": "ligand0",
+            "move": 1.2
+          },
+          {
+            "at": 0.16,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 17,
+              "h": 7,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.4,
+            "anchor": "gprotein",
+            "offset": [
+              9,
+              -7,
+              13
+            ],
+            "lookAt": "gprotein",
+            "move": 2
+          },
+          {
+            "at": 0.6,
+            "anchor": "alpha",
+            "offset": [
+              7,
+              -5,
+              12
+            ],
+            "lookAt": "alpha",
+            "move": 1.2
+          },
+          {
+            "at": 0.68,
+            "orbit": {
+              "anchor": "ac",
+              "r": 15,
+              "h": -7,
+              "speed": 0.07,
+              "phase": 1.2
+            },
+            "move": 1.5
+          },
+          {
+            "at": 0.88,
+            "orbit": {
+              "anchor": "receptor0",
+              "r": 44,
+              "h": 16,
+              "speed": 0.04,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "content",
+      "heading": "1988: the binding site",
+      "narration": "In 1988, William Devane, Allyn Howlett and colleagues used a radioactive version of CP-55,940 to search directly for the binding site. They mixed the radiolabelled compound with membranes prepared from rat brain and measured how much stuck. Binding was specific, saturable and of high affinity, exactly what a receptor should show. Crucially, the order in which different cannabinoids competed for the site matched the order of their potency in living animals. The binding site and the biological activity were the same thing. The cannabinoid receptor had been found.",
+      "bullets": [
+        {
+          "text": "Radiolabelled [³H]CP-55,940 mixed with rat brain membranes",
+          "at": 0.1
+        },
+        {
+          "text": "Binding was specific, saturable and high affinity",
+          "at": 0.4
+        },
+        {
+          "text": "Rank order of binding matched rank order of potency in animals",
+          "at": 0.62
+        },
+        {
+          "text": "Devane, Howlett et al. 1988: the cannabinoid receptor identified",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "bigfact",
+        "text": "Specific · Saturable · High affinity",
+        "sub": "The three signatures of receptor binding"
+      },
+      "scene3d": {
+        "type": "vesicles",
+        "n": 5,
+        "probes": 12,
+        "probe": "CP55940",
+        "probeLabel": "[³H]CP-55,940",
+        "stages": [
+          {
+            "at": 0.3,
+            "action": "bind"
+          }
+        ],
+        "cam": {
+          "radius": 56,
+          "height": 8,
+          "dolly": 0.45
+        },
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              20,
+              110
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.12,
+            "anchor": "probe0",
+            "offset": [
+              10,
+              6,
+              20
+            ],
+            "lookAt": "probe0",
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "dock0",
+              "r": 16,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.4
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.62,
+            "orbit": {
+              "anchor": "vesicle1",
+              "r": 26,
+              "h": 6,
+              "speed": 0.06,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              20,
+              24,
+              100
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "content",
+      "heading": "1990: a map of the brain",
+      "narration": "Once a radioactive ligand existed, the receptor could be mapped. In 1990, Miles Herkenham and colleagues applied the radioligand to thin slices of brain and exposed them to photographic film, a method called autoradiography. The map showed a very distinctive pattern. Receptor density was high in the basal ganglia, the cerebellum, the hippocampus and the cerebral cortex, and low in the brainstem, where breathing and heart rate are controlled. Later work showed that this receptor, now called CB1, is one of the most abundant G-protein-coupled receptors in the entire brain.",
+      "bullets": [
+        {
+          "text": "Herkenham et al. 1990: autoradiography on brain slices",
+          "at": 0.1
+        },
+        {
+          "text": "High density: basal ganglia, cerebellum, hippocampus, cortex",
+          "at": 0.4
+        },
+        {
+          "text": "Low density: brainstem",
+          "at": 0.65
+        },
+        {
+          "text": "CB1 is among the most abundant GPCRs in the brain",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "brain",
+        "regions": [
+          {
+            "label": "Cerebral cortex",
+            "x": 0.45,
+            "y": 0.28,
+            "level": "high",
+            "at": 0.4
+          },
+          {
+            "label": "Basal ganglia",
+            "x": 0.4,
+            "y": 0.5,
+            "level": "high",
+            "at": 0.45
+          },
+          {
+            "label": "Hippocampus",
+            "x": 0.66,
+            "y": 0.6,
+            "level": "high",
+            "at": 0.5
+          },
+          {
+            "label": "Cerebellum",
+            "x": 0.84,
+            "y": 0.72,
+            "level": "high",
+            "at": 0.55
+          },
+          {
+            "label": "Brainstem",
+            "x": 0.66,
+            "y": 0.86,
+            "level": "low",
+            "at": 0.65
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "brain",
+        "regions": [
+          {
+            "label": "Cerebral cortex",
+            "pos": [
+              -3,
+              7.5,
+              0
+            ],
+            "radius": 7.5,
+            "at": 0.38
+          },
+          {
+            "label": "Basal ganglia",
+            "pos": [
+              -1,
+              0.5,
+              0
+            ],
+            "radius": 4.5,
+            "at": 0.44
+          },
+          {
+            "label": "Hippocampus",
+            "pos": [
+              4,
+              -2,
+              4
+            ],
+            "radius": 4,
+            "at": 0.5,
+            "labelDy": -4.5
+          },
+          {
+            "label": "Cerebellum",
+            "pos": [
+              9.5,
+              -5.5,
+              0
+            ],
+            "radius": 6,
+            "at": 0.55
+          },
+          {
+            "label": "Brainstem",
+            "pos": [
+              3,
+              -9.5,
+              0
+            ],
+            "radius": 3.5,
+            "level": "low",
+            "at": 0.65,
+            "labelDy": -4.5
+          }
+        ],
+        "palette": "blue",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -20,
+              16,
+              80
+            ],
+            "look": [
+              2,
+              -1,
+              0
+            ]
+          },
+          {
+            "at": 0.2,
+            "orbit": {
+              "anchor": "center",
+              "r": 46,
+              "h": 10,
+              "speed": 0.06,
+              "phase": 3.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "region0",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 2.6
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.47,
+            "orbit": {
+              "anchor": "region1",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 1.4
+            },
+            "move": 2
+          },
+          {
+            "at": 0.53,
+            "orbit": {
+              "anchor": "region2",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 0.6
+            },
+            "move": 2
+          },
+          {
+            "at": 0.58,
+            "orbit": {
+              "anchor": "region3",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 2.2
+            },
+            "move": 2
+          },
+          {
+            "at": 0.66,
+            "orbit": {
+              "anchor": "region4",
+              "r": 36,
+              "h": 12,
+              "speed": 0.08,
+              "phase": 1.0
+            },
+            "move": 2
+          },
+          {
+            "at": 0.82,
+            "orbit": {
+              "anchor": "center",
+              "r": 44,
+              "h": 12,
+              "speed": 0.05,
+              "phase": 2.0
+            },
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "content",
+      "heading": "1990 and 1993: two receptors cloned",
+      "narration": "The gene for the receptor was identified in 1990 by Lisa Matsuda, Tom Bonner and colleagues at the National Institutes of Health. Its sequence confirmed what the pharmacology had predicted: a protein that crosses the membrane seven times, the classic architecture of a G-protein-coupled receptor. In 1993, Sean Munro and colleagues in Cambridge found a second gene, encoding a related receptor they named CB2. CB2 is found mainly outside the brain, on cells of the immune system, especially in the spleen, and later also on microglia, the brain's resident immune cells.",
+      "bullets": [
+        {
+          "text": "1990: Matsuda, Bonner et al. clone the CB1 gene (NIH)",
+          "at": 0.08
+        },
+        {
+          "text": "Seven-transmembrane architecture: a classic GPCR",
+          "at": 0.3
+        },
+        {
+          "text": "1993: Munro et al. clone CB2 (Cambridge)",
+          "at": 0.55
+        },
+        {
+          "text": "CB2: immune cells, spleen, later also microglia",
+          "at": 0.75
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "CB1 (1990)",
+          "rows": [
+            "Central nervous system, also peripheral tissues",
+            "Mostly on nerve terminals",
+            "Among the most abundant GPCRs in brain"
+          ]
+        },
+        "right": {
+          "title": "CB2 (1993)",
+          "rows": [
+            "Immune system, spleen",
+            "Microglia in the brain",
+            "Low in neurons under normal conditions"
+          ]
+        },
+        "at": 0.08
+      },
+      "scene3d": {
+        "type": "dna",
+        "palette": "blue",
+        "receptorLabel": "CB1 receptor",
+        "geneLabel": "CNR1 gene (1990)",
+        "stages": [
+          {
+            "at": 0.05,
+            "action": "unwind"
+          },
+          {
+            "at": 0.12,
+            "action": "read"
+          },
+          {
+            "at": 0.38,
+            "action": "express"
+          }
+        ],
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              10,
+              90
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "reader",
+            "offset": [
+              14,
+              3,
+              20
+            ],
+            "lookAt": "reader",
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "receptor",
+              "r": 20,
+              "h": 5,
+              "speed": 0.08,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.62,
+            "orbit": {
+              "anchor": "helix",
+              "r": 40,
+              "h": 8,
+              "speed": 0.05,
+              "phase": 1.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              -14,
+              10,
+              52
+            ],
+            "look": [
+              6,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "content",
+      "heading": "Confirmation with genetics",
+      "narration": "The final proof came from genetics. In 1999, two groups independently produced mice in which the CB1 gene had been deleted. These animals developed normally, but the characteristic responses to THC seen in ordinary mice were absent. If the receptor is removed, the molecule loses its target. Together, the biochemistry, the binding studies, the brain maps, the cloned genes and the knockout animals established that cannabinoids act through specific receptors. The receptor hypothesis had won, and a new question appeared: why would the brain have receptors for a plant molecule?",
+      "bullets": [
+        {
+          "text": "1999: mice lacking the CB1 gene (two independent groups)",
+          "at": 0.1
+        },
+        {
+          "text": "Without CB1, the characteristic responses to THC are absent",
+          "at": 0.35
+        },
+        {
+          "text": "Five lines of evidence converge on specific receptors",
+          "at": 0.6
+        },
+        {
+          "text": "New question: why does the brain have these receptors at all?",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Biochemistry",
+            "sub": "Adenylyl cyclase, G proteins",
+            "at": 0.6
+          },
+          {
+            "title": "Binding",
+            "sub": "Radioligand studies",
+            "at": 0.65
+          },
+          {
+            "title": "Mapping",
+            "sub": "Autoradiography",
+            "at": 0.7
+          },
+          {
+            "title": "Cloning",
+            "sub": "CB1 and CB2 genes",
+            "at": 0.75
+          },
+          {
+            "title": "Genetics",
+            "sub": "Knockout mice",
+            "at": 0.8
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "dna",
+        "palette": "blue",
+        "receptorLabel": "CB1 receptor",
+        "geneLabel": "CNR1 gene",
+        "deleteLabel": "gene deleted (knockout)",
+        "stages": [
+          {
+            "at": 0.02,
+            "action": "unwind"
+          },
+          {
+            "at": 0.1,
+            "action": "delete"
+          }
+        ],
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              8,
+              80
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.08,
+            "orbit": {
+              "anchor": "gene",
+              "r": 22,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.6
+            },
+            "move": 3
+          },
+          {
+            "at": 0.35,
+            "orbit": {
+              "anchor": "helix",
+              "r": 34,
+              "h": 10,
+              "speed": 0.05,
+              "phase": 2.0
+            },
+            "move": 3
+          },
+          {
+            "at": 0.6,
+            "pos": [
+              -14,
+              14,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          },
+          {
+            "at": 0.85,
+            "pos": [
+              16,
+              4,
+              46
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ],
+            "move": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s9",
+      "kind": "outro",
+      "heading": "Next: The body's own cannabinoids",
+      "narration": "In the next episode, we answer that question: the search for the molecules the body itself makes to activate these receptors, the endocannabinoids.",
+      "scene3d": {
+        "type": "title",
+        "mol": "anandamide",
+        "bg": "vesicles",
+        "palette": "blue",
+        "phase": 1.7,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -18,
+              12,
+              72
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -14,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            },
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              0,
+              2,
+              38
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What did Howlett's laboratory observe when cannabinoids were applied to neuroblastoma cells?",
+      "options": [
+        "Increased cyclic AMP",
+        "Reduced adenylyl cyclase activity, blocked by pertussis toxin",
+        "Cell membranes dissolved",
+        "No effect"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which brain region showed low cannabinoid receptor density in the 1990 autoradiography map?",
+      "options": [
+        "Hippocampus",
+        "Cerebellum",
+        "Brainstem",
+        "Basal ganglia"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Where is the CB2 receptor mainly found?",
+      "options": [
+        "Cerebral cortex",
+        "Immune cells and spleen",
+        "Skeletal muscle",
+        "Retina only"
+      ],
+      "answer": 1
+    }
+  ],
+  "excluded": "No description of what receptor activation feels like, no discussion of tolerance, dependence, intoxication or safety. The brainstem fact is stated anatomically, without drawing conclusions about risk.",
+  "sources": [
+    "Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811",
+    "Howlett AC, Fleming RM. Cannabinoid inhibition of adenylate cyclase. Mol Pharmacol. 1984;26:532–538.",
+    "Devane WA, Dysarz FA, Johnson MR, Melvin LS, Howlett AC. Determination and characterization of a cannabinoid receptor in rat brain. Mol Pharmacol. 1988;34:605–613.",
+    "Herkenham M, et al. Cannabinoid receptor localization in brain. Proc Natl Acad Sci USA. 1990;87:1932–1936.",
+    "Matsuda LA, Lolait SJ, Brownstein MJ, Young AC, Bonner TI. Structure of a cannabinoid receptor and functional expression of the cloned cDNA. Nature. 1990;346:561–564.",
+    "Munro S, Thomas KL, Abu-Shaar M. Molecular characterization of a peripheral receptor for cannabinoids. Nature. 1993;365:61–65.",
+    "Ledent C, et al. Science. 1999;283:401–404; Zimmer A, et al. Proc Natl Acad Sci USA. 1999;96:5780–5785."
+  ]
+}

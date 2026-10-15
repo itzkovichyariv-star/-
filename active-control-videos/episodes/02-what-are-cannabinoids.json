@@ -1,0 +1,1246 @@
+{
+  "id": "02",
+  "episode": 2,
+  "series": "The Science Behind Cannabis",
+  "title": "What Are Cannabinoids?",
+  "subtitle": "The molecules of the plant",
+  "objectives": [
+    "Define phytocannabinoids and describe their shared chemical skeleton.",
+    "Distinguish the acidic forms made by the plant from the neutral forms produced by heat.",
+    "Name the three families of cannabinoids: plant, endogenous and synthetic."
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "kind": "title",
+      "heading": "What Are Cannabinoids?",
+      "narration": "The Science Behind Cannabis. Episode two: What are cannabinoids? In this episode we look at the molecules themselves: what they have in common, how the plant makes them, and how chemists classify them.",
+      "scene3d": {
+        "type": "title",
+        "mol": "CBD",
+        "bg": "space",
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -18,
+              12,
+              72
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -14,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            },
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              0,
+              2,
+              38
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "content",
+      "heading": "A family of related molecules",
+      "narration": "The word cannabinoid originally described a group of compounds found only in the cannabis plant. Chemically they are terpenophenolic compounds: each molecule combines a phenol ring, like the ones found in many plant products, with a terpene-derived portion, built from the same building blocks as the scents of pine and citrus. Most of them share a skeleton of twenty-one carbon atoms. More than one hundred different phytocannabinoids, meaning plant cannabinoids, have now been identified, and they differ from one another in small details of this common framework.",
+      "bullets": [
+        {
+          "text": "Terpenophenolic compounds: a phenol ring plus a terpene-derived part",
+          "at": 0.15
+        },
+        {
+          "text": "Most share a 21-carbon skeleton",
+          "at": 0.5
+        },
+        {
+          "text": "More than 100 phytocannabinoids identified",
+          "at": 0.65
+        },
+        {
+          "text": "They differ in small details of a common framework",
+          "at": 0.85
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Phenol ring",
+            "sub": "Aromatic ring with a hydroxyl group",
+            "at": 0.15
+          },
+          {
+            "title": "Terpene unit",
+            "sub": "Built from isoprene building blocks",
+            "at": 0.3
+          },
+          {
+            "title": "C21 skeleton",
+            "sub": "Shared by THC, CBD, CBG, CBC…",
+            "at": 0.5
+          },
+          {
+            "title": "> 100 variants",
+            "sub": "Small changes, different molecules",
+            "at": 0.65
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "THC",
+            "pos": [
+              -16,
+              0,
+              0
+            ],
+            "at": 0.03,
+            "focusAt": 0.03
+          },
+          {
+            "mol": "CBD",
+            "label": "CBD",
+            "pos": [
+              0,
+              0,
+              -6
+            ],
+            "at": 0.45,
+            "focusAt": 0.5
+          },
+          {
+            "mol": "CBG",
+            "label": "CBG",
+            "pos": [
+              16,
+              0,
+              0
+            ],
+            "at": 0.62,
+            "focusAt": 0.7
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 28,
+          "height": 3,
+          "speed": 0.05
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.03,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.5,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "content",
+      "heading": "How the plant builds them",
+      "narration": "Inside the plant, cannabinoids are made in tiny glandular structures called trichomes, mainly on the flowers. The biosynthesis starts with a molecule called cannabigerolic acid, CBGA. Enzymes then convert CBGA into different acidic cannabinoids: THCA, CBDA, or CBCA, depending on which enzyme the plant expresses. These acidic forms are what the living plant actually contains. When the plant material is heated or stored for a long time, the acids lose a carbon dioxide group, a process called decarboxylation, and become the neutral forms: THC, CBD and CBC.",
+      "bullets": [
+        {
+          "text": "Made in glandular trichomes, mostly on the flowers",
+          "at": 0.08
+        },
+        {
+          "text": "Starting point: cannabigerolic acid (CBGA)",
+          "at": 0.25
+        },
+        {
+          "text": "Plant enzymes convert CBGA into THCA, CBDA or CBCA",
+          "at": 0.4
+        },
+        {
+          "text": "Heat or ageing removes CO₂ (decarboxylation) → THC, CBD, CBC",
+          "at": 0.7
+        }
+      ],
+      "visual": {
+        "type": "pathway",
+        "nodes": [
+          {
+            "id": "cbga",
+            "label": "CBGA",
+            "x": 0.5,
+            "y": 0.06,
+            "at": 0.25
+          },
+          {
+            "id": "thca",
+            "label": "THCA",
+            "x": 0.14,
+            "y": 0.5,
+            "at": 0.4
+          },
+          {
+            "id": "cbda",
+            "label": "CBDA",
+            "x": 0.5,
+            "y": 0.5,
+            "at": 0.45
+          },
+          {
+            "id": "cbca",
+            "label": "CBCA",
+            "x": 0.86,
+            "y": 0.5,
+            "at": 0.5
+          },
+          {
+            "id": "thc",
+            "label": "THC",
+            "x": 0.14,
+            "y": 0.9,
+            "at": 0.7
+          },
+          {
+            "id": "cbd",
+            "label": "CBD",
+            "x": 0.5,
+            "y": 0.9,
+            "at": 0.75
+          },
+          {
+            "id": "cbc",
+            "label": "CBC",
+            "x": 0.86,
+            "y": 0.9,
+            "at": 0.8
+          }
+        ],
+        "edges": [
+          {
+            "from": "cbga",
+            "to": "thca",
+            "label": "THCA synthase",
+            "at": 0.4,
+            "lpos": 0.3
+          },
+          {
+            "from": "cbga",
+            "to": "cbda",
+            "label": "CBDA synthase",
+            "at": 0.45,
+            "lpos": 0.5
+          },
+          {
+            "from": "cbga",
+            "to": "cbca",
+            "label": "CBCA synthase",
+            "at": 0.5,
+            "lpos": 0.7
+          },
+          {
+            "from": "thca",
+            "to": "thc",
+            "label": "heat, −CO₂",
+            "at": 0.7
+          },
+          {
+            "from": "cbda",
+            "to": "cbd",
+            "label": "heat, −CO₂",
+            "at": 0.75
+          },
+          {
+            "from": "cbca",
+            "to": "cbc",
+            "label": "heat, −CO₂",
+            "at": 0.8
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "trichomes",
+        "membraneY": -14,
+        "items": [
+          {
+            "mol": "CBGA",
+            "label": "CBGA",
+            "pos": [
+              0,
+              2,
+              0
+            ],
+            "at": 0.2,
+            "focusAt": 0.2
+          },
+          {
+            "mol": "THCA",
+            "label": "THCA → THC",
+            "pos": [
+              -20,
+              2,
+              6
+            ],
+            "at": 0.4,
+            "focusAt": 0.42,
+            "decarb": 0.72
+          },
+          {
+            "mol": "CBDA",
+            "label": "CBDA → CBD",
+            "pos": [
+              0,
+              2,
+              22
+            ],
+            "at": 0.45,
+            "decarb": 0.76
+          },
+          {
+            "mol": "CBCA",
+            "label": "CBCA → CBC",
+            "pos": [
+              20,
+              2,
+              6
+            ],
+            "at": 0.5,
+            "decarb": 0.8,
+            "focusAt": 0.74
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 30,
+          "height": 6,
+          "speed": 0.05
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -30,
+              -2,
+              60
+            ],
+            "look": [
+              0,
+              -6,
+              0
+            ]
+          },
+          {
+            "at": 0.18,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 0.5
+            },
+            "move": 3
+          },
+          {
+            "at": 0.4,
+            "orbit": {
+              "anchor": "item1",
+              "r": 20,
+              "h": 4,
+              "speed": 0.08,
+              "phase": 2.0
+            },
+            "move": 2.5
+          },
+          {
+            "at": 0.7,
+            "orbit": {
+              "anchor": "item1",
+              "r": 14,
+              "h": 3,
+              "speed": 0.1,
+              "phase": 3.5
+            },
+            "move": 2
+          },
+          {
+            "at": 0.84,
+            "pos": [
+              0,
+              18,
+              60
+            ],
+            "look": [
+              0,
+              0,
+              8
+            ],
+            "move": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "content",
+      "heading": "The main phytocannabinoids",
+      "narration": "A handful of phytocannabinoids are studied most. Delta nine tetrahydrocannabinol, THC, is the principal psychoactive constituent and binds to both cannabinoid receptors. Cannabidiol, CBD, has a very similar formula but a different shape; it binds only weakly to the cannabinoid receptors and interacts with several other proteins. Cannabigerol, CBG, is the neutral form of the biosynthetic starting material. Cannabichromene, CBC, and tetrahydrocannabivarin, THCV, which has a shorter side chain, are also present. Cannabinol, CBN, is not made by the plant directly; it forms when THC is oxidised during ageing.",
+      "bullets": [
+        {
+          "text": "THC: principal psychoactive constituent; binds CB1 and CB2",
+          "at": 0.1
+        },
+        {
+          "text": "CBD: same formula, different shape; weak at CB1/CB2, other targets",
+          "at": 0.33
+        },
+        {
+          "text": "CBG: neutral form of the biosynthetic precursor",
+          "at": 0.55
+        },
+        {
+          "text": "CBC, THCV (shorter side chain); CBN forms from aged THC",
+          "at": 0.7
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "THC",
+            "sub": "Δ9-tetrahydrocannabinol · C₂₁H₃₀O₂",
+            "at": 0.1
+          },
+          {
+            "title": "CBD",
+            "sub": "Cannabidiol · C₂₁H₃₀O₂",
+            "at": 0.33
+          },
+          {
+            "title": "CBG",
+            "sub": "Cannabigerol · precursor",
+            "at": 0.55
+          },
+          {
+            "title": "CBC",
+            "sub": "Cannabichromene",
+            "at": 0.68
+          },
+          {
+            "title": "THCV",
+            "sub": "Tetrahydrocannabivarin · C₃ side chain",
+            "at": 0.76
+          },
+          {
+            "title": "CBN",
+            "sub": "Cannabinol · oxidation product of THC",
+            "at": 0.88
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "THC",
+            "sub": "Δ9-tetrahydrocannabinol",
+            "pos": [
+              -26,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05
+          },
+          {
+            "mol": "CBD",
+            "label": "CBD",
+            "sub": "cannabidiol",
+            "pos": [
+              -13,
+              0,
+              -14
+            ],
+            "at": 0.3,
+            "focusAt": 0.32
+          },
+          {
+            "mol": "CBG",
+            "label": "CBG",
+            "sub": "cannabigerol",
+            "pos": [
+              0,
+              0,
+              -20
+            ],
+            "at": 0.52,
+            "focusAt": 0.54
+          },
+          {
+            "mol": "CBC",
+            "label": "CBC",
+            "sub": "cannabichromene",
+            "pos": [
+              13,
+              0,
+              -14
+            ],
+            "at": 0.66,
+            "focusAt": 0.68
+          },
+          {
+            "mol": "THCV",
+            "label": "THCV",
+            "sub": "tetrahydrocannabivarin",
+            "pos": [
+              26,
+              0,
+              0
+            ],
+            "at": 0.75,
+            "focusAt": 0.77
+          },
+          {
+            "mol": "CBN",
+            "label": "CBN",
+            "sub": "cannabinol",
+            "pos": [
+              13,
+              0,
+              14
+            ],
+            "at": 0.86,
+            "focusAt": 0.88
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 24,
+          "height": 3,
+          "speed": 0.06
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.32,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.54,
+            "orbit": {
+              "anchor": "item2",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          },
+          {
+            "at": 0.68,
+            "orbit": {
+              "anchor": "item3",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 3.1
+            }
+          },
+          {
+            "at": 0.77,
+            "orbit": {
+              "anchor": "item4",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 4.0
+            }
+          },
+          {
+            "at": 0.88,
+            "orbit": {
+              "anchor": "item5",
+              "r": 22,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 4.9
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5",
+      "kind": "content",
+      "heading": "Shape and handedness",
+      "narration": "Two properties of these molecules shaped the whole history of the field. First, they are highly lipophilic: they dissolve in fats and oils but hardly at all in water. This is why they accumulate in cell membranes, and it is also why early scientists assumed they might act on membranes in a non-specific way. Second, THC is chiral: it exists as mirror-image forms, like a left and a right hand. The natural form is (−)-trans-Δ9-THC. Its mirror image is far less active. That difference was an early clue that the molecule must fit into a specific, shaped binding site, a receptor.",
+      "bullets": [
+        {
+          "text": "Highly lipophilic: soluble in fat and oil, barely in water",
+          "at": 0.08
+        },
+        {
+          "text": "Accumulates in cell membranes",
+          "at": 0.3
+        },
+        {
+          "text": "THC is chiral: mirror-image forms, like left and right hands",
+          "at": 0.5
+        },
+        {
+          "text": "The mirror image is far less active → evidence for a shaped binding site",
+          "at": 0.78
+        }
+      ],
+      "visual": {
+        "type": "compare",
+        "left": {
+          "title": "(−)-trans-Δ9-THC",
+          "rows": [
+            "The natural form",
+            "Fits the receptor",
+            "Active at nanomolar concentrations"
+          ]
+        },
+        "right": {
+          "title": "(+)-trans-Δ9-THC",
+          "rows": [
+            "The mirror image",
+            "Poor fit",
+            "Far less active"
+          ]
+        },
+        "at": 0.5
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "membrane",
+        "membraneY": -13,
+        "mirrorPlane": true,
+        "items": [
+          {
+            "mol": "THC",
+            "label": "(−)-trans-Δ9-THC",
+            "pos": [
+              -10,
+              4,
+              0
+            ],
+            "at": 0.03,
+            "sink": 0.1
+          },
+          {
+            "mol": "THC",
+            "label": "",
+            "pos": [
+              -10,
+              4,
+              0
+            ],
+            "at": 0.5,
+            "focusAt": 0.5,
+            "labelY": 8
+          },
+          {
+            "mol": "THC_mirror",
+            "label": "mirror image",
+            "pos": [
+              10,
+              4,
+              0
+            ],
+            "at": 0.56,
+            "labelColor": "#9fb0c9",
+            "labelY": 8
+          }
+        ],
+        "cam": {
+          "radius": 30,
+          "height": 4,
+          "speed": 0.05,
+          "center": [
+            0,
+            -2,
+            0
+          ],
+          "phase": 1.1
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -24,
+              14,
+              50
+            ],
+            "look": [
+              -10,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.1,
+            "anchor": "item0",
+            "offset": [
+              10,
+              8,
+              18
+            ],
+            "lookAt": "item0",
+            "move": 3
+          },
+          {
+            "at": 0.45,
+            "pos": [
+              0,
+              6,
+              44
+            ],
+            "look": [
+              0,
+              2,
+              0
+            ],
+            "move": 3
+          },
+          {
+            "at": 0.6,
+            "orbit": {
+              "anchor": "item1",
+              "r": 22,
+              "h": 3,
+              "speed": 0.06,
+              "phase": 0.4
+            },
+            "move": 3
+          },
+          {
+            "at": 0.78,
+            "orbit": {
+              "anchor": "item2",
+              "r": 22,
+              "h": 3,
+              "speed": 0.06,
+              "phase": 2.6
+            },
+            "move": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "s6",
+      "kind": "content",
+      "heading": "Three families of cannabinoids",
+      "narration": "Today the term cannabinoid covers three families. Phytocannabinoids are the plant molecules we have just met. Endocannabinoids are molecules made by the body itself, which we will meet in episode four; they look chemically quite different, but they act on the same receptors. Synthetic cannabinoids are compounds designed in the laboratory. Some of them, such as CP-55,940, WIN 55,212-2, and HU-210, were made as research tools, and they turned out to be essential for discovering the receptors, because they could be made radioactive and bind much more tightly than THC.",
+      "bullets": [
+        {
+          "text": "Phytocannabinoids: made by the plant (THC, CBD, CBG…)",
+          "at": 0.1
+        },
+        {
+          "text": "Endocannabinoids: made by the body (anandamide, 2-AG)",
+          "at": 0.3
+        },
+        {
+          "text": "Synthetic cannabinoids: designed in the laboratory",
+          "at": 0.55
+        },
+        {
+          "text": "Research tools such as CP-55,940 and HU-210 made receptor discovery possible",
+          "at": 0.75
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Phytocannabinoids",
+            "sub": "Plant · THC, CBD, CBG, CBC",
+            "at": 0.1
+          },
+          {
+            "title": "Endocannabinoids",
+            "sub": "Body · anandamide, 2-AG",
+            "at": 0.3
+          },
+          {
+            "title": "Synthetic cannabinoids",
+            "sub": "Laboratory · CP-55,940, WIN 55,212-2, HU-210",
+            "at": 0.55
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "items": [
+          {
+            "mol": "THC",
+            "label": "phytocannabinoid · THC",
+            "pos": [
+              -18,
+              0,
+              0
+            ],
+            "at": 0.05,
+            "focusAt": 0.05
+          },
+          {
+            "mol": "anandamide",
+            "label": "endocannabinoid · anandamide",
+            "pos": [
+              0,
+              0,
+              -8
+            ],
+            "at": 0.28,
+            "focusAt": 0.3
+          },
+          {
+            "mol": "CP55940",
+            "label": "synthetic · CP-55,940",
+            "pos": [
+              18,
+              0,
+              -2
+            ],
+            "at": 0.55,
+            "focusAt": 0.57,
+            "halo": "0xf59e0b"
+          },
+          {
+            "mol": "HU210",
+            "label": "synthetic · HU-210",
+            "pos": [
+              30,
+              0,
+              10
+            ],
+            "at": 0.68,
+            "focusAt": 0.8
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 28,
+          "height": 3,
+          "speed": 0.05
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.05,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.57,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          },
+          {
+            "at": 0.8,
+            "orbit": {
+              "anchor": "item3",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 3.1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s7",
+      "kind": "content",
+      "heading": "Not cannabinoids, but present: terpenes",
+      "narration": "The plant also contains molecules that are not cannabinoids at all. The most studied are terpenes, such as myrcene, limonene and pinene, which give cannabis its characteristic smell and are also found in hops, citrus peel and pine resin. Different plant varieties contain different mixtures of cannabinoids and terpenes, and scientists study how these mixtures differ from a single purified molecule. The idea that minor components can modify the activity of a main component is sometimes called the entourage effect, a term we will return to in the last episode.",
+      "bullets": [
+        {
+          "text": "Terpenes: myrcene, limonene, pinene — the plant's aroma",
+          "at": 0.1
+        },
+        {
+          "text": "Also found in hops, citrus peel and pine resin",
+          "at": 0.35
+        },
+        {
+          "text": "Varieties differ in their cannabinoid and terpene profiles",
+          "at": 0.55
+        },
+        {
+          "text": "'Entourage effect': minor components modifying a main component",
+          "at": 0.8
+        }
+      ],
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Myrcene",
+            "sub": "Also in hops and mango",
+            "at": 0.1
+          },
+          {
+            "title": "Limonene",
+            "sub": "Also in citrus peel",
+            "at": 0.2
+          },
+          {
+            "title": "α-Pinene",
+            "sub": "Also in pine resin",
+            "at": 0.3
+          },
+          {
+            "title": "Profile",
+            "sub": "Each variety: its own mixture",
+            "at": 0.55
+          }
+        ]
+      },
+      "scene3d": {
+        "type": "molecules",
+        "background": "trichomes",
+        "membraneY": -14,
+        "items": [
+          {
+            "mol": "myrcene",
+            "label": "myrcene",
+            "pos": [
+              -14,
+              2,
+              0
+            ],
+            "at": 0.08,
+            "focusAt": 0.08
+          },
+          {
+            "mol": "limonene",
+            "label": "limonene",
+            "pos": [
+              0,
+              2,
+              -6
+            ],
+            "at": 0.2,
+            "focusAt": 0.22
+          },
+          {
+            "mol": "pinene",
+            "label": "α-pinene",
+            "pos": [
+              14,
+              2,
+              0
+            ],
+            "at": 0.3,
+            "focusAt": 0.33
+          },
+          {
+            "mol": "THC",
+            "label": "THC",
+            "pos": [
+              0,
+              2,
+              14
+            ],
+            "at": 0.55,
+            "focusAt": 0.6
+          }
+        ],
+        "cam": {
+          "mode": "visit",
+          "radius": 24,
+          "height": 4,
+          "speed": 0.06
+        },
+        "palette": "green",
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              0,
+              14,
+              70
+            ],
+            "look": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.08,
+            "orbit": {
+              "anchor": "item0",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 0.4
+            }
+          },
+          {
+            "at": 0.22,
+            "orbit": {
+              "anchor": "item1",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 1.3
+            }
+          },
+          {
+            "at": 0.33,
+            "orbit": {
+              "anchor": "item2",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 2.2
+            }
+          },
+          {
+            "at": 0.6,
+            "orbit": {
+              "anchor": "item3",
+              "r": 24,
+              "h": 3,
+              "speed": 0.07,
+              "phase": 3.1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "s8",
+      "kind": "outro",
+      "heading": "Next: How were the receptors discovered?",
+      "narration": "In the next episode, we follow the experiments that proved cannabinoids act through specific receptors, and showed where in the brain those receptors are.",
+      "scene3d": {
+        "type": "title",
+        "mol": "CBG",
+        "bg": "brain",
+        "palette": "green",
+        "phase": 2.0,
+        "shots": [
+          {
+            "at": 0,
+            "pos": [
+              -18,
+              12,
+              72
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -14,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.3,
+            "orbit": {
+              "anchor": "mol",
+              "r": 32,
+              "h": 5,
+              "speed": 0.05,
+              "phase": 1.0
+            },
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ]
+          },
+          {
+            "at": 0.8,
+            "pos": [
+              0,
+              2,
+              38
+            ],
+            "lookAt": "mol",
+            "lookOffset": [
+              -12,
+              0,
+              0
+            ],
+            "move": 3
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What is the biosynthetic starting material for THCA, CBDA and CBCA in the plant?",
+      "options": [
+        "Cannabinol (CBN)",
+        "Cannabigerolic acid (CBGA)",
+        "Anandamide",
+        "Myrcene"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "What does decarboxylation do to THCA?",
+      "options": [
+        "Converts it to CBD",
+        "Removes a CO₂ group to form THC",
+        "Makes it water-soluble",
+        "Destroys it completely"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which of these is a synthetic cannabinoid used as a research tool?",
+      "options": [
+        "CP-55,940",
+        "Limonene",
+        "Cannabichromene",
+        "CBGA"
+      ],
+      "answer": 0
+    }
+  ],
+  "excluded": "No statements about what any cannabinoid does to a person, no comparison of products or varieties in terms of effects, no mention of potency, dosing or consumption methods. Decarboxylation is described as chemistry, not as preparation advice.",
+  "sources": [
+    "Mechoulam R, Hanuš LO, Pertwee R, Howlett AC. Early phytocannabinoid chemistry to endocannabinoids and beyond. Nat Rev Neurosci. 2014;15:757–764. doi:10.1038/nrn3811",
+    "Hanuš LO, Meyer SM, Muñoz E, Taglialatela-Scafati O, Appendino G. Phytocannabinoids: a unified critical inventory. Nat Prod Rep. 2016;33:1357–1392.",
+    "Mechoulam R, Gaoni Y. The absolute configuration of Δ1-tetrahydrocannabinol, the major active constituent of hashish. Tetrahedron Lett. 1967;12:1109–1111."
+  ]
+}

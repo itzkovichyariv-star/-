@@ -1,0 +1,259 @@
+1
+00:00:00,350 --> 00:00:01,937
+The Science Behind Cannabis.
+
+2
+00:00:01,937 --> 00:00:05,169
+Episode three: How were cannabinoid receptors discovered?
+
+3
+00:00:05,169 --> 00:00:08,003
+This episode follows a scientific detective story:
+
+4
+00:00:08,003 --> 00:00:12,311
+how researchers went from doubting that cannabinoids have a specific target,
+
+5
+00:00:12,311 --> 00:00:15,429
+to cloning two receptors and mapping them in the brain.
+
+6
+00:00:16,929 --> 00:00:19,687
+By the 1970s, THC could be made in pure form,
+
+7
+00:00:19,687 --> 00:00:22,016
+but how it acted on cells was unknown.
+
+8
+00:00:22,016 --> 00:00:24,345
+Because the molecule is so lipophilic,
+
+9
+00:00:24,345 --> 00:00:31,455
+many scientists assumed it simply dissolved into the fatty membranes of neurons and disturbed them in a general way,
+
+10
+00:00:31,455 --> 00:00:34,397
+much as general anaesthetics were thought to do.
+
+11
+00:00:34,397 --> 00:00:38,871
+In that view, there would be no specific target, and no receptor to find.
+
+12
+00:00:38,871 --> 00:00:43,774
+The alternative hypothesis was that THC binds to a specific protein, a receptor,
+
+13
+00:00:43,774 --> 00:00:47,206
+in the same way that morphine binds to opioid receptors.
+
+14
+00:00:47,206 --> 00:00:50,761
+Deciding between these two ideas took about fifteen years.
+
+15
+00:00:52,261 --> 00:00:55,004
+Three kinds of evidence favoured a receptor.
+
+16
+00:00:55,004 --> 00:01:01,424
+First, stereoselectivity: the natural form of THC is active, while its mirror image is almost inactive,
+
+17
+00:01:01,424 --> 00:01:04,354
+and a membrane would not care about handedness.
+
+18
+00:01:04,354 --> 00:01:10,899
+Second, strict structure–activity relationships: small chemical changes, such as altering the side chain,
+
+19
+00:01:10,899 --> 00:01:13,018
+produced large changes in potency.
+
+20
+00:01:13,018 --> 00:01:19,812
+Third, potency itself: synthetic analogues developed by the pharmaceutical company Pfizer, such as CP-55,940,
+
+21
+00:01:19,812 --> 00:01:24,923
+were active at nanomolar concentrations, far too low to disturb membranes in bulk.
+
+22
+00:01:24,923 --> 00:01:28,788
+Something was recognising these molecules with high precision.
+
+23
+00:01:30,288 --> 00:01:34,706
+Allyn Howlett and her colleagues provided the first biochemical evidence.
+
+24
+00:01:34,706 --> 00:01:41,544
+Working with cultured neuroblastoma cells, they showed that cannabinoids reduce the activity of adenylyl cyclase,
+
+25
+00:01:41,544 --> 00:01:44,932
+the enzyme that makes the messenger molecule cyclic AMP.
+
+26
+00:01:44,932 --> 00:01:49,168
+The effect depended on the potency and handedness of each cannabinoid,
+
+27
+00:01:49,168 --> 00:01:51,589
+and it was abolished by pertussis toxin,
+
+28
+00:01:51,589 --> 00:01:56,248
+a bacterial toxin that disables a particular family of G proteins called G i.
+
+29
+00:01:56,248 --> 00:02:01,936
+This was the fingerprint of a G-protein-coupled receptor: a receptor on the cell surface that,
+
+30
+00:02:01,936 --> 00:02:06,414
+when activated, uses a G protein to switch an enzyme inside the cell down.
+
+31
+00:02:07,914 --> 00:02:09,362
+In 1988, William Devane,
+
+32
+00:02:09,362 --> 00:02:15,934
+Allyn Howlett and colleagues used a radioactive version of CP-55,940 to search directly for the binding site.
+
+33
+00:02:15,934 --> 00:02:22,266
+They mixed the radiolabelled compound with membranes prepared from rat brain and measured how much stuck.
+
+34
+00:02:22,266 --> 00:02:27,693
+Binding was specific, saturable and of high affinity, exactly what a receptor should show.
+
+35
+00:02:27,693 --> 00:02:28,296
+Crucially,
+
+36
+00:02:28,296 --> 00:02:35,351
+the order in which different cannabinoids competed for the site matched the order of their potency in living animals.
+
+37
+00:02:35,351 --> 00:02:39,271
+The binding site and the biological activity were the same thing.
+
+38
+00:02:39,271 --> 00:02:41,683
+The cannabinoid receptor had been found.
+
+39
+00:02:43,183 --> 00:02:46,873
+Once a radioactive ligand existed, the receptor could be mapped.
+
+40
+00:02:46,873 --> 00:02:47,334
+In 1990,
+
+41
+00:02:47,334 --> 00:02:54,081
+Miles Herkenham and colleagues applied the radioligand to thin slices of brain and exposed them to photographic film,
+
+42
+00:02:54,081 --> 00:02:55,926
+a method called autoradiography.
+
+43
+00:02:55,926 --> 00:02:58,348
+The map showed a very distinctive pattern.
+
+44
+00:02:58,348 --> 00:03:04,345
+Receptor density was high in the basal ganglia, the cerebellum, the hippocampus and the cerebral cortex,
+
+45
+00:03:04,345 --> 00:03:08,497
+and low in the brainstem, where breathing and heart rate are controlled.
+
+46
+00:03:08,497 --> 00:03:11,553
+Later work showed that this receptor, now called CB1,
+
+47
+00:03:11,553 --> 00:03:15,935
+is one of the most abundant G-protein-coupled receptors in the entire brain.
+
+48
+00:03:17,435 --> 00:03:21,388
+The gene for the receptor was identified in 1990 by Lisa Matsuda,
+
+49
+00:03:21,388 --> 00:03:25,219
+Tom Bonner and colleagues at the National Institutes of Health.
+
+50
+00:03:25,219 --> 00:03:31,786
+Its sequence confirmed what the pharmacology had predicted: a protein that crosses the membrane seven times,
+
+51
+00:03:31,786 --> 00:03:35,252
+the classic architecture of a G-protein-coupled receptor.
+
+52
+00:03:35,252 --> 00:03:39,387
+In 1993, Sean Munro and colleagues in Cambridge found a second gene,
+
+53
+00:03:39,387 --> 00:03:42,002
+encoding a related receptor they named CB2.
+
+54
+00:03:42,002 --> 00:03:46,198
+CB2 is found mainly outside the brain, on cells of the immune system,
+
+55
+00:03:46,198 --> 00:03:51,610
+especially in the spleen, and later also on microglia, the brain's resident immune cells.
+
+56
+00:03:53,110 --> 00:03:55,203
+The final proof came from genetics.
+
+57
+00:03:55,203 --> 00:04:00,406
+In 1999, two groups independently produced mice in which the CB1 gene had been deleted.
+
+58
+00:04:00,406 --> 00:04:06,865
+These animals developed normally, but the characteristic responses to THC seen in ordinary mice were absent.
+
+59
+00:04:06,865 --> 00:04:10,333
+If the receptor is removed, the molecule loses its target.
+
+60
+00:04:10,333 --> 00:04:14,161
+Together, the biochemistry, the binding studies, the brain maps,
+
+61
+00:04:14,161 --> 00:04:20,320
+the cloned genes and the knockout animals established that cannabinoids act through specific receptors.
+
+62
+00:04:20,320 --> 00:04:23,968
+The receptor hypothesis had won, and a new question appeared:
+
+63
+00:04:23,968 --> 00:04:27,317
+why would the brain have receptors for a plant molecule?
+
+64
+00:04:28,817 --> 00:04:31,174
+In the next episode, we answer that question:
+
+65
+00:04:31,174 --> 00:04:36,462
+the search for the molecules the body itself makes to activate these receptors, the endocannabinoids.
